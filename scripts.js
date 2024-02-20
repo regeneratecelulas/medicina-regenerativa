@@ -1,6 +1,16 @@
 document.addEventListener('DOMContentLoaded', function() {
     console.log("from scripts.js");
 
+//floating whatsapp icon
+    window.addEventListener('scroll', function() {
+        var whatsappSection = document.getElementById('whatsappSection');
+        if (window.scrollY > 400) { // Change 100 to your desired scroll position
+            whatsappSection.style.display = 'block';
+        } else {
+            whatsappSection.style.display = 'none';
+        }
+    });
+
     // Function to toggle the visibility of the paragraph and images
     function toggleContent(section) {
         const paragraph = section.querySelector('p');
@@ -22,7 +32,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Function to dynamically populate a section
     function populateSection(sectionId, data) {
         const sectionDiv = document.getElementById(sectionId);
-
+    
         // Loop through the data array
         data.forEach(item => {
             // Create elements for the item
@@ -32,7 +42,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const genericIcon = document.createElement('i'); // Generic icon element
             const p = document.createElement('p');
             const img = document.createElement('img');
-
+    
             // Set attributes and content for the elements
             genericIcon.className = 'fa-solid fa-arrows-up-down'; // Set class for the generic icon
             i.className = item.icon;
@@ -41,54 +51,56 @@ document.addEventListener('DOMContentLoaded', function() {
             h4.appendChild(genericIcon); // Append the generic icon
             p.textContent = item.description;
             p.classList.add('retractable-section');
-
+    
             img.src = item.imageUrl;
             img.alt = item.title;
             img.classList.add('product-image');
             img.classList.add('retractable-section');
             section.classList.add('generatedSection');
-            
-
+    
+            // Create a div for the additional information
+            const additionalInfoDiv = document.createElement('div');
+            additionalInfoDiv.classList.add('additional-info');
+    
+            // If the item has 'lugar' property, add additional information
+            if ('lugar' in item) {
+                const fecha = document.createElement('p');
+                const lugar = document.createElement('p');
+                const linkZoom = document.createElement('a');
+                const code = document.createElement('p');
+    
+                fecha.textContent = `Fecha: ${item.fecha}`;
+                lugar.textContent = `Lugar: ${item.lugar}`;
+                linkZoom.textContent = `Link Zoom`;
+                linkZoom.href = item.linkZoom; // Set the href attribute to the linkZoom URL
+                linkZoom.target = '_blank'; // Open link in a new tab/window
+                linkZoom.style.cursor = 'pointer';
+                code.textContent = `Code: ${item.code}`;
+    
+                additionalInfoDiv.appendChild(fecha);
+                additionalInfoDiv.appendChild(lugar);
+                additionalInfoDiv.appendChild(linkZoom);
+                additionalInfoDiv.appendChild(code);
+                additionalInfoDiv.classList.add('retractable-section');
+            }
+    
             // Append elements to the section
             section.appendChild(h4);
             section.appendChild(p);
             section.appendChild(img);
-
-            // Create and append the hover message element
-
-
-
-                    // If the item has 'lugar' property, add additional information
-        if ('lugar' in item) {
-            const additionalInfo = document.createElement('div');
-            const fecha = document.createElement('p');
-            const lugar = document.createElement('p');
-            const linkZoom = document.createElement('a');
-            const code = document.createElement('p');
-
-            fecha.textContent = `Fecha: ${item.fecha}`;
-            lugar.textContent = `Lugar: ${item.lugar}`;
-            linkZoom.textContent = `Link Zoom`;
-            linkZoom.href = item.linkZoom; // Set the href attribute to the linkZoom URL
-            linkZoom.target = '_blank'; // Open link in a new tab/window
-            linkZoom.style.cursor = 'pointer';
-            code.textContent = `Code: ${item.code}`;
-
-            additionalInfo.appendChild(fecha);
-            additionalInfo.appendChild(lugar);
-            additionalInfo.appendChild(linkZoom);
-            additionalInfo.appendChild(code);
-
-            section.appendChild(additionalInfo);
-        }
-
+            section.appendChild(additionalInfoDiv); // Append the additional information div
+    
             // Append the section to the parent element
             sectionDiv.appendChild(section);
-
+    
+            // Add click event listener to toggle additional information visibility
+            h4.addEventListener('click', function() {
+                additionalInfoDiv.classList.toggle('active');
+            });
 
             img.addEventListener('mouseenter', function() {
                 const hoverMessage = document.createElement('div');
-                hoverMessage.textContent = '*Imagen ilustrativa. Contáctanos para obtener nuestros catálogos!'; // Message text
+                hoverMessage.textContent = '*Imagen ilustrativa. Contáctanos para obtener nuestros catálogos'; // Message text
                 hoverMessage.classList.add('hover-message'); // Add CSS class
                 img.parentNode.insertBefore(hoverMessage, img.nextSibling); // Insert after the image
             });

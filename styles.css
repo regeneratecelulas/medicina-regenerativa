@@ -308,7 +308,9 @@ footer{
     font-size: xx-large;
   }
 
-  
+  .socialHead a{
+    font-size: 3vw;
+  }
 
 
 }

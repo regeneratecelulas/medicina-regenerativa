@@ -11,6 +11,8 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 
+   
+
     // Function to toggle the visibility of the paragraph and images
     function toggleContent(section) {
         const paragraph = section.querySelector('p');
@@ -170,14 +172,6 @@ document.addEventListener('DOMContentLoaded', function() {
         scrollInterval = setInterval(scrollReel, 50); // Adjust scroll speed as needed
     });
 
-
-    // reel.addEventListener('scroll', function() {
-    // if (reel.scrollLeft + reel.clientWidth >= reel.scrollWidth) {
-    //     // Reset scroll position to the beginning
-    //     reel.scrollLeft = 0;
-    // }
-
-    
     reel.addEventListener('scroll', function() {
     //  Recalculate the scroll width when scrolling
       const { scrollLeft, clientWidth, scrollWidth } = reel;

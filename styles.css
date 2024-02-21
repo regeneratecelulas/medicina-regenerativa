@@ -16,7 +16,7 @@ body{
 }
 
 @keyframes highlight{
-  20% {
+  15% {
 background: linear-gradient(81deg, rgba(124,95,130,0) 19%, rgb(255, 219, 245) 35%, rgba(195,172,200,0) 43%);
   }
 

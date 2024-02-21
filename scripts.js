@@ -56,6 +56,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
             img.src = item.imageUrl;
             img.alt = item.title;
+            img.loading = "lazy";
             img.classList.add('product-image');
             img.classList.add('retractable-section');
             section.classList.add('generatedSection');

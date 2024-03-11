@@ -70,7 +70,6 @@ document.addEventListener('DOMContentLoaded', function() {
                 const fecha = document.createElement('p');
                 const lugar = document.createElement('p');
                 const linkZoom = document.createElement('a');
-                const code = document.createElement('p');
     
                 fecha.textContent = `Fecha: ${item.fecha}`;
                 lugar.textContent = `Lugar: ${item.lugar}`;
@@ -78,12 +77,10 @@ document.addEventListener('DOMContentLoaded', function() {
                 linkZoom.href = item.linkZoom; // Set the href attribute to the linkZoom URL
                 linkZoom.target = '_blank'; // Open link in a new tab/window
                 linkZoom.style.cursor = 'pointer';
-                code.textContent = `Code: ${item.code}`;
     
                 additionalInfoDiv.appendChild(fecha);
                 additionalInfoDiv.appendChild(lugar);
                 additionalInfoDiv.appendChild(linkZoom);
-                additionalInfoDiv.appendChild(code);
                 additionalInfoDiv.classList.add('retractable-section');
             }
     
@@ -142,10 +139,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Sample data for 4 services
     const servicesData = [
-        { icon: 'fa-solid fa-pills', title: 'Certificaciónes Médicas', fecha: "8 y 9 de marzo", lugar: "Hotel Baruk, GDL", description: 'Certificación en medicina regenerativa y estética con aval curricular. Pregunta por nuestra próxima certificación modalidad presencial y online.', ponente: 'Varios Expertos', imageUrl: 'celulasimages/service0.jpg', linkZoom: '', code: '' },
-        { icon: 'fa-solid fa-person-dots-from-line', title: 'Sueroterapia', fecha: "Ya realizado", lugar: "Via Zoom", description: 'Conoce la fórmula más innovadora que cambiará la vida de tus pacientes.', ponente: 'Andrés Castañeda Luna', imageUrl: 'celulasimages/service1.jpg', linkZoom: 'https://us06web.zoom.us/rec/share/Uwp-qWRW6RrpBwd7N54wjeWNM67v3jfBRzj68T4WbWOYalbkfLQygtCr_bGXV9Hy._kBmDC5P9Yoq3rQ5', code: '@zN7gCh=' },
-        { icon: 'fa-solid fa-circle-nodes', title: 'Medicina Estética', fecha: "Ya realizado", lugar: "Via Zoom", description: 'Explorar nuestros productos de medicina estética. Respaldados por la última investigación científica, que proporcionan soluciones para realzar la belleza y mejorar la salud de la piel.', ponente: 'Andrés Castañeda Luna', imageUrl: 'celulasimages/service2.jpg', linkZoom: 'https://us06web.zoom.us/rec/share/wTC4o3oNfPRywahpXikePiAuZFHST_AuzkFGOKSNviDtNKgrXoNp7d7FIkhZYpY0.FbeculDz1K0f8ze5', code: 'j6b1?vhJ' },
-        { icon: 'fa-solid fa-pills', title: 'Endocrinogenética', fecha: "Ya realizado", lugar: "Via Zoom", description: 'Endocrinogenética y hormonas bioidénticas.', ponente: 'Dr. Alexis Monge', imageUrl: 'celulasimages/service3.jpg', linkZoom: 'https://us06web.zoom.us/rec/share/4ui9kNBMlMj68XsJSdau-ZuUVx4cLii3scoSkCfs2-HZAE1bwsmGDywHH5Jkjzwz.hhcnPENeP3wMiDk7', code: 'zd#l3e%%' },
+        { icon: 'fa-solid fa-pills', title: 'Certificaciónes Médicas', fecha: "8 y 9 de marzo", lugar: "Hotel Baruk, GDL", description: 'Certificación en medicina regenerativa y estética con aval curricular. Pregunta por nuestra próxima certificación modalidad presencial y online.', ponente: 'Varios Expertos', imageUrl: 'celulasimages/service0.jpg', linkZoom: ''},
+        { icon: 'fa-solid fa-person-dots-from-line', title: 'Sueroterapia', fecha: "Ya realizado", lugar: "Via Zoom", description: 'Conoce la fórmula más innovadora que cambiará la vida de tus pacientes.', ponente: 'Andrés Castañeda Luna', imageUrl: 'celulasimages/service1.jpg', linkZoom: 'https://us06web.zoom.us/rec/share/Uwp-qWRW6RrpBwd7N54wjeWNM67v3jfBRzj68T4WbWOYalbkfLQygtCr_bGXV9Hy._kBmDC5P9Yoq3rQ5' },
+        { icon: 'fa-solid fa-circle-nodes', title: 'Medicina Estética', fecha: "Ya realizado", lugar: "Via Zoom", description: 'Explorar nuestros productos de medicina estética. Respaldados por la última investigación científica, que proporcionan soluciones para realzar la belleza y mejorar la salud de la piel.', ponente: 'Andrés Castañeda Luna', imageUrl: 'celulasimages/service2.jpg', linkZoom: 'https://us06web.zoom.us/rec/share/wTC4o3oNfPRywahpXikePiAuZFHST_AuzkFGOKSNviDtNKgrXoNp7d7FIkhZYpY0.FbeculDz1K0f8ze5' },
+        { icon: 'fa-solid fa-pills', title: 'Endocrinogenética', fecha: "Ya realizado", lugar: "Via Zoom", description: 'Endocrinogenética y hormonas bioidénticas.', ponente: 'Dr. Alexis Monge', imageUrl: 'celulasimages/service3.jpg', linkZoom: 'https://us06web.zoom.us/rec/share/4ui9kNBMlMj68XsJSdau-ZuUVx4cLii3scoSkCfs2-HZAE1bwsmGDywHH5Jkjzwz.hhcnPENeP3wMiDk7' },
     
       ];
 

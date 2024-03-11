@@ -98,20 +98,24 @@ document.addEventListener('DOMContentLoaded', function() {
                 additionalInfoDiv.classList.toggle('active');
             });
 
-            img.addEventListener('mouseenter', function() {
-                const hoverMessage = document.createElement('div');
-                hoverMessage.textContent = '*Imagen ilustrativa. Contáctanos para obtener nuestros catálogos'; // Message text
-                hoverMessage.classList.add('hover-message'); // Add CSS class
-                img.parentNode.insertBefore(hoverMessage, img.nextSibling); // Insert after the image
-            });
+            if (!('lugar' in item)) {
 
-            // Remove hover message when mouse leaves the image
-            img.addEventListener('mouseleave', function() {
-                const hoverMessage = img.nextSibling; // Get the next sibling of the image
-                if (hoverMessage && hoverMessage.classList.contains('hover-message')) {
-                    hoverMessage.parentNode.removeChild(hoverMessage); // Remove the hover message
-                }
-            });
+                img.addEventListener('mouseenter', function() {
+                    const hoverMessage = document.createElement('div');
+                    hoverMessage.textContent = '*Imagen ilustrativa. Contáctanos para obtener nuestros catálogos'; // Message text
+                    hoverMessage.classList.add('hover-message'); // Add CSS class
+                    img.parentNode.insertBefore(hoverMessage, img.nextSibling); // Insert after the image
+                });
+
+                // Remove hover message when mouse leaves the image
+                img.addEventListener('mouseleave', function() {
+                    const hoverMessage = img.nextSibling; // Get the next sibling of the image
+                    if (hoverMessage && hoverMessage.classList.contains('hover-message')) {
+                        hoverMessage.parentNode.removeChild(hoverMessage); // Remove the hover message
+                    }
+                });
+
+            }
         });
 
         // Add click event listeners to the headings using the same id that pupullated the div

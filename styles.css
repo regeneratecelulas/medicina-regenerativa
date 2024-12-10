@@ -54,7 +54,7 @@ nav {
   border: solid 1px;
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   backdrop-filter: blur(2px);
   background-color: rgba(76, 58, 99, 0.368);
@@ -67,10 +67,9 @@ nav {
   animation-timeline: scroll();
 }
 nav a {
-  font-size: 0.7rem;
+  font-size: 0.6rem;
   color: white;
   text-decoration: none;
-  margin: 0 3.5vw;
   transition: all 0.2s ease-out;
 }
 
@@ -202,19 +201,6 @@ nav a img {
   border-radius: 5px;
 }
 
-.splitImg {
-  padding: 5vw;
-  display: flex;
-  text-align: center;
-  align-items: last baseline;
-  height: 70vw;
-  background-image: url(celulasimages/logotablet.jpg);
-  color: rgb(207, 142, 218);
-  background-position: center;
-  background-size: cover;
-  font-family: Montserrat;
-}
-
 .capacitacionesDiv {
   padding: 3vw 3vw;
   background-image: url(celulasimages/background2.jpg);
@@ -228,12 +214,12 @@ nav a img {
 
 .generatedSection {
   border-radius: 5px;
-
   backdrop-filter: blur(5px);
   background-color: rgba(246, 239, 255, 0.555);
   margin: 5vw 1vw;
   padding: 1vw 3vw;
-  transition: all 0.1s ease-out;
+  transition: all 0.2s ease-in-out;
+  border-radius: 1vw;
 }
 
 .generatedSection p {
@@ -242,36 +228,25 @@ nav a img {
   border-radius: 5px;
 }
 
-.generatedSection h4 {
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.retractable-section {
-  overflow: hidden;
-  transition: max-height 0.4s ease-out;
-  max-height: 0;
-}
-
-.textover {
-  white-space: nowrap; /* Prevents text from wrapping to the next line */
-  overflow: hidden; /* Hides overflow content */
-  text-overflow: ellipsis; /* Adds the ellipsis */
-}
-
-.retractable-section.active {
-  max-height: 800px; /* Adjust the maximum height as needed */
-}
-
-.product-image {
+.generatedSection img {
   width: 60vw;
   border-radius: 5px;
-
   height: auto;
   margin-left: 15vw;
   /* position: relative; */
+}
+
+.splitImg {
+  padding: 5vw;
+  display: flex;
+  text-align: center;
+  align-items: end;
+  height: 70vw;
+  background-image: url(celulasimages/logotablet.jpg);
+  color: rgb(207, 142, 218);
+  background-position: center;
+  background-size: cover;
+  font-family: Montserrat;
 }
 
 .contactoDiv {
@@ -296,6 +271,7 @@ form {
   font-family: Roboto;
   /* text-align: center; */
   border: solid 1px;
+  border-radius: 1.5vw;
 }
 
 form section span {
@@ -306,29 +282,38 @@ form section span {
 
 form label {
   font-size: 3vw;
-  margin: 5vw 1vw;
 }
 
 form input {
   margin: 2vw 1vw;
   width: 50vw;
+  background-color: #f075a636;
+  border-radius: 1.5vw;
+  border: none;
+
   /* height: 5vw; */
 }
 
 form textarea {
   height: 10vw;
   width: 100%;
+  border-radius: 1.5vw;
+  background-color: #f075a636;
 }
 
 form select {
   font-size: 3vw;
+  margin: 1vw;
+  background-color: #f075a636;
+  border-radius: 1.5vw;
 }
 
 form button {
   background-color: rgb(218, 144, 255);
-  font-size: 4vw;
+  font-size: 5vw;
   border-radius: 5px;
   color: white;
+  border-radius: 1vw;
 }
 .contactoDiv a i {
   text-decoration: none;
@@ -377,9 +362,9 @@ nav a:hover {
 
 .generatedSection:hover {
   box-shadow: 1vw 0.5vw rgba(21, 4, 26, 0.514);
-  filter: saturate(2);
+  filter: saturate(1.5);
   scale: 1.05;
-  border: solid 2px whitesmoke;
+  border: solid 5px whitesmoke;
 }
 
 .whatsappFoot:hover {
@@ -408,31 +393,51 @@ button:hover {
   scale: 1.2;
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
+/* Medium devices (landscape tablets, 768px and up) -----------------------*/
 @media only screen and (min-width: 768px) {
   .contactoDiv,
-  .capacitacionesDiv,
-  .tratamientosDiv,
-  .head,
-  nav a,
-  .splitImg {
+  .head {
     font-size: larger;
   }
+
+  .capacitacionesDiv h3,
+  .tratamientosDiv h3 {
+    font-size: 2rem;
+  }
+
+  .capacitacionesDiv p,
+  .tratamientosDiv p {
+    font-size: 1.5rem;
+  }
+
+  .generatedSection summary {
+    font-size: 1.5rem;
+  }
+
   .head {
     margin-top: 4vw;
     /* border: solid; */
   }
 
-  nav a img {
-    width: 3rem;
+  nav a {
+    font-size: 0.5rem;
   }
 
-  nav a {
-    margin: 0 2vw;
+  nav a img {
+    width: 1.8rem;
   }
 
   .reel img {
     height: 50vw;
+  }
+
+  .generatedSection img {
+    width: 50vw;
+  }
+
+  .splitImg {
+    height: 52vw;
+    font-size: 2rem;
   }
 
   form label {
@@ -442,7 +447,7 @@ button:hover {
 
   form input {
     margin: 1vw 0vw;
-    height: fit-content;
+    font-size: 1rem;
   }
 
   form select {
@@ -453,12 +458,23 @@ button:hover {
     cursor: pointer;
     font-size: 2vw;
   }
+
+  .contactoDiv {
+    padding: 5rem 0rem;
+
+    font-size: 1.8rem;
+  }
 }
 
-/* Large devices (laptops/desktops, 992px and up) */
+/* Large devices (laptops/desktops, 992px and up) -----------------------------*/
 @media only screen and (min-width: 992px) {
   .head h6 {
     font-size: 2rem;
+  }
+
+  .whatsapp-section a i {
+    /* height: 5vw; */
+    font-size: 4rem;
   }
 
   @keyframes highlight {
@@ -496,9 +512,12 @@ button:hover {
     }
   }
 
+  nav a img {
+    width: 4vw;
+  }
+
   nav a {
-    margin: 0vw 5vw;
-    /* border: solid; */
+    font-size: 2.5rem;
   }
 
   .tratamientoItemDiv,
@@ -507,18 +526,46 @@ button:hover {
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 0px; /* Adjust the value as needed */
   }
+
+  .capacitacionesDiv h3,
+  .tratamientosDiv h3 {
+    font-size: 3rem;
+    margin: 0;
+  }
+
+  .capacitacionesDiv p,
+  .tratamientosDiv p {
+    margin: 0;
+    padding: 1vw;
+    font-size: 2.5rem;
+  }
+
+  .capacitacionItemDiv img {
+    width: 10vw;
+    border: whitesmoke solid;
+  }
   .reel img {
     height: 35vw;
   }
 
   .generatedSection {
     width: 35vw;
-    margin: 2vw;
+    margin: 1.5vw;
   }
-
-  .product-image {
+  .generatedSection summary {
+    font-size: 2.5rem;
+  }
+  .generatedSection p {
+    font-size: 2rem;
+  }
+  .generatedSection img {
     width: 30vw;
     margin-left: 2vw;
+  }
+
+  .capacitacionItemDiv img {
+    width: 25vw;
+    border: whitesmoke solid;
   }
 
   .hover-message {
@@ -527,8 +574,9 @@ button:hover {
   }
 
   .splitImg {
-    height: 35vw;
-    text-align: center;
+    height: 37vw;
+    font-size: 3rem;
+    align-items: last baseline;
   }
 
   .splitImg {
@@ -537,9 +585,7 @@ button:hover {
   }
 
   .contactoDiv {
-    padding: 5rem 0rem;
-
-    font-size: xx-large;
+    font-size: 3rem;
   }
 
   form {
@@ -566,6 +612,13 @@ button:hover {
     margin: 2vw 1vw;
     width: 50vw;
     height: 3vw;
+    font-size: 3rem;
+  }
+
+  form button {
+    cursor: pointer;
+    font-size: 3vw;
+    margin: 2vw;
   }
 
   .socialHead a {

@@ -77,7 +77,7 @@ function populateCapacitaciones(capacitaciones) {
 }
 
 // Fetching data from the API and populating the sections
-fetch("http://localhost:3000/api/eventos")
+fetch("https://content-manager-regerativa.vercel.app/api/eventos")
   .then((response) => response.json())
   .then((data) => {
     // Log the data to check its structure

@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", () => {
     try {
       // Send the updated event data to the backend
       const response = await fetch(
-        `http://localhost:3000/api/eventos/${eventId}`,
+        `https://content-manager-regerativa.vercel.app/api/eventos/${eventId}`,
         {
           method: "PUT",
           headers: {

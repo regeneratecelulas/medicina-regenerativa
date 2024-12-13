@@ -76,6 +76,55 @@ function populateCapacitaciones(capacitaciones) {
   });
 }
 
+// Function to populate the reel with images from the eventos API data
+function populateReel(eventos) {
+  const reelContainer = document.getElementById("reel");
+  reelContainer.innerHTML = ""; // Clear existing reel content
+
+  // Helper function to extract the file ID from a Google Drive URL
+  function extractDriveFileId(url) {
+    const match = url.match(/\/d\/([^/]+)/);
+    return match ? match[1] : null;
+  }
+
+  // Helper function to create a logo section
+  function createLogoSection() {
+    const section = document.createElement("section");
+    const img = document.createElement("img");
+    img.src = "celulasimages/whitelogo.jpg"; // Local logo image
+    img.alt = "logo-celulas";
+    img.loading = "lazy";
+    section.appendChild(img);
+    return section;
+  }
+
+  // Add the logo at the start
+  reelContainer.appendChild(createLogoSection());
+
+  // Add event images to the reel
+  eventos.forEach((evento) => {
+    if (evento.imageUrl) {
+      const section = document.createElement("section");
+
+      // Extract the file ID and construct the thumbnail URL
+      const fileId = extractDriveFileId(evento.imageUrl);
+      const thumbnailUrl = fileId
+        ? `https://drive.google.com/thumbnail?id=${fileId}&sz=w1000`
+        : evento.imageUrl; // Fallback to original URL if file ID is not found
+
+      const img = document.createElement("img");
+      img.src = thumbnailUrl; // Use the thumbnail URL
+      img.alt = evento.title; // Use the event title for alt text
+      img.loading = "lazy";
+      section.appendChild(img);
+      reelContainer.appendChild(section);
+    }
+  });
+
+  // Add the logo at the end
+  reelContainer.appendChild(createLogoSection());
+}
+
 // Fetching data from the API and populating the sections
 fetch("https://content-manager-regerativa.vercel.app/api/eventos")
   .then((response) => response.json())
@@ -84,49 +133,40 @@ fetch("https://content-manager-regerativa.vercel.app/api/eventos")
     console.log(data);
     populateTratamientos(productsData); // Using local data for Tratamientos
     populateCapacitaciones(data); // Using API data for Capacitaciones
-    updateReelImages(reelImages); // Update the reel with images from eventos
+    populateReel(data); // Populate the reel with API data
   })
   .catch((error) => {
     console.error("Error loading data:", error);
   });
 
 // REEL functionality (scrolling effect)
-function updateReelImages(images) {
-  const reel = document.getElementById("reel");
-  reel.innerHTML = ""; // Clear existing images in the reel
+const reel = document.getElementById("reel");
 
-  images.forEach((imageUrl) => {
-    const section = document.createElement("section");
-    const img = document.createElement("img");
-    img.src = imageUrl;
-    img.alt = "Reel Image";
-    img.loading = "lazy";
-    section.appendChild(img);
-    reel.appendChild(section);
-  });
-
-  // Reinitialize scrolling behavior if it's a dynamic update
-  let scrollInterval = setInterval(scrollReel, 40);
-  reel.addEventListener("mouseenter", function () {
-    clearInterval(scrollInterval);
-  });
-
-  reel.addEventListener("mouseleave", function () {
-    scrollInterval = setInterval(scrollReel, 40);
-  });
-
-  reel.addEventListener("scroll", function () {
-    const { scrollLeft, clientWidth } = reel;
-    const totalWidth = Array.from(reel.children).reduce(
-      (acc, child) => acc + child.offsetWidth,
-      0
-    );
-    if (scrollLeft + clientWidth >= totalWidth) {
-      reel.scrollLeft = 0; // Reset to the beginning
-    }
-  });
+function scrollReel() {
+  const scrollAmount = reel.offsetWidth * 0.01; // Scroll 1% of the reel's width
+  reel.scrollLeft += scrollAmount;
 }
 
+let scrollInterval = setInterval(scrollReel, 60);
+
+reel.addEventListener("mouseenter", function () {
+  clearInterval(scrollInterval);
+});
+
+reel.addEventListener("mouseleave", function () {
+  scrollInterval = setInterval(scrollReel, 40);
+});
+
+reel.addEventListener("scroll", function () {
+  const { scrollLeft, clientWidth } = reel;
+  const totalWidth = Array.from(reel.children).reduce(
+    (acc, child) => acc + child.offsetWidth,
+    0
+  );
+  if (scrollLeft + clientWidth >= totalWidth) {
+    reel.scrollLeft = 0; // Reset to the beginning
+  }
+});
 // Floating WhatsApp icon visibility
 window.addEventListener("scroll", function () {
   const whatsappSection = document.getElementById("whatsappSection");

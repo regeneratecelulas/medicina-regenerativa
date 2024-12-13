@@ -66,7 +66,6 @@ function populateCapacitaciones(capacitaciones) {
       <p><strong>Ponente:</strong> ${capacitacion.ponente}</p>
       <p> ${capacitacion.description}</p>
       <img src="${thumbnailUrl}" alt="${capacitacion.title}" class="capacitacionImage">
-      <p><a href="${capacitacion.linkZoom}" target="_blank">Ver Grabación</a></p>
     `;
 
     details.innerHTML += content;

@@ -80,11 +80,9 @@ function populateCapacitaciones(capacitaciones) {
 fetch("https://content-manager-regerativa.vercel.app/api/eventos")
   .then((response) => response.json())
   .then((data) => {
+    // Log the data to check its structure
     console.log(data);
-
-    // Filter and select images from the fetched events for the reel
-    const reelImages = data.map((evento) => evento.imageUrl);
-
+    populateTratamientos(productsData); // Using local data for Tratamientos
     populateCapacitaciones(data); // Using API data for Capacitaciones
     updateReelImages(reelImages); // Update the reel with images from eventos
   })

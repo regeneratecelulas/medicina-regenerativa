@@ -144,9 +144,18 @@ nav a img {
 }
 
 .socialHead {
+  position: relative;
   text-align: right;
   background: rgba(124, 95, 130, 0.386);
   /* margin: 0vw -2vw; */
+}
+
+.hiddenLink {
+  position: absolute;
+  left: -5vw;
+  top: -5vw;
+  height: 7vw;
+  width: 10vw;
 }
 
 .socialHead a {
@@ -429,6 +438,11 @@ button:hover {
 
   .reel img {
     height: 50vw;
+  }
+
+  .hiddenLink {
+    width: 5vw;
+    height: 2vw;
   }
 
   .generatedSection img {

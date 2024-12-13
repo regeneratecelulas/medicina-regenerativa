@@ -62,8 +62,7 @@ document.addEventListener("DOMContentLoaded", () => {
         throw new Error("Failed to update event. Please try again.");
       }
 
-      const responseData = await response.json();
-      statusMessage.textContent = responseData.message || "Se logró!";
+      statusMessage.textContent = "Se logró!";
       statusMessage.style.color = "green";
 
       // Optionally reset the form

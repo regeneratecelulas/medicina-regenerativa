@@ -80,43 +80,54 @@ function populateCapacitaciones(capacitaciones) {
 fetch("https://content-manager-regerativa.vercel.app/api/eventos")
   .then((response) => response.json())
   .then((data) => {
-    // Log the data to check its structure
     console.log(data);
-    populateTratamientos(productsData); // Using local data for Tratamientos
+
+    // Filter and select images from the fetched events for the reel
+    const reelImages = data.map((evento) => evento.imageUrl);
+
     populateCapacitaciones(data); // Using API data for Capacitaciones
+    updateReelImages(reelImages); // Update the reel with images from eventos
   })
   .catch((error) => {
     console.error("Error loading data:", error);
   });
 
 // REEL functionality (scrolling effect)
-const reel = document.getElementById("reel");
+function updateReelImages(images) {
+  const reel = document.getElementById("reel");
+  reel.innerHTML = ""; // Clear existing images in the reel
 
-function scrollReel() {
-  const scrollAmount = reel.offsetWidth * 0.01; // Scroll 1% of the reel's width
-  reel.scrollLeft += scrollAmount;
+  images.forEach((imageUrl) => {
+    const section = document.createElement("section");
+    const img = document.createElement("img");
+    img.src = imageUrl;
+    img.alt = "Reel Image";
+    img.loading = "lazy";
+    section.appendChild(img);
+    reel.appendChild(section);
+  });
+
+  // Reinitialize scrolling behavior if it's a dynamic update
+  let scrollInterval = setInterval(scrollReel, 40);
+  reel.addEventListener("mouseenter", function () {
+    clearInterval(scrollInterval);
+  });
+
+  reel.addEventListener("mouseleave", function () {
+    scrollInterval = setInterval(scrollReel, 40);
+  });
+
+  reel.addEventListener("scroll", function () {
+    const { scrollLeft, clientWidth } = reel;
+    const totalWidth = Array.from(reel.children).reduce(
+      (acc, child) => acc + child.offsetWidth,
+      0
+    );
+    if (scrollLeft + clientWidth >= totalWidth) {
+      reel.scrollLeft = 0; // Reset to the beginning
+    }
+  });
 }
-
-let scrollInterval = setInterval(scrollReel, 40);
-
-reel.addEventListener("mouseenter", function () {
-  clearInterval(scrollInterval);
-});
-
-reel.addEventListener("mouseleave", function () {
-  scrollInterval = setInterval(scrollReel, 40);
-});
-
-reel.addEventListener("scroll", function () {
-  const { scrollLeft, clientWidth } = reel;
-  const totalWidth = Array.from(reel.children).reduce(
-    (acc, child) => acc + child.offsetWidth,
-    0
-  );
-  if (scrollLeft + clientWidth >= totalWidth) {
-    reel.scrollLeft = 0; // Reset to the beginning
-  }
-});
 
 // Floating WhatsApp icon visibility
 window.addEventListener("scroll", function () {

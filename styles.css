@@ -295,10 +295,14 @@ form label {
 
 form input {
   margin: 2vw 1vw;
+  padding: 0.5vw;
   width: 50vw;
   background-color: #f075a636;
   border-radius: 1.5vw;
   border: none;
+  color: antiquewhite;
+  box-shadow: 0.5vw 0.5vw 1vw rgba(40, 5, 68, 0.1),
+    -0.5vw -0.5vw 1vw rgba(255, 255, 255, 0.274);
 
   /* height: 5vw; */
 }
@@ -308,6 +312,12 @@ form textarea {
   width: 100%;
   border-radius: 1.5vw;
   background-color: #f075a636;
+  color: antiquewhite;
+  padding: 0.5vw;
+  border: none;
+  font-size: 1rem;
+  box-shadow: 0.3vw 0.3vw 0.6vw rgba(40, 5, 68, 0.322),
+    -0.3vw -0.3vw 0.8vw rgba(255, 255, 255, 0.274);
 }
 
 form select {
@@ -315,6 +325,8 @@ form select {
   margin: 1vw;
   background-color: #f075a636;
   border-radius: 1.5vw;
+  color: #3d1b2936;
+  padding: 0.5vw;
 }
 
 form button {
@@ -462,10 +474,18 @@ button:hover {
   form input {
     margin: 1vw 0vw;
     font-size: 1rem;
+    box-shadow: 0.3vw 0.3vw 0.6vw rgba(40, 5, 68, 0.322),
+      -0.3vw -0.3vw 0.8vw rgba(255, 255, 255, 0.274);
   }
 
   form select {
     font-size: 2vw;
+  }
+
+  form textarea {
+    font-size: 3rem;
+    box-shadow: 0.3vw 0.3vw 0.6vw rgba(40, 5, 68, 0.322),
+      -0.3vw -0.3vw 0.8vw rgba(255, 255, 255, 0.274);
   }
 
   form button {

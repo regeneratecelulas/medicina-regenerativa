@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="styles.css">
     <script src="https://kit.fontawesome.com/369c9d52a0.js" crossorigin="anonymous"></script>
     <script type="module" src="scripts.js"></script>
+    
     <title>Regenerate Células</title>
 </head>
 <body>
@@ -94,41 +95,43 @@
     <div id="contacto-Div" class="contactoDiv">
 
         <h3><i class="bi bi-send-arrow-up"></i>  ¡Contáctanos para asesorías y pedidos!</h3>
-         <form class="contactForm" id="ventas_telefono_whatsApp" action="https://api.web3forms.com/submit" method="POST">
+    <form class="contactForm" id="form" action="https://api.web3forms.com/submit" method="POST">
 
-        <input type="hidden" name="access_key" value="116ea573-200e-459c-b4a2-a514b52da601"> 
+        <input type="hidden" name="access_key" value="e05b8392-1043-4648-9c09-eb0a62f7eb8f"> 
         <!-- token for angelgldiaz e05b8392-1043-4648-9c09-eb0a62f7eb8f -->
           <!-- for celulasmadr    116ea573-200e-459c-b4a2-a514b52da601-->
         <section>
             <span>
                 <label >Nombre:</label>
-                <input type="text" name="name" required>
+                <input type="text" name="name"  placeholder="¿Cómo podemos dirigirnos a ti?" required>
             </span>
             <span>
                 <label >Email:</label>
-                <input type="email" name="email">
+                <input type="email" name="email" placeholder="ejemplo@email.com" required>
             </span>
 
             <span>
-                <label>Teléfono:</label>
-                <input type="number" name="phone" required>
+                <label>Teléfono (Si prefieres que te contactemos por WhatsApp):</label>
+                <input type="number" name="phone" placeholder="Solo números."
+                >
             </span>
 
-        <label>Asunto:</label>
-        <select name="subject">
-            <option value="Mensaje desde regeneratecelulasdistribucion Quieren recibir sus catálogos">Recibir catálogos</option>
-            <option value="Mensaje desde regeneratecelulasdistribucion Quieren saber sobre Todos los productos">Quiero conocer sus promociones</option>
-            <option value="Mensaje desde regeneratecelulasdistribucion Quieren saber sobre sus cursos">Quiero saber sobre los cursos</option>
-        </select>        
-    </section>
-    <label>¿Cómo podemos ayudarte?:</label>
-        <textarea name="message" required></textarea>
+            <label>Asunto:</label>
+            <select name="subject" required>
+                <option value="Mensaje desde regeneratecelulasdistribucion Quieren recibir los catálogos">Recibir catálogos</option>
+                <option value="Mensaje desde regeneratecelulasdistribucion Quieren saber sobre las promociones">Quiero conocer sus promociones</option>
+                <option value="Mensaje desde regeneratecelulasdistribucion Quieren saber sobre los cursos">Quiero saber sobre los cursos</option>
+            </select>        
+        </section>
+        <label>¿Cómo podemos ayudarte?:</label>
+            <textarea name="message" placeholder="Un pequeño mensaje (opcional)."></textarea>
 
-        <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+            <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
 
-        <input type="hidden" name="redirect" value="https://web3forms.com/success?title=Mensaje%20Enviado&desc=Presiona%20'Go%20back'%20para%20volver%20a%20Regenerate%20Celulas%20Distribucion" >
-        <button type="submit">Enviar</button>
+            <input type="hidden" name="redirect" value="https://regeneratecelulasdistribucion.com/" >
+            <button type="submit">Enviar</button>
     </form>
+
         <div class='contact-info text-center'>
         <h4>O escríbenos via <a class='whatsAppfoot' href="https://wa.me/523345165088/?text=Quisiera%20saber%20más%20de%20sus%20productos" target="_blank" rel="noopener noreferrer">
           <i class=" whatsappFoot fa-brands fa-whatsapp"> WhatsApp</i></a> <br />
@@ -146,7 +149,12 @@
          <h4> 2024 <br><a href="https://angeluz99.github.io/Portfolio/indexEsp.html" target="_blank" rel="noopener noreferrer">PÁGINA CREADA POR ANGEL DIAZ</a> </h4> 
     </footer>
 
-
+    <script>
+        window.onload = function() {
+            // Reset the form fields when the page loads
+            document.getElementById("form").reset();
+        };
+    </script>
     
 </body>
 </html>

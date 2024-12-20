@@ -11,25 +11,24 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
 }
 
 .container {
-  width: 100%;
-  max-width: 800px;
-  background-color: #e8e8e8; /* Light gray background */
+  width: 90%;
+  height: auto;
+  background-color: #cccccc; /* Light gray background */
   border-radius: 20px;
   padding: 20px;
-  box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.1); /* Light shadow for the container */
+  box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.316); /* Light shadow for the container */
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 2vw;
 }
 
 .title {
   text-align: center;
-  font-size: 2rem;
-  margin-bottom: 20px;
+  font-size: 1.5rem;
+  margin-bottom: 2vw;
   color: #6c63ff;
   font-family: "Nunito", sans-serif;
 }
@@ -37,7 +36,7 @@ body {
 .form {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 2vw;
 }
 
 .form-group {
@@ -59,8 +58,8 @@ body {
   font-size: 1rem;
   margin-bottom: 10px;
   background: #e0e0e0; /* Light background for inputs */
-  box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.1),
-    -6px -6px 15px rgba(255, 255, 255, 0.7); /* Neumorphism shadow */
+  box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.323),
+    -6px -6px 15px rgba(255, 255, 255, 0.788); /* Neumorphism shadow */
   transition: all 0.3s ease; /* Transition for focus and hover effects */
 }
 
@@ -98,11 +97,11 @@ body {
 .status-message {
   margin-top: 20px;
   text-align: center;
-  font-size: 1rem;
+  font-size: 2rem;
   color: #28a745;
 }
 
-/* Large Devices (992px and up) */
+/* Large Devices (992px and up) ------------------------------------------------- */
 @media (min-width: 992px) {
   .container {
     max-width: 800px;

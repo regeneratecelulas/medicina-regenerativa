@@ -673,7 +673,7 @@ button:hover {
     margin: 2vw 1vw;
     width: 50vw;
     height: 3vw;
-    font-size: 3rem;
+    font-size: 1.5rem;
   }
 
   form input::placeholder,

@@ -234,6 +234,7 @@ nav a img {
 .generatedSection summary {
   display: flex;
   justify-content: space-between;
+  font-weight: 700;
 }
 
 .generatedSection p {
@@ -451,7 +452,7 @@ button:hover {
   }
 
   nav a {
-    font-size: 0.5rem;
+    font-size: 1rem;
   }
 
   nav a img {
@@ -473,7 +474,10 @@ button:hover {
 
   .splitImg {
     height: 52vw;
-    font-size: 2rem;
+  }
+  .splitImg p {
+    font-size: 1.4rem;
+    margin: 0;
   }
 
   form label {
@@ -488,8 +492,13 @@ button:hover {
       -0.3vw -0.3vw 0.8vw rgba(255, 255, 255, 0.274);
   }
 
+  form textarea::placeholder {
+    font-size: 0.9rem;
+  }
+
   form select {
     font-size: 2vw;
+    color: aliceblue;
   }
 
   form textarea {
@@ -505,9 +514,16 @@ button:hover {
   }
 
   .contactoDiv {
-    padding: 5rem 0rem;
+    padding: 3rem 0rem;
+  }
 
-    font-size: 1.8rem;
+  .contactoDiv h3 {
+    font-size: 3rem;
+  }
+
+  .contact-info {
+    font-size: 2.5rem;
+    line-height: 4vw;
   }
 }
 
@@ -562,7 +578,7 @@ button:hover {
   }
 
   nav a {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
   }
 
   .tratamientoItemDiv,
@@ -574,7 +590,7 @@ button:hover {
 
   .capacitacionesDiv h3,
   .tratamientosDiv h3 {
-    font-size: 3rem;
+    font-size: 2rem;
     margin: 0;
   }
 
@@ -582,7 +598,7 @@ button:hover {
   .tratamientosDiv p {
     margin: 0;
     padding: 1vw;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
   }
 
   .capacitacionItemDiv img {
@@ -598,10 +614,10 @@ button:hover {
     margin: 1.5vw;
   }
   .generatedSection summary {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
   }
   .generatedSection p {
-    font-size: 2rem;
+    font-size: 1.4rem;
   }
   .generatedSection img {
     width: 30vw;
@@ -631,7 +647,6 @@ button:hover {
 
   .contactoDiv {
     font-size: 4rem;
-    line-height: 3vw;
   }
 
   form {
@@ -659,6 +674,11 @@ button:hover {
     width: 50vw;
     height: 3vw;
     font-size: 3rem;
+  }
+
+  form input::placeholder,
+  form textarea::placeholder {
+    font-size: 1.8rem;
   }
 
   form button {

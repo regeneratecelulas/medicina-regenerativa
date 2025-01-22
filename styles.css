@@ -360,7 +360,9 @@ form button {
 .contact-info {
   background-color: #174670;
 }
-
+.contact-info a {
+  color: white;
+}
 .contact-info h4 a:hover {
   scale: 1.1;
 }

@@ -192,10 +192,13 @@ nav a img {
 
 .tratamientosDiv {
   padding: 3vw 3vw;
-  background-image: url(celulasimages/background.jpg);
-  background-position: center;
+  /* background-image: url(celulasimages/background.jpg);
+   background-position: center;
   background-size: contain;
-  background-attachment: fixed; /*  image remains fixed while scrolling */
+  background-attachment: fixed;  */
+  background-color: #1fa3df;
+  background-color: #1a51af;
+
   color: rgb(0, 0, 0);
   margin: 0;
 }
@@ -212,10 +215,11 @@ nav a img {
 
 .capacitacionesDiv {
   padding: 3vw 3vw;
-  background-image: url(celulasimages/background2.jpg);
+  /* background-image: url(celulasimages/background2.jpg);
   background-position: center;
   background-size: cover;
-  background-attachment: fixed;
+  background-attachment: fixed; */
+  background-color: #057963;
   color: rgb(0, 0, 0);
 
   margin: 0;
@@ -287,13 +291,14 @@ form {
   /* text-align: center; */
   border: solid 1px;
   border-radius: 1.5vw;
-  background-color: rgb(29, 3, 27);
+  background-color: #057963;
 }
 
 form section span {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   align-items: center;
+  margin-bottom: 2vw;
 }
 
 form label {
@@ -304,7 +309,6 @@ form input {
   margin: 2vw 1vw;
   padding: 0.5vw;
   width: 50vw;
-  background-color: #f075a636;
   border-radius: 1.5vw;
   border: none;
   color: antiquewhite;
@@ -318,7 +322,6 @@ form textarea {
   height: 10vw;
   width: 100%;
   border-radius: 1.5vw;
-  background-color: #f075a636;
   color: antiquewhite;
   padding: 0.5vw;
   border: none;
@@ -337,11 +340,14 @@ form select {
 }
 
 form button {
-  background-color: rgb(218, 144, 255);
+  background-color: #acd4c9;
   font-size: 5vw;
   border-radius: 5px;
-  color: white;
+  color: #174670;
   border-radius: 1vw;
+}
+.contactoDiv h3 {
+  background-color: #174670;
 }
 
 .contactoDiv a {
@@ -350,6 +356,9 @@ form button {
 .contactoDiv a i {
   text-decoration: none;
   background-color: white;
+}
+.contact-info {
+  background-color: #174670;
 }
 
 .contact-info h4 a:hover {
@@ -424,6 +433,16 @@ nav a:hover {
 button:hover {
   scale: 1.2;
 }
+textarea:focus::placeholder {
+  font-size: 1vw;
+  transform: translateY(-0.5vw);
+  color: white;
+}
+input:focus::placeholder {
+  font-size: 1vw;
+  transform: translateY(-1vw);
+  color: white;
+}
 
 /* Medium devices (landscape tablets, 768px and up) -----------------------*/
 @media only screen and (min-width: 768px) {
@@ -494,6 +513,7 @@ button:hover {
 
   form textarea::placeholder {
     font-size: 0.9rem;
+    transform: all 0.3s ease-out;
   }
 
   form select {
@@ -519,6 +539,7 @@ button:hover {
 
   .contactoDiv h3 {
     font-size: 3rem;
+    background-color: #174670;
   }
 
   .contact-info {
@@ -660,13 +681,12 @@ button:hover {
 
   form section span {
     display: flex;
-    justify-content: space-between;
     align-items: center;
   }
 
   form label {
     font-size: 3vw;
-    margin: 1vw 1vw;
+    margin: 0;
   }
 
   form input {

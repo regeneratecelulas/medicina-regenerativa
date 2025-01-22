@@ -83,8 +83,7 @@ body {
   border-radius: 12px; /* Rounded corners */
   font-size: 1rem;
   cursor: pointer;
-  box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.1),
-    -6px -6px 15px rgba(255, 255, 255, 0.7);
+  box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.1), -6px -6px 15px rgb(255, 255, 255);
   transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 

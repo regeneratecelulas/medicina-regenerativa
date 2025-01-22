@@ -446,6 +446,10 @@ input:focus::placeholder {
   color: white;
 }
 
+.emailink:hover {
+  color: lightblue;
+}
+
 /* Medium devices (landscape tablets, 768px and up) -----------------------*/
 @media only screen and (min-width: 768px) {
   .head {

@@ -462,7 +462,7 @@ input:focus::placeholder {
   color: wheat;
 }
 
-/* Medium devices (landscape tablets, 768px and up) -----------------------*/
+/* Medium devices (landscape tablets, 767px and up) -----------------------*/
 @media only screen and (min-width: 768px) {
   .head {
     font-size: larger;
@@ -530,7 +530,7 @@ input:focus::placeholder {
   }
 
   form textarea::placeholder {
-    font-size: 0.9rem;
+    font-size: 0.5rem;
     transform: all 0.3s ease-out;
   }
 
@@ -540,7 +540,7 @@ input:focus::placeholder {
   }
 
   form textarea {
-    font-size: 3rem;
+    font-size: 2rem;
     height: 5vw;
     box-shadow: 0.3vw 0.3vw 0.6vw rgba(40, 5, 68, 0.322),
       -0.3vw -0.3vw 0.8vw rgba(255, 255, 255, 0.274);

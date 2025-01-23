@@ -285,7 +285,6 @@ nav a img {
 }
 
 form {
-  /* height: 50vw; */
   padding: 2vw;
   font-family: Roboto;
   /* text-align: center; */
@@ -294,11 +293,20 @@ form {
   background-color: #057963;
 }
 
+form section {
+  margin-top: 2vw;
+}
+
 form section span {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-bottom: 2vw;
+}
+
+select:focus {
+  background-color: #03392f;
+  outline: none;
 }
 
 form label {
@@ -311,7 +319,7 @@ form input {
   width: 50vw;
   border-radius: 1.5vw;
   border: none;
-  color: antiquewhite;
+  color: black;
   box-shadow: 0.5vw 0.5vw 1vw rgba(40, 5, 68, 0.1),
     -0.5vw -0.5vw 1vw rgba(255, 255, 255, 0.274);
 
@@ -322,7 +330,7 @@ form textarea {
   height: 10vw;
   width: 100%;
   border-radius: 1.5vw;
-  color: antiquewhite;
+  color: black;
   padding: 0.5vw;
   border: none;
   font-size: 1rem;
@@ -340,11 +348,14 @@ form select {
 }
 
 form button {
+  padding: 1vw;
   background-color: #acd4c9;
   font-size: 5vw;
+  border: none;
   border-radius: 5px;
   color: #174670;
   border-radius: 1vw;
+  transition: all 0.3s ease-out;
 }
 .contactoDiv h3 {
   background-color: #174670;
@@ -361,7 +372,7 @@ form button {
   background-color: #174670;
 }
 .emailink {
-  color: white;
+  color: lightblue;
 }
 .contact-info h4 a:hover {
   scale: 1.1;
@@ -438,16 +449,17 @@ button:hover {
 textarea:focus::placeholder {
   font-size: 1vw;
   transform: translateY(-0.5vw);
-  color: white;
+  color: #03392f;
 }
 input:focus::placeholder {
   font-size: 1vw;
   transform: translateY(-1vw);
-  color: white;
+  color: #03392f;
+  display: none;
 }
 
 .emailink:hover {
-  color: lightblue;
+  color: wheat;
 }
 
 /* Medium devices (landscape tablets, 768px and up) -----------------------*/
@@ -578,7 +590,7 @@ input:focus::placeholder {
       background: linear-gradient(
         81deg,
         rgba(124, 95, 130, 0) 50%,
-        rgb(194, 1, 59) 63%,
+        rgb(255, 219, 245) 63%,
         rgba(195, 172, 200, 0) 73%
       );
     }
@@ -586,7 +598,7 @@ input:focus::placeholder {
       background: linear-gradient(
         81deg,
         rgba(124, 95, 130, 0) 74%,
-        rgb(0, 0, 0) 90%,
+        rgb(255, 219, 245) 90%,
         rgba(195, 172, 200, 0) 100%
       );
     }
@@ -677,16 +689,15 @@ input:focus::placeholder {
   }
 
   form {
-    /* height: 50vw; */
-    margin: 1vw;
+    width: 60%;
+    margin: auto;
     padding: 0vw 10vw;
     font-family: Roboto;
-    /* text-align: center; */
+    text-align: center;
     border: solid 1px;
   }
 
   form section span {
-    display: flex;
     align-items: center;
   }
 

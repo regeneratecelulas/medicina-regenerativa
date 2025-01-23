@@ -92,7 +92,6 @@ function populateReel(eventos) {
     const img = document.createElement("img");
     img.src = "celulasimages/whitelogo.jpg"; // Local logo image
     img.alt = "logo-celulas";
-    img.loading = "lazy";
     section.appendChild(img);
     return section;
   }
@@ -114,7 +113,6 @@ function populateReel(eventos) {
       const img = document.createElement("img");
       img.src = thumbnailUrl; // Use the thumbnail URL
       img.alt = evento.title; // Use the event title for alt text
-      img.loading = "lazy";
       section.appendChild(img);
       reelContainer.appendChild(section);
     }

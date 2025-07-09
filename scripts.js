@@ -90,7 +90,7 @@ function populateReel(eventos) {
   function createLogoSection() {
     const section = document.createElement("section");
     const img = document.createElement("img");
-    img.src = "celulasimages/whitelogo.jpg"; // Local logo image
+    img.src = "celulasimages/whitelogo.webp"; // Local logo image
     img.alt = "logo-celulas";
     section.appendChild(img);
     return section;

@@ -111,27 +111,12 @@ document.addEventListener("DOMContentLoaded", function () {
         const articleHero = document.querySelector(".article-hero");
         const articleHeroTitle = document.querySelector(".article-hero-title");
         if (articleHero && articleHeroTitle) {
+          // Only set the dynamic background image here
           articleHero.style.backgroundImage = `url('${article.image2}')`;
-          articleHero.style.backgroundSize = "cover";
-          articleHero.style.backgroundPosition = "center";
-          articleHero.style.minHeight = "350px"; // Adjust height as needed
-          articleHero.style.display = "flex";
-          articleHero.style.alignItems = "center";
-          articleHero.style.justifyContent = "center";
-          articleHero.style.color = "urple"; // Text color for contrast
-          articleHero.style.textAlign = "center";
-          articleHero.style.textShadow = "2px 2px 4px rgba(0,0,0,0.7)"; // For better readability
-          articleHero.style.padding = "20px"; // Add some padding
 
+          // Set the title text
           articleHeroTitle.textContent = article.title;
         }
-
-        // The old code that populated ".articles-grid.article-grid" should now be removed
-        // For example, if you had:
-        // const articleGridContainer = document.querySelector(".articles-grid.article-grid");
-        // if (articleGridContainer) {
-        //   articleGridContainer.innerHTML = `...`; // Remove or comment this out
-        // }
 
         const articleContentDiv = document.querySelector(".article-content");
         if (articleContentDiv) {

@@ -48,6 +48,18 @@ nav a {
   transition: all 0.2s ease-out;
 }
 
+.nav-Blog {
+  background-color: var(--purplelight);
+  border-radius: 5px;
+}
+
+nav a:hover {
+  scale: 1.15;
+  color: rgb(206, 165, 246);
+  filter: saturate(2);
+  border-left: solid 1px;
+  border-right: solid 1px;
+}
 nav a img {
   width: 2rem;
 }
@@ -171,25 +183,47 @@ footer img {
 }
 
 /* Article View  Article View  Article View  Article View */
-
-.heading-article {
-  height: 55vw;
+/* For the new hero section in articleview.html */
+.article-hero {
+  background-size: cover;
+  background-position: center;
+  min-height: 350px; /* Adjust height as needed */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white; /* Text color for contrast */
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* For better readability */
+  padding: 20px; /* Add some padding */
+  /* Add any other desired static styles here, e.g., transition effects */
 }
+
+/* Style for the title within the hero section */
 .article-hero-title {
+  font-size: 2.5em; /* Example font size, adjust as needed */
+  margin: 0;
+  padding: 0 15px; /* Add horizontal padding to prevent text from touching edges */
+  z-index: 1; /* Ensure title is above background if any overlay is added */
+}
+
+.article-hero {
+  animation: zoominout 6s ease-in infinite alternate-reverse;
+}
+
+@keyframes zoominout {
+  from {
+    transform: scale(1.05);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+.article-hero-title {
+  color: var(--purpledark);
   font-family: var(--title);
   text-shadow: 0.5vw 0.5vw 1vw whitesmoke;
   text-transform: capitalize;
-}
-
-.heading-article h3 {
-  color: var(--purpledark);
-  font-size: 2rem;
-}
-
-.heading-article i {
-  font-size: 4rem;
-  color: var(--purplelight);
-  text-shadow: 1px 1px 5px black;
 }
 
 .article-grid article::before {
@@ -267,6 +301,10 @@ footer img {
   nav a {
     padding: 1vw 0;
     font-size: 1rem;
+  }
+
+  nav a img {
+    width: 4vw;
   }
   .hero {
     height: 93vh;

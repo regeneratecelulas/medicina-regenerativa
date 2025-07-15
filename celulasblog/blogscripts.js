@@ -85,7 +85,7 @@ document.addEventListener("DOMContentLoaded", function () {
       );
   }
 
-  // Logic for articleview.html
+  // Logic for articleview.html ////////////////////
   if (document.querySelector(".article-content")) {
     const params = new URLSearchParams(window.location.search);
     const id = params.get("id");
@@ -118,6 +118,17 @@ document.addEventListener("DOMContentLoaded", function () {
           articleHeroTitle.textContent = article.title;
         }
 
+        const pageTitle = document.querySelector(".article-page-title");
+        if (pageTitle) {
+          pageTitle.textContent = article.title + " | Regenérate Blog";
+        }
+
+        const metaDescriptionTag = document.querySelector(
+          'meta[name="description"]'
+        );
+        if (metaDescriptionTag) {
+          metaDescriptionTag.setAttribute("content", article.meta);
+        }
         const articleContentDiv = document.querySelector(".article-content");
         if (articleContentDiv) {
           articleContentDiv.innerHTML = `

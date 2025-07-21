@@ -154,5 +154,36 @@
     "conclusion": "El extracto proteico es una alternativa innovadora para activar la regeneración natural del cuerpo. Al ser seguro, versátil y biológicamente activo, se convierte en un aliado eficaz en tratamientos médicos y estéticos.",
     "fuente": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3781772/",
     "fecha": "2025-07-18"
+  },
+
+  "007": {
+    "title": "hUC‑MSCs en cirrosis hepática descompensada",
+    "meta": "Estudios muestran que las células madre mesenquimales del cordón umbilical (hUC‑MSCs) mejoran la función hepática y la supervivencia en cirrosis descompensada.",
+    "image": "blogimages/007HepaticaB.webp",
+    "imageAlt": "Terapia regenerativa con células madre para el hígado",
+    "image2": "blogimages/007Hepatica.webp",
+    "imageAlt2": "Comparación de función hepática antes y después del tratamiento con hUC-MSCs",
+    "introduction": "La cirrosis hepática descompensada—principalmente por HBV—sigue siendo una condición con escasas opciones terapéuticas. En ese contexto, las hUC‑MSCs (human umbilical cord-derived mesenchymal stem cells) emergen como una estrategia regenerativa prometedora. Aquí analizamos datos clínicos y preclínicos relevantes, resaltando su eficacia, seguridad e impacto en la función hepática.",
+    "questions": [
+      {
+        "q": "¿Qué muestran los ensayos clínicos en humanos?",
+        "a": "Un estudio fase I demostró que una sola infusión de hUC‑MSCs (5–20×10⁷ células) mejora la función hepática y coagulación en 28 días, sin eventos adversos graves ni tumores. Otro ensayo mostró una supervivencia a 5 años del 63.9% en pacientes tratados, frente a 43.6% en el grupo control."
+      },
+      {
+        "q": "¿Qué evidencias existen en modelos preclínicos?",
+        "a": "En modelos de ratas, las hUC‑MSCs redujeron AST y ALT, aumentaron antioxidantes como SOD y GSH, y redujeron estrés oxidativo. La administración encapsulada logró una reversión más eficaz de la fibrosis hepática en 13 semanas."
+      },
+      {
+        "q": "¿Cuál es la seguridad y tolerancia?",
+        "a": "No se reportaron eventos adversos graves. Las hUC‑MSCs tienen baja inmunogenicidad y pueden aplicarse alogénicamente sin provocar rechazo, gracias a su perfil de marcadores celulares (CD90, CD105, CD73 y ausencia de HLA-DR)."
+      },
+      {
+        "q": "¿Qué falta por confirmar?",
+        "a": "Se requieren ensayos clínicos aleatorizados (RCT) con mayor tamaño muestral para definir dosis óptima, frecuencia de aplicación y vía de administración ideal."
+      }
+    ],
+    "conclusion": "Las hUC‑MSCs ofrecen una alternativa prometedora para pacientes con cirrosis hepática avanzada. Su eficacia clínica y perfil seguro justifican su estudio en ensayos más amplios, con miras a convertirse en un tratamiento aprobado y estandarizado.",
+    "fuente": "https://www.researchsquare.com/article/rs-3736389/v1",
+    "fecha": "2025-07-20"
   }
 }

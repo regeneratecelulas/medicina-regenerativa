@@ -83,12 +83,9 @@ nav a img {
 
 .head {
   /* border: solid; */
-  height: 100%;
+  height: 40vw;
   /* width: 100%; */
-  background-image: url(celulasimages/background3.webp);
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
+  background-color: #120319;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -98,7 +95,7 @@ nav a img {
 }
 
 .head h1 {
-  width: 60vw;
+  width: 80vw;
   backdrop-filter: blur(5px);
   background-color: rgba(15, 2, 24, 0.622);
   padding: 2vw 1vw;
@@ -107,16 +104,16 @@ nav a img {
 
   border-radius: 5px;
   font-size: 2.7vw;
-
+  margin-inline: 4vw;
   color: rgb(255, 255, 255);
 }
 .head h3 {
   background-color: rgb(19, 1, 19);
-  padding: 1vw 0.5vw;
-  font-size: 1rem;
+  padding: 0.5vw 2vw;
+  font-size: 0.8rem;
   color: whitesmoke;
   position: absolute;
-  top: 5vw;
+  top: 6vw;
   right: 15vw;
   border-radius: 2%;
 }
@@ -150,11 +147,12 @@ nav a img {
 
 .reel2 img {
   width: 80%;
-  margin-left: 10vw;
+  margin-left: 6vw;
   border-radius: 2%;
 }
 
 .socialHead {
+  height: 8vw;
   position: relative;
   text-align: right;
   background: rgba(124, 95, 130, 0.386);
@@ -485,6 +483,12 @@ input:focus::placeholder {
   .head {
     font-size: larger;
   }
+  .head {
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url(celulasimages/background3.webp);
+  }
 
   .capacitacionesDiv h3,
   .tratamientosDiv h3 {
@@ -507,8 +511,8 @@ input:focus::placeholder {
   }
 
   .head h3 {
-    top: 4vw;
-    right: 20vw;
+    top: 9vw;
+    right: 17vw;
   }
   nav a {
     font-size: 1rem;
@@ -641,10 +645,22 @@ input:focus::placeholder {
   nav a {
     font-size: 1.5rem;
   }
+  .head {
+    /* border: solid; */
+    height: 31vw;
+  }
+  .head h1 {
+    width: 35vw;
+    font-size: 2rem;
+  }
 
   .head h3 {
-    top: 6vw;
-    right: 19.5vw;
+    top: 4vw;
+    right: 21vw;
+    font-size: 1.1rem;
+  }
+  .socialHead {
+    height: 4vw;
   }
 
   .reel2 img {

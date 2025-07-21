@@ -648,7 +648,8 @@ input:focus::placeholder {
   }
 
   .reel2 img {
-  margin-left: 7vw;
+    margin-left: 7vw;
+  }
 
   .tratamientoItemDiv,
   .capacitacionItemDiv {

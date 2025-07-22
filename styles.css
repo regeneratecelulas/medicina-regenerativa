@@ -270,7 +270,21 @@ nav a img {
   color: rgb(207, 142, 218);
   background-position: center;
   background-size: cover;
+}
+
+.splitImg a {
+  color: white;
   font-family: Montserrat;
+
+  text-decoration: none;
+  font-size: 1rem;
+  border: solid;
+  border-radius: 5px;
+}
+.splitImg a:hover {
+  color: rgb(255, 154, 154);
+  background-color: rgba(104, 68, 162, 0.203);
+  padding: 1vw;
 }
 
 .contactoDiv {
@@ -646,14 +660,19 @@ input:focus::placeholder {
     font-size: 1.5rem;
   }
   .head {
-    /* border: solid; */
+    display: flex;
+    justify-content: space-between;
+    align-items: space-between;
     height: 31vw;
   }
   .head h1 {
-    width: 35vw;
-    font-size: 2rem;
-  }
+    width: 100%;
 
+    font-size: 1.5rem;
+  }
+  .reel2 img {
+    width: 70%;
+  }
   .head h3 {
     top: 4vw;
     right: 21vw;
@@ -661,10 +680,6 @@ input:focus::placeholder {
   }
   .socialHead {
     height: 4vw;
-  }
-
-  .reel2 img {
-    margin-left: 7vw;
   }
 
   .tratamientoItemDiv,
@@ -724,9 +739,6 @@ input:focus::placeholder {
     height: 37vw;
     font-size: 3rem;
     align-items: last baseline;
-  }
-
-  .splitImg {
     background-position: 0vw -12vw;
     padding-left: 10vw;
   }

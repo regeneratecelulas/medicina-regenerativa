@@ -62,7 +62,7 @@ function populateCapacitaciones(capacitaciones) {
 
     const content = `
       <p><strong>Fecha:</strong> ${capacitacion.fecha}</p>
-      <p><strong>Lugar:</strong> ${capacitacion.lugar}</p>
+      <p><strong>Lugar:</strong> <a href="https://wa.me/523345165088/?text=Quisiera%20saber%20de%20su%20evento"> ${capacitacion.lugar} </a> </p>
       <p><strong>Ponente:</strong> ${capacitacion.ponente}</p>
       <p> ${capacitacion.description}</p>
       <img src="${thumbnailUrl}" alt="${capacitacion.title}" class="capacitacionImage">

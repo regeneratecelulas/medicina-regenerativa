@@ -185,5 +185,31 @@
     "conclusion": "Las hUC‑MSCs ofrecen una alternativa prometedora para pacientes con cirrosis hepática avanzada. Su eficacia clínica y perfil seguro justifican su estudio en ensayos más amplios, con miras a convertirse en un tratamiento aprobado y estandarizado.",
     "fuente": "https://www.researchsquare.com/article/rs-3736389/v1",
     "fecha": "2025-07-20"
+  },
+  "008": {
+    "title": "Células madre mesenquimales mejoran la función cardíaca",
+    "meta": "Un metaanálisis muestra que el trasplante de MSCs tras un infarto agudo al miocardio mejora la fracción de eyección, especialmente si se aplica durante la primera semana.",
+    "image": "blogimages/008CorazonB.webp",
+    "imageAlt": "Terapia regenerativa con células madre para el corazón después de un infarto",
+    "image2": "blogimages/008Corazon.webp",
+    "imageAlt2": "Representación médica del corazón con mejora de función tras aplicación de MSCs",
+    "introduction": "Después de un infarto agudo al miocardio (IAM), el corazón pierde parte de su capacidad para bombear sangre de forma eficiente. Mejorar esta función es clave para prevenir complicaciones a largo plazo como insuficiencia cardíaca. Un nuevo metaanálisis de 13 ensayos clínicos aleatorizados con 956 pacientes investiga si el trasplante de células madre mesenquimales (MSCs) puede ser una solución efectiva.",
+    "questions": [
+      {
+        "q": "¿Cuál fue el impacto de las MSCs en la fracción de eyección del ventrículo izquierdo?",
+        "a": "El estudio reveló un aumento significativo en la fracción de eyección (LVEF) en los pacientes que recibieron MSCs. En promedio, se observó una mejora de 3.78%, con efectos aún más notorios cuando el tratamiento se aplicó durante la primera semana después del infarto (hasta 5.74%). Esta mejoría indica una mayor capacidad del corazón para bombear sangre, lo cual podría traducirse en una mejor calidad de vida y menor riesgo de insuficiencia cardíaca."
+      },
+      {
+        "q": "¿Influye la vía de administración en los resultados?",
+        "a": "Los datos indican que tanto la inyección transendocárdica como la infusión intracoronaria ofrecen beneficios comparables: 4% y 3.57% de aumento en LVEF respectivamente. Esto sugiere que los profesionales pueden adaptar la vía de administración según las condiciones clínicas del paciente y las facilidades del centro médico."
+      },
+      {
+        "q": "¿La cantidad de células administradas marca una diferencia?",
+        "a": "Curiosamente, no se observaron diferencias significativas entre dosis superiores o inferiores a 10 millones de células. Esto podría tener implicaciones económicas y prácticas, permitiendo terapias efectivas con menores cantidades celulares y reduciendo potencialmente los costos."
+      }
+    ],
+    "conclusion": "El trasplante de MSCs tras un infarto agudo al miocardio mejora de forma significativa la función cardíaca, especialmente si se aplica en la primera semana posterior al evento. Aunque los resultados son prometedores, se requieren estudios adicionales para evaluar beneficios a largo plazo como la prevención de insuficiencia cardíaca o reducción de la mortalidad cardiovascular.",
+    "fuente": "https://link.springer.com/article/10.1186/s13287-021-02667-1",
+    "fecha": "2025-07-20"
   }
 }

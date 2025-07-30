@@ -264,9 +264,9 @@ nav a img {
   padding: 5vw;
   display: flex;
   text-align: center;
-  align-items: end;
+  align-items: center;
   height: 70vw;
-  background-image: url(celulasimages/logotablet.jpg);
+  background-image: url(celulasimages/blogBanner.webp);
   color: rgb(207, 142, 218);
   background-position: center;
   background-size: cover;
@@ -275,7 +275,7 @@ nav a img {
 .splitImg a {
   color: white;
   font-family: Montserrat;
-
+  background-color: purple;
   text-decoration: none;
   font-size: 1rem;
   border: solid;
@@ -549,7 +549,8 @@ input:focus::placeholder {
   }
 
   .splitImg {
-    height: 52vw;
+    height: 30vw;
+    align-content: center;
   }
   .splitImg p {
     font-size: 1.4rem;
@@ -735,16 +736,16 @@ input:focus::placeholder {
   }
 
   .splitImg {
-    height: 37vw;
+    height: 27vw;
     font-size: 3rem;
     align-items: last baseline;
     background-position: 0vw -12vw;
     padding-left: 10vw;
+    background-position: center;
   }
 
   .splitImg p {
-    background-color: rgb(40, 5, 68);
-    font-size: 2.7rem;
+    font-size: 2rem;
     padding: 1vw 2vw;
   }
 

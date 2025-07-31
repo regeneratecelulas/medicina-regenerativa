@@ -262,6 +262,7 @@ footer img {
   border-right: solid var(--green);
   border-top: solid var(--green);
   border-radius: 3%;
+  cursor: pointer;
 }
 
 .article-content details summary {

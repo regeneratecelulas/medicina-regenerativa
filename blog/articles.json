@@ -211,5 +211,32 @@
     "conclusion": "El trasplante de MSCs tras un infarto agudo al miocardio mejora de forma significativa la función cardíaca, especialmente si se aplica en la primera semana posterior al evento. Aunque los resultados son prometedores, se requieren estudios adicionales para evaluar beneficios a largo plazo como la prevención de insuficiencia cardíaca o reducción de la mortalidad cardiovascular.",
     "fuente": "https://link.springer.com/article/10.1186/s13287-021-02667-1",
     "fecha": "2025-07-20"
+  },
+
+  "009": {
+    "title": "Células madre para cirrosis hepática autoinmune",
+    "meta": "El trasplante de células madre mesenquimales alogénicas muestra mejoras en función hepática y seguridad en pacientes con cirrosis causada por enfermedades autoinmunes.",
+    "image": "blogimages/009CirrosisB.webp",
+    "imageAlt": "Paciente con cirrosis hepática recibiendo tratamiento regenerativo",
+    "image2": "blogimages/009Cirrosis.webp",
+    "imageAlt2": "Ilustración médica de células madre mesenquimales viajando hacia el hígado",
+    "introduction": "La cirrosis hepática por enfermedades autoinmunes representa un reto clínico complejo. Recientemente, se ha evaluado el uso de células madre mesenquimales alogénicas como posible alternativa terapéutica, con resultados prometedores en seguridad y mejoría funcional.",
+    "questions": [
+      {
+        "q": "¿Cómo se administraron las células madre en el estudio?",
+        "a": "Los pacientes recibieron infusiones de células madre mesenquimales alogénicas por vía periférica, procedentes de cordón umbilical, sangre de cordón o médula ósea."
+      },
+      {
+        "q": "¿Qué mejoras clínicas se observaron?",
+        "a": "Hubo mejoras en los niveles de albúmina sérica, bilirrubina total y tiempo de protrombina. El puntaje MELD también disminuyó a los 6 meses, 1 año y 2 años después del trasplante."
+      },
+      {
+        "q": "¿Es un tratamiento seguro para estos pacientes?",
+        "a": "Sí. No se reportaron eventos adversos graves durante ni después de las infusiones, lo que respalda su perfil de seguridad en pacientes con cirrosis autoinmune."
+      }
+    ],
+    "conclusion": "Este estudio demuestra que el trasplante de células madre mesenquimales alogénicas es una opción terapéutica segura y potencialmente efectiva para mejorar la función hepática en pacientes con cirrosis autoinmune. Se necesitan estudios adicionales con mayor muestra para confirmar estos hallazgos.",
+    "fuente": "https://onlinelibrary.wiley.com/doi/10.1111/1756-185X.13015",
+    "fecha": "2025-08-03"
   }
 }

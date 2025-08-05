@@ -76,15 +76,14 @@ function populateCapacitaciones(capacitaciones) {
 }
 
 // Function to populate the reel with images from the eventos API data
-function populateReel(eventos) {
-  const reelContainer = document.getElementById("reel");
-  reelContainer.innerHTML = ""; // Clear existing reel content
-
+//function populateReel(eventos) {
+  //const reelContainer = document.getElementById("reel");
+  //reelContainer.innerHTML = ""; 
   // Helper function to extract the file ID from a Google Drive URL
-  function extractDriveFileId(url) {
-    const match = url.match(/\/d\/([^/]+)/);
-    return match ? match[1] : null;
-  }
+  //function extractDriveFileId(url) {
+    //const match = url.match(/\/d\/([^/]+)/);
+    //return match ? match[1] : null;
+  //}
 
   // Helper function to create a logo section
   // function createLogoSection() {

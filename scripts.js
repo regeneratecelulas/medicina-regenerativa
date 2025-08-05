@@ -97,7 +97,7 @@ function populateReel(eventos) {
 }
 
 // Add the logo at the start
-reelContainer.appendChild(createLogoSection());
+// reelContainer.appendChild(createLogoSection());
 
 // Add event images to the reel
 // eventos.forEach((evento) => {

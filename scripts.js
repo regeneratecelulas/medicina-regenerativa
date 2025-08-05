@@ -77,23 +77,23 @@ function populateCapacitaciones(capacitaciones) {
 
 // Function to populate the reel with images from the eventos API data
 //function populateReel(eventos) {
-  //const reelContainer = document.getElementById("reel");
-  //reelContainer.innerHTML = ""; 
-  // Helper function to extract the file ID from a Google Drive URL
-  //function extractDriveFileId(url) {
-    //const match = url.match(/\/d\/([^/]+)/);
-    //return match ? match[1] : null;
-  //}
+//const reelContainer = document.getElementById("reel");
+//reelContainer.innerHTML = "";
+// Helper function to extract the file ID from a Google Drive URL
+//function extractDriveFileId(url) {
+//const match = url.match(/\/d\/([^/]+)/);
+//return match ? match[1] : null;
+//}
 
-  // Helper function to create a logo section
-  // function createLogoSection() {
-  //   const section = document.createElement("section");
-  //   const img = document.createElement("img");
-  //   img.src = "celulasimages/evento2.jpg"; // Local logo image
-  //   img.alt = "logo-celulas";
-  //   section.appendChild(img);
-  //   return section;
-}
+// Helper function to create a logo section
+// function createLogoSection() {
+//   const section = document.createElement("section");
+//   const img = document.createElement("img");
+//   img.src = "celulasimages/evento2.jpg"; // Local logo image
+//   img.alt = "logo-celulas";
+//   section.appendChild(img);
+//   return section;
+//}
 
 // Add the logo at the start
 // reelContainer.appendChild(createLogoSection());

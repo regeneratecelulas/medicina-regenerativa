@@ -94,33 +94,33 @@ function populateReel(eventos) {
   //   img.alt = "logo-celulas";
   //   section.appendChild(img);
   //   return section;
-  }
-
-  // Add the logo at the start
-  reelContainer.appendChild(createLogoSection());
-
-  // Add event images to the reel
-  // eventos.forEach((evento) => {
-  //   if (evento.imageUrl) {
-  //     const section = document.createElement("section");
-
-  //     // Extract the file ID and construct the thumbnail URL
-  //     const fileId = extractDriveFileId(evento.imageUrl);
-  //     const thumbnailUrl = fileId
-  //       ? `https://drive.google.com/thumbnail?id=${fileId}&sz=w1000`
-  //       : evento.imageUrl; // Fallback to original URL if file ID is not found
-
-  //     const img = document.createElement("img");
-  //     img.src = thumbnailUrl; // Use the thumbnail URL
-  //     img.alt = evento.title; // Use the event title for alt text
-  //     section.appendChild(img);
-  //     reelContainer.appendChild(section);
-  //   }
-  // });
-
-  // Add the logo at the end
-  // reelContainer.appendChild(createLogoSection());
 }
+
+// Add the logo at the start
+reelContainer.appendChild(createLogoSection());
+
+// Add event images to the reel
+// eventos.forEach((evento) => {
+//   if (evento.imageUrl) {
+//     const section = document.createElement("section");
+
+//     // Extract the file ID and construct the thumbnail URL
+//     const fileId = extractDriveFileId(evento.imageUrl);
+//     const thumbnailUrl = fileId
+//       ? `https://drive.google.com/thumbnail?id=${fileId}&sz=w1000`
+//       : evento.imageUrl; // Fallback to original URL if file ID is not found
+
+//     const img = document.createElement("img");
+//     img.src = thumbnailUrl; // Use the thumbnail URL
+//     img.alt = evento.title; // Use the event title for alt text
+//     section.appendChild(img);
+//     reelContainer.appendChild(section);
+//   }
+// });
+
+// Add the logo at the end
+// reelContainer.appendChild(createLogoSection());
+// }
 
 // Fetching data from the API and populating the sections
 fetch("https://content-manager-regerativa.vercel.app/api/eventos")

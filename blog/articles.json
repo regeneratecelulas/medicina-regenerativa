@@ -238,5 +238,32 @@
     "conclusion": "Este estudio demuestra que el trasplante de células madre mesenquimales alogénicas es una opción terapéutica segura y potencialmente efectiva para mejorar la función hepática en pacientes con cirrosis autoinmune. Se necesitan estudios adicionales con mayor muestra para confirmar estos hallazgos.",
     "fuente": "https://onlinelibrary.wiley.com/doi/10.1111/1756-185X.13015",
     "fecha": "2025-08-03"
-  }
+  },
+  "010": {
+  "title": "Células madre mesenquimales (MSCs) en la osteoartritis",
+  "meta": "Meta-análisis demuestran que las inyecciones intraarticulares de MSCs alivian el dolor, mejoran la función articular y contribuyen a la regeneración del cartílago en osteoartritis.",
+  "image": "blogimages/010OsteoartritisB.webp",
+  "imageAlt": "Aplicación de células madre mesenquimales en rodilla con osteoartritis",
+  "image2": "blogimages/010Osteoartritis.webp",
+  "imageAlt2": "Regeneración de cartílago articular mediante terapia con MSCs",
+  "introduction": "La osteoartritis de rodilla es una afección degenerativa que provoca dolor, rigidez y limitación funcional. Las terapias convencionales alivian síntomas, pero no detienen el deterioro del cartílago. Los estudios con células madre mesenquimales (MSCs) han mostrado resultados prometedores para regenerar tejido y reducir síntomas mediante inyecciones intraarticulares (IA).",
+  "questions": [
+    {
+      "q": "¿Los MSCs alivian el dolor y mejoran la función articular?",
+      "a": "Numerosos ensayos clínicos registran mejoras significativas en puntuaciones de dolor (VAS, WOMAC) y función articular tras inyecciones IA de MSCs, tanto autólogas como alogénicas."
+    },
+    {
+      "q": "¿Existe regeneración real del cartílago?",
+      "a": "Algunos metaanálisis indican cierto avance en la calidad y volumen del cartílago, aunque no siempre alcanzan la regeneración completa. La mejora sintomática cuenta con mayor respaldo."
+    },
+    {
+      "q": "¿La fuente de células madre importa?",
+      "a": "Metaanálisis sugieren que MSCs derivadas de tejido adiposo podrían ofrecer mayor eficacia y seguridad comparadas con médula ósea, aunque se requieren más estudios específicos."
+    }
+  ],
+  "conclusion": "Las MSCs IA ofrecen alivio del dolor y mejoría en función articular, con evidencia incipiente de regeneración cartilaginosa. Se necesita más investigación para definir dosis, fuente celular y protocolos estandarizados.",
+  "fuente": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10298392/",
+  "fecha": "2025-08-08"
+}
+
 }

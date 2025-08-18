@@ -199,6 +199,65 @@ nav a img {
   font-size: 2rem;
 }
 
+.congreso {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 2vw;
+  padding: 4vw;
+  background-color: rgba(182, 186, 201, 0.973);
+  border-radius: 5px;
+}
+
+.congresoText h2{
+  text-align: center;
+  color: rgb(29, 29, 98);
+}
+
+.congresoText p{
+color: lightcyan; 
+text-align: center;
+ background-color:rgb(29, 29, 98) ;
+  padding: 1vw 5vw;
+  border-radius: 10%;
+
+}
+
+.congesoImgGrid {
+  display: grid;
+  position: relative;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1vw;
+  align-items: center;
+  justify-items: center;
+  margin-bottom: 15vw;
+}
+
+.congresoImg {
+  width: 50%;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: 
+    transform 0.3s cubic-bezier(.4,2,.6,1),
+    filter 0.3s cubic-bezier(.4,2,.6,1);
+  z-index: 1;
+}
+
+.congesoImgGrid:hover .congresoImg {
+  filter: blur(2px) brightness(0.8);
+  transform: scale(0.95);
+  z-index: 1;
+}
+
+.congesoImgGrid .congresoImg:hover {
+  filter: none;
+  transform: scale(2.2);
+
+  
+  z-index: 2;
+}
+
 .tratamientosDiv {
   padding: 3vw 3vw;
 
@@ -666,12 +725,12 @@ input:focus::placeholder {
     height: 31vw;
   }
   .head h1 {
-    width: 100%;
+    width: 60%;
 
     font-size: 1.5rem;
   }
   .reel2 img {
-    width: 70%;
+    width: 60%;
   }
   .head h3 {
     top: 4vw;
@@ -681,6 +740,13 @@ input:focus::placeholder {
   .socialHead {
     height: 4vw;
   }
+
+  .congresoText h2{
+    font-size: 3rem;
+  }
+  .congresoText p{
+    font-size: 1.5rem;
+  } 
 
   .tratamientoItemDiv,
   .capacitacionItemDiv {

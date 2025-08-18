@@ -264,6 +264,34 @@
   "conclusion": "Las MSCs IA ofrecen alivio del dolor y mejoría en función articular, con evidencia incipiente de regeneración cartilaginosa. Se necesita más investigación para definir dosis, fuente celular y protocolos estandarizados.",
   "fuente": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10298392/",
   "fecha": "2025-08-08"
+},
+
+"011": {
+  "title": "Las MSCs en la artritis reumatoide: datos clínicos y perspectivas",
+  "meta": "Ensayos clínicos sugieren que las células madre mesenquimales (MSCs) pueden ser seguras y mostrar resultados prometedores en artritis reumatoide.",
+  "image": "blogimages/011ArtitisReB.webp",
+  "imageAlt": "Ilustración científica de MSCs y articulaciones afectadas por artritis reumatoide",
+  "image2": "blogimages/011ArtitisRe.webp",
+  "imageAlt2": "Médicos investigando terapias con MSCs para artritis reumatoide en laboratorio",
+  "introduction": "La artritis reumatoide (AR) es una enfermedad autoinmune que destruye articulaciones. A pesar de los avances con fármacos biológicos, persisten desafíos en eficacia a largo plazo y accesibilidad. Los MSCs han sido evaluadas como alternativa regenerativa e inmunomoduladora en AR.",
+  "questions": [
+    {
+      "q": "¿Qué evidencias clínicas existen sobre MSCs y AR?",
+      "a": "Algunos ensayos clínicos muestran mejoras en síntomas articulares y marcadores inflamatorios sin efectos adversos graves. Las MSCs actúan modulando la respuesta inmune y promoviendo un microambiente regenerativo."
+    },
+    {
+      "q": "¿Qué tan seguras son las MSCs en pacientes con AR?",
+      "a": "Los estudios sugieren que las MSCs son bien toleradas y no generan efectos adversos graves, lo que las posiciona como estrategia potencialmente segura en AR."
+    },
+    {
+      "q": "¿Cuáles son los pasos siguientes en investigación?",
+      "a": "Es necesario diseñar ensayos aleatorizados con criterios claros, control, seguimiento prolongado y comparación con terapias convencionales para evaluar eficacia real y seguridad."
+    }
+  ],
+  "conclusion": "Las MSCs representan una vía prometedora para pacientes con AR, gracias a su acción inmunomoduladora y el perfil favorable de seguridad. Sin embargo, estudios más robustos son clave antes de su uso clínico extendido.",
+  "fuente": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2021.631291/full",
+  "fecha": "2025-08-17"
 }
+
 
 }

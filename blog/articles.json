@@ -291,6 +291,32 @@
   "conclusion": "Las MSCs representan una vía prometedora para pacientes con AR, gracias a su acción inmunomoduladora y el perfil favorable de seguridad. Sin embargo, estudios más robustos son clave antes de su uso clínico extendido.",
   "fuente": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2021.631291/full",
   "fecha": "2025-08-17"
+},
+"012": {
+  "title": "Oncoinmunoterapia con células CAR-T: avances y perspectivas",
+  "meta": "La terapia con células CAR-T es un hito en oncoinmunoterapia: explica cómo funciona, en qué cánceres se usa hoy y cuáles son sus riesgos y próximos pasos.",
+  "image": "blogimages/012cartB.webp",
+  "imageAlt": "Visualización anatómica realista de linfocitos T CAR-T atacando una célula tumoral",
+  "image2": "blogimages/012cart.webp",
+  "imageAlt2": "Equipo médico investigando la terapia celular CAR-T en un laboratorio moderno",
+  "introduction": "La oncoinmunoterapia con células CAR-T (Chimeric Antigen Receptor T-cells) modifica linfocitos T del propio paciente para que reconozcan y destruyan células tumorales con alta precisión. Esta estrategia celular ha transformado el manejo de varios cánceres hematológicos y se investiga activamente en tumores sólidos.",
+  "questions": [
+    {
+      "q": "¿Cómo funcionan las células CAR-T?",
+      "a": "Se extraen linfocitos T del paciente y se modifican para expresar un receptor quimérico (CAR) dirigido a un antígeno tumoral. Tras expandirlas en laboratorio, se reinfunden por vía intravenosa; una vez en el organismo, se activan al contactar con el tumor y promueven su destrucción."
+    },
+    {
+      "q": "¿En qué tipos de cáncer se usan actualmente?",
+      "a": "Han mostrado gran eficacia en neoplasias hematológicas como leucemia linfoblástica aguda y linfomas de células B. En tumores sólidos, la investigación continúa para superar barreras del microambiente tumoral y la heterogeneidad de antígenos."
+    },
+    {
+      "q": "¿Cuáles son los riesgos y limitaciones de la terapia CAR-T?",
+      "a": "Los principales efectos adversos incluyen el síndrome de liberación de citoquinas y la neurotoxicidad, que requieren manejo especializado. Además, su producción personalizada conlleva costos elevados y logística compleja."
+    }
+  ],
+  "conclusion": "La oncoinmunoterapia con células CAR-T representa un cambio de paradigma en oncología. Aunque persisten retos en seguridad, acceso y aplicación a tumores sólidos, su impacto clínico y la rápida innovación tecnológica auguran una expansión de indicaciones dentro de la medicina personalizada.",
+  "fuente": "https://www.cancer.gov/about-cancer/treatment/research/car-t-cells",
+  "fecha": "2025-08-21"
 }
 
 

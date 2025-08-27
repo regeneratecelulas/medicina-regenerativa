@@ -122,18 +122,18 @@ function populateCapacitaciones(capacitaciones) {
 // }
 
 // Fetching data from the API and populating the sections
-fetch("https://content-manager-regerativa.vercel.app/api/eventos")
-  .then((response) => response.json())
-  .then((data) => {
-    // Log the data to check its structure
-    console.log(data);
-    populateTratamientos(productsData); // Using local data for Tratamientos
-    populateCapacitaciones(data); // Using API data for Capacitaciones
-    populateReel(data); // Populate the reel with API data
-  })
-  .catch((error) => {
-    console.error("Error loading data:", error);
-  });
+// fetch("https://content-manager-regerativa.vercel.app/api/eventos")
+//   .then((response) => response.json())
+//   .then((data) => {
+//     // Log the data to check its structure
+//     console.log(data);
+//     populateTratamientos(productsData); // Using local data for Tratamientos
+//     populateCapacitaciones(data); // Using API data for Capacitaciones
+//     populateReel(data); // Populate the reel with API data
+//   })
+//   .catch((error) => {
+//     console.error("Error loading data:", error);
+//   });
 
 // REEL functionality (scrolling effect)
 const reel = document.getElementById("reel");

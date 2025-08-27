@@ -714,8 +714,7 @@ input:focus::placeholder {
 
 
   .reel2 img.imgEvento2 {
-    width: 40vw !important;
-    max-width: 40vw;
+    width: 40vw ;
     height: auto;
   }
 

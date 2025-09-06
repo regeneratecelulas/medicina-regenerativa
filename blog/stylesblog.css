@@ -199,7 +199,7 @@ footer img {
 }
 
 .article-hero-title {
-  font-size: 2.5em; /* Example font size, adjust as needed */
+  font-size: 2rem; /* Example font size, adjust as needed */
   margin: 0;
   padding: 0 15px; /* Add horizontal padding to prevent text from touching edges */
   z-index: 1; /* Ensure title is above background if any overlay is added */

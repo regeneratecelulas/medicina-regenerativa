@@ -317,6 +317,32 @@
   "conclusion": "La oncoinmunoterapia con células CAR-T representa un cambio de paradigma en oncología. Aunque persisten retos en seguridad, acceso y aplicación a tumores sólidos, su impacto clínico y la rápida innovación tecnológica auguran una expansión de indicaciones dentro de la medicina personalizada.",
   "fuente": "https://www.cancer.gov/about-cancer/treatment/research/car-t-cells",
   "fecha": "2025-08-21"
+},
+"013": {
+  "title": "Reversión completa del síndrome de ovario poliquístico con MSCs: un caso clínico",
+  "meta": "Un caso clínico documenta la reversión total y duradera del síndrome de ovario poliquístico tras infusión intravenosa de MSCs derivadas del cordón umbilical.",
+  "image": "blogimages/013SOPB.webp",
+  "imageAlt": "Ilustración anatómica realista de ovarios y células madre mesenquimales del cordón umbilical",
+  "image2": "blogimages/013SOP.webp",
+  "imageAlt2": "Visualización clínica de tratamiento con MSCs intravenosas para síndrome de ovario poliquístico",
+  "introduction": "El síndrome de ovario poliquístico (SOP) es una de las principales causas de infertilidad y afecta la calidad de vida de millones de mujeres. En un caso clínico reciente, una paciente con 14 años de irregularidades menstruales y alteraciones hormonales presentó reversión completa y sostenida tras una infusión intravenosa de MSCs derivadas del cordón umbilical.",
+  "questions": [
+    {
+      "q": "¿Cuál fue el resultado clínico tras la infusión de MSCs?",
+      "a": "La paciente recuperó la regularidad menstrual, normalizó sus niveles hormonales y presentó desaparición de los quistes ováricos, con todos los beneficios mantenidos durante más de un año."
+    },
+    {
+      "q": "¿Cuál es el posible mecanismo de acción?",
+      "a": "Las MSCs ejercen una potente acción antiinflamatoria e inmunomoduladora que pudo revertir los procesos inflamatorios subyacentes del SOP, restaurando la función ovárica."
+    },
+    {
+      "q": "¿Es esta terapia un tratamiento validado?",
+      "a": "Se trata de un único caso clínico. Se están reclutando más pacientes con SOP para confirmar la reproducibilidad de estos resultados y establecer protocolos terapéuticos estandarizados."
+    }
+  ],
+  "conclusion": "Este reporte de caso sugiere que las MSCs del cordón umbilical podrían representar una estrategia regenerativa innovadora para el SOP, con efectos más allá del alivio sintomático. Sin embargo, se necesitan ensayos clínicos de mayor escala para validar su eficacia y seguridad.",
+  "fuente": "https://pubmed.ncbi.nlm.nih.gov/39308763/",
+  "fecha": "2025-08-27"
 }
 
 

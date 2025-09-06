@@ -30,6 +30,7 @@ function populateTratamientos(tratamientos) {
     container.appendChild(details);
   });
 }
+populateTratamientos(productsData);
 
 // Function to extract the file ID from a Google Drive URL
 function extractDriveFileId(url) {

@@ -373,7 +373,34 @@
   "conclusion": "Los exosomas constituyen una estrategia terapéutica prometedora para las neuropatías periféricas, con sólida evidencia preclínica y señales clínicas iniciales de seguridad y beneficio. Para su adopción clínica se requieren estudios controlados de mayor tamaño, estandarización bioprocesal y consenso regulatorio.",
   "fuente": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9185764/",
   "fecha": "2025-09-21"
+},
+"015": {
+  "title": "MESENCART®: terapia celular con MSCs para regeneración del cartílago en artrosis",
+  "meta": "MESENCART® es una formulación inyectable con células madre mesenquimales prediferenciadas para regenerar cartílago y aliviar síntomas en artrosis y lesiones articulares.",
+  "image": "blogimages/015MesencartB.webp",
+  "imageAlt": "Ilustración anatómica de rodilla con aplicación intraarticular de células madre mesenquimales",
+  "image2": "blogimages/015Mesencart.webp",
+  "imageAlt2": "Profesionales médicos aplicando terapia celular intraarticular en entorno clínico moderno",
+  "introduction": "MESENCART® es un producto de medicina regenerativa formulado como dispersión inyectable que contiene 25 millones de células troncales prediferenciadas a precursores condrales por vial. Está indicado para el tratamiento de artrosis, lesiones articulares, condromalacia y enfermedades degenerativas del cartílago en pacientes que no respondieron a terapias convencionales.",
+  "questions": [
+    {
+      "q": "¿Qué evidencia respalda el uso de MSCs intraarticulares para regeneración del cartílago y alivio sintomático?",
+      "a": "Los ensayos clínicos y metaanálisis sobre inyecciones de MSCs muestran mejoras en dolor, movilidad y signos de reparación cartilaginosa. Estas terapias reducen la inflamación y estimulan la producción de matriz extracelular, lo que explica la mejoría funcional observada en pacientes con osteoartritis."
+    },
+    {
+      "q": "¿Cómo se administra MESENCART® y cuáles son los protocolos recomendados?",
+      "a": "Según la ficha técnica, MESENCART® se administra por vía intraarticular exclusivamente por médicos especialistas. Cada vial contiene 25 millones de células en solución salina. En articulaciones pequeñas o medianas se recomienda una dosis única, y en articulaciones grandes puede repetirse de forma anual o semestral."
+    },
+    {
+      "q": "¿Cuál es el perfil de seguridad y qué precauciones deben seguirse?",
+      "a": "El producto debe conservarse entre 2–8 °C y no mezclarse con sustancias distintas a solución salina. Los efectos secundarios descritos incluyen cefalea leve, hormigueo o fatiga transitoria. Los estudios clínicos respaldan su buen perfil de tolerancia cuando se aplica bajo supervisión médica especializada."
+    }
+  ],
+  "conclusion": "MESENCART® representa una alternativa avanzada para la regeneración del cartílago en pacientes con artrosis y lesiones articulares. Su acción antiinflamatoria, inmunomoduladora y regenerativa, junto con evidencia clínica favorable, la posicionan como una opción prometedora dentro de la medicina regenerativa personalizada.",
+  "fuente": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10298392/",
+  "fecha": "2025-10-12"
 }
+
 
 
 

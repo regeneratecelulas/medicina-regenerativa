@@ -399,7 +399,34 @@
   "conclusion": "MESENCART® representa una alternativa avanzada para la regeneración del cartílago en pacientes con artrosis y lesiones articulares. Su acción antiinflamatoria, inmunomoduladora y regenerativa, junto con evidencia clínica favorable, la posicionan como una opción prometedora dentro de la medicina regenerativa personalizada.",
   "fuente": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10298392/",
   "fecha": "2025-10-12"
+},
+"016": {
+  "title": "Terapia con Células Troncales en Alzheimer Avanzado",
+  "meta": "Explora cómo las células troncales mesenquimales podrían ofrecer una alternativa innovadora en el tratamiento del Alzheimer avanzado, con resultados prometedores en estudios clínicos y preclínicos.",
+  "image": "blogimages/016Alzheimer.webp",
+  "imageAlt": "Terapia con células troncales en Alzheimer avanzado",
+  "image2": "blogimages/016AlzheimerB.webp",
+  "imageAlt2": "Células troncales mesenquimales aplicadas en Alzheimer",
+  "introduction": "El Alzheimer avanzado representa uno de los mayores retos en la medicina moderna, ya que los tratamientos actuales solo alivian los síntomas sin frenar la progresión del daño neurológico. La terapia con células troncales mesenquimales (CTM) surge como una opción prometedora para regenerar y proteger el tejido cerebral.",
+  "questions": [
+    {
+      "q": "¿Cómo actúan las células troncales mesenquimales en el Alzheimer?",
+      "a": "Las CTM derivadas de médula ósea, tejido adiposo, placenta o cordón umbilical poseen propiedades inmunomoduladoras y neuroprotectoras. Estas células ayudan a reducir la inflamación, proteger las neuronas y favorecer la regeneración del tejido nervioso. En algunos protocolos también se utilizan exosomas derivados de CTM como opción menos invasiva."
+    },
+    {
+      "q": "¿Qué resultados se han observado en estudios científicos?",
+      "a": "En modelos animales, se ha observado mejoría de la función cognitiva y una reducción en los depósitos de beta-amiloide y proteína tau, ambos marcadores del Alzheimer. En ensayos clínicos preliminares, las terapias han mostrado buena tolerancia, seguridad y algunas señales de mejoría cognitiva y conductual, aunque los resultados aún son limitados."
+    },
+    {
+      "q": "¿Cuál es el futuro de esta terapia regenerativa?",
+      "a": "Las terapias con células troncales y exosomas se perfilan como un enfoque innovador en la lucha contra el Alzheimer, pero aún se requiere definir las dosis, vías de administración y el momento óptimo de intervención. Los estudios a gran escala serán clave para confirmar su eficacia y establecer protocolos estandarizados."
+    }
+  ],
+  "conclusion": "Las células troncales mesenquimales representan una esperanza para pacientes con Alzheimer avanzado. Aunque los resultados preliminares son alentadores, la investigación continúa para validar su efectividad y convertirla en una terapia estándar capaz de transformar el tratamiento de las enfermedades neurodegenerativas.",
+  "fuente": "https://www.wjgnet.com/1948-0210/full/v12/i8/787.htm",
+  "fecha": "2025-10-26"
 }
+
 
 
 

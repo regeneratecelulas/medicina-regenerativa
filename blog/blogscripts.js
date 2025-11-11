@@ -118,10 +118,8 @@ document.addEventListener("DOMContentLoaded", function () {
           articleHeroTitle.textContent = article.title;
         }
 
-        const pageTitle = document.querySelector(".article-page-title");
-        if (pageTitle) {
-          pageTitle.textContent = article.title + " | Regenérate Blog";
-        }
+        document.title = `${article.title} | Regenérate Blog`;
+
 
         const metaDescriptionTag = document.querySelector(
           'meta[name="description"]'

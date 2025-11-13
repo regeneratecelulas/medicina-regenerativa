@@ -425,7 +425,33 @@
   "conclusion": "Las células troncales mesenquimales representan una esperanza para pacientes con Alzheimer avanzado. Aunque los resultados preliminares son alentadores, la investigación continúa para validar su efectividad y convertirla en una terapia estándar capaz de transformar el tratamiento de las enfermedades neurodegenerativas.",
   "fuente": "https://www.wjgnet.com/1948-0210/full/v12/i8/787.htm",
   "fecha": "2025-10-26"
-}
+},
+ "017": {
+    "title": "Células NK autólogas combinadas con trastuzumab en cáncer HER2 positivo",
+    "meta": "El estudio demuestra factibilidad y seguridad de las infusiones de células NK autólogas combinadas con trastuzumab en cáncer de mama HER2+",
+    "image": "blogimages/017nkB.webp",
+    "imageAlt": "Representación científica de células NK atacando células tumorales HER2+ en laboratorio",
+    "image2": "blogimages/017nk.webp",
+    "imageAlt2": "Equipo médico en un laboratorio preparando infusiones de células NK autólogas",
+    "introduction": "El ensayo fase I evaluó la seguridad y viabilidad de infusiones de células NK autólogas expandidas ex vivo y combinadas con trastuzumab en pacientes con cáncer de mama HER2+ refractario, un grupo que aún representa un desafío terapéutico pese al uso de anticuerpos monoclonales.",
+    "questions": [
+      {
+        "q": "¿Cómo se llevó a cabo el tratamiento?",
+        "a": "Lee et al. (2020) realizaron un estudio fase I con infusiones de células NK autólogas expandidas ex vivo (co-cultivo de 10 días con K562-mb15-41BBL; mediana de expansión 340×), combinadas con trastuzumab (± bevacizumab). En la escalada de dosis (n=22) no se observaron toxicidades limitantes ni se alcanzó la dosis máxima tolerada (MTD). En una fase IB (n=9) se exploraron ciclos repetidos de NK a una dosis de 1×10⁷/kg."
+      },
+      {
+        "q": "¿Qué resultados se observaron?",
+        "a": "Aunque no hubo respuestas objetivas globales, 6 de 19 pacientes tratados con ≥1×10⁷/kg lograron enfermedad estable por al menos 6 meses (mediana 8.8 meses). Un paciente con el alelo de alta afinidad CD16 F158V mostró respuesta parcial, lo que sugiere un posible rol de la afinidad Fc de CD16 en el beneficio clínico. Las biopsias revelaron mayor infiltrado NK y apoptosis tumoral post-infusión, confirmando la activación del mecanismo ADCC."
+      },
+      {
+        "q": "¿Qué implicaciones tiene el estudio?",
+        "a": "El estudio confirma la factibilidad y seguridad del uso de células NK autólogas combinadas con trastuzumab y sugiere señales de eficacia en una subpoblación específica. Los autores recomiendan optimizar la persistencia celular —evitando la caída de CD16 o empleando ingeniería celular— y validar los hallazgos en un ensayo fase II."
+      }
+    ],
+    "conclusion": "La combinación de células NK autólogas y trastuzumab podría convertirse en una alternativa prometedora para pacientes con cáncer HER2+ refractario. El estudio aporta evidencia de seguridad y control parcial de la enfermedad, abriendo el camino hacia terapias inmunocelulares más duraderas y personalizadas.",
+    "fuente": "https://aacrjournals.org/clincancerres/article-abstract/26/17/4494/82678/Phase-I-Trial-of-Expanded-Activated-Autologous-NK?redirectedFrom=fulltext",
+    "fecha": "2025-11-11"
+  }
 
 
 

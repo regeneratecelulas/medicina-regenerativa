@@ -240,193 +240,193 @@
     "fecha": "2025-08-03"
   },
   "010": {
-  "title": "Células madre mesenquimales (MSCs) en la osteoartritis",
-  "meta": "Meta-análisis demuestran que las inyecciones intraarticulares de MSCs alivian el dolor, mejoran la función articular y contribuyen a la regeneración del cartílago en osteoartritis.",
-  "image": "blogimages/010OsteoartritisB.webp",
-  "imageAlt": "Aplicación de células madre mesenquimales en rodilla con osteoartritis",
-  "image2": "blogimages/010Osteoartritis.webp",
-  "imageAlt2": "Regeneración de cartílago articular mediante terapia con MSCs",
-  "introduction": "La osteoartritis de rodilla es una afección degenerativa que provoca dolor, rigidez y limitación funcional. Las terapias convencionales alivian síntomas, pero no detienen el deterioro del cartílago. Los estudios con células madre mesenquimales (MSCs) han mostrado resultados prometedores para regenerar tejido y reducir síntomas mediante inyecciones intraarticulares (IA).",
-  "questions": [
-    {
-      "q": "¿Los MSCs alivian el dolor y mejoran la función articular?",
-      "a": "Numerosos ensayos clínicos registran mejoras significativas en puntuaciones de dolor (VAS, WOMAC) y función articular tras inyecciones IA de MSCs, tanto autólogas como alogénicas."
-    },
-    {
-      "q": "¿Existe regeneración real del cartílago?",
-      "a": "Algunos metaanálisis indican cierto avance en la calidad y volumen del cartílago, aunque no siempre alcanzan la regeneración completa. La mejora sintomática cuenta con mayor respaldo."
-    },
-    {
-      "q": "¿La fuente de células madre importa?",
-      "a": "Metaanálisis sugieren que MSCs derivadas de tejido adiposo podrían ofrecer mayor eficacia y seguridad comparadas con médula ósea, aunque se requieren más estudios específicos."
-    }
-  ],
-  "conclusion": "Las MSCs IA ofrecen alivio del dolor y mejoría en función articular, con evidencia incipiente de regeneración cartilaginosa. Se necesita más investigación para definir dosis, fuente celular y protocolos estandarizados.",
-  "fuente": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10298392/",
-  "fecha": "2025-08-08"
-},
+    "title": "Células madre mesenquimales (MSCs) en la osteoartritis",
+    "meta": "Meta-análisis demuestran que las inyecciones intraarticulares de MSCs alivian el dolor, mejoran la función articular y contribuyen a la regeneración del cartílago en osteoartritis.",
+    "image": "blogimages/010OsteoartritisB.webp",
+    "imageAlt": "Aplicación de células madre mesenquimales en rodilla con osteoartritis",
+    "image2": "blogimages/010Osteoartritis.webp",
+    "imageAlt2": "Regeneración de cartílago articular mediante terapia con MSCs",
+    "introduction": "La osteoartritis de rodilla es una afección degenerativa que provoca dolor, rigidez y limitación funcional. Las terapias convencionales alivian síntomas, pero no detienen el deterioro del cartílago. Los estudios con células madre mesenquimales (MSCs) han mostrado resultados prometedores para regenerar tejido y reducir síntomas mediante inyecciones intraarticulares (IA).",
+    "questions": [
+      {
+        "q": "¿Los MSCs alivian el dolor y mejoran la función articular?",
+        "a": "Numerosos ensayos clínicos registran mejoras significativas en puntuaciones de dolor (VAS, WOMAC) y función articular tras inyecciones IA de MSCs, tanto autólogas como alogénicas."
+      },
+      {
+        "q": "¿Existe regeneración real del cartílago?",
+        "a": "Algunos metaanálisis indican cierto avance en la calidad y volumen del cartílago, aunque no siempre alcanzan la regeneración completa. La mejora sintomática cuenta con mayor respaldo."
+      },
+      {
+        "q": "¿La fuente de células madre importa?",
+        "a": "Metaanálisis sugieren que MSCs derivadas de tejido adiposo podrían ofrecer mayor eficacia y seguridad comparadas con médula ósea, aunque se requieren más estudios específicos."
+      }
+    ],
+    "conclusion": "Las MSCs IA ofrecen alivio del dolor y mejoría en función articular, con evidencia incipiente de regeneración cartilaginosa. Se necesita más investigación para definir dosis, fuente celular y protocolos estandarizados.",
+    "fuente": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10298392/",
+    "fecha": "2025-08-08"
+  },
 
-"011": {
-  "title": "Las MSCs en la artritis reumatoide: datos clínicos y perspectivas",
-  "meta": "Ensayos clínicos sugieren que las células madre mesenquimales (MSCs) pueden ser seguras y mostrar resultados prometedores en artritis reumatoide.",
-  "image": "blogimages/011ArtitisReB.webp",
-  "imageAlt": "Ilustración científica de MSCs y articulaciones afectadas por artritis reumatoide",
-  "image2": "blogimages/011ArtitisRe.webp",
-  "imageAlt2": "Médicos investigando terapias con MSCs para artritis reumatoide en laboratorio",
-  "introduction": "La artritis reumatoide (AR) es una enfermedad autoinmune que destruye articulaciones. A pesar de los avances con fármacos biológicos, persisten desafíos en eficacia a largo plazo y accesibilidad. Los MSCs han sido evaluadas como alternativa regenerativa e inmunomoduladora en AR.",
-  "questions": [
-    {
-      "q": "¿Qué evidencias clínicas existen sobre MSCs y AR?",
-      "a": "Algunos ensayos clínicos muestran mejoras en síntomas articulares y marcadores inflamatorios sin efectos adversos graves. Las MSCs actúan modulando la respuesta inmune y promoviendo un microambiente regenerativo."
-    },
-    {
-      "q": "¿Qué tan seguras son las MSCs en pacientes con AR?",
-      "a": "Los estudios sugieren que las MSCs son bien toleradas y no generan efectos adversos graves, lo que las posiciona como estrategia potencialmente segura en AR."
-    },
-    {
-      "q": "¿Cuáles son los pasos siguientes en investigación?",
-      "a": "Es necesario diseñar ensayos aleatorizados con criterios claros, control, seguimiento prolongado y comparación con terapias convencionales para evaluar eficacia real y seguridad."
-    }
-  ],
-  "conclusion": "Las MSCs representan una vía prometedora para pacientes con AR, gracias a su acción inmunomoduladora y el perfil favorable de seguridad. Sin embargo, estudios más robustos son clave antes de su uso clínico extendido.",
-  "fuente": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2021.631291/full",
-  "fecha": "2025-08-17"
-},
-"012": {
-  "title": "Oncoinmunoterapia con células CAR-T: avances y perspectivas",
-  "meta": "La terapia con células CAR-T es un hito en oncoinmunoterapia: explica cómo funciona, en qué cánceres se usa hoy y cuáles son sus riesgos y próximos pasos.",
-  "image": "blogimages/012cartB.webp",
-  "imageAlt": "Visualización anatómica realista de linfocitos T CAR-T atacando una célula tumoral",
-  "image2": "blogimages/012cart.webp",
-  "imageAlt2": "Equipo médico investigando la terapia celular CAR-T en un laboratorio moderno",
-  "introduction": "La oncoinmunoterapia con células CAR-T (Chimeric Antigen Receptor T-cells) modifica linfocitos T del propio paciente para que reconozcan y destruyan células tumorales con alta precisión. Esta estrategia celular ha transformado el manejo de varios cánceres hematológicos y se investiga activamente en tumores sólidos.",
-  "questions": [
-    {
-      "q": "¿Cómo funcionan las células CAR-T?",
-      "a": "Se extraen linfocitos T del paciente y se modifican para expresar un receptor quimérico (CAR) dirigido a un antígeno tumoral. Tras expandirlas en laboratorio, se reinfunden por vía intravenosa; una vez en el organismo, se activan al contactar con el tumor y promueven su destrucción."
-    },
-    {
-      "q": "¿En qué tipos de cáncer se usan actualmente?",
-      "a": "Han mostrado gran eficacia en neoplasias hematológicas como leucemia linfoblástica aguda y linfomas de células B. En tumores sólidos, la investigación continúa para superar barreras del microambiente tumoral y la heterogeneidad de antígenos."
-    },
-    {
-      "q": "¿Cuáles son los riesgos y limitaciones de la terapia CAR-T?",
-      "a": "Los principales efectos adversos incluyen el síndrome de liberación de citoquinas y la neurotoxicidad, que requieren manejo especializado. Además, su producción personalizada conlleva costos elevados y logística compleja."
-    }
-  ],
-  "conclusion": "La oncoinmunoterapia con células CAR-T representa un cambio de paradigma en oncología. Aunque persisten retos en seguridad, acceso y aplicación a tumores sólidos, su impacto clínico y la rápida innovación tecnológica auguran una expansión de indicaciones dentro de la medicina personalizada.",
-  "fuente": "https://www.cancer.gov/about-cancer/treatment/research/car-t-cells",
-  "fecha": "2025-08-21"
-},
-"013": {
-  "title": "Reversión completa del síndrome de ovario poliquístico con MSCs: un caso clínico",
-  "meta": "Un caso clínico documenta la reversión total y duradera del síndrome de ovario poliquístico tras infusión intravenosa de MSCs derivadas del cordón umbilical.",
-  "image": "blogimages/013SOPB.webp",
-  "imageAlt": "Ilustración anatómica realista de ovarios y células madre mesenquimales del cordón umbilical",
-  "image2": "blogimages/013SOP.webp",
-  "imageAlt2": "Visualización clínica de tratamiento con MSCs intravenosas para síndrome de ovario poliquístico",
-  "introduction": "El síndrome de ovario poliquístico (SOP) es una de las principales causas de infertilidad y afecta la calidad de vida de millones de mujeres. En un caso clínico reciente, una paciente con 14 años de irregularidades menstruales y alteraciones hormonales presentó reversión completa y sostenida tras una infusión intravenosa de MSCs derivadas del cordón umbilical.",
-  "questions": [
-    {
-      "q": "¿Cuál fue el resultado clínico tras la infusión de MSCs?",
-      "a": "La paciente recuperó la regularidad menstrual, normalizó sus niveles hormonales y presentó desaparición de los quistes ováricos, con todos los beneficios mantenidos durante más de un año."
-    },
-    {
-      "q": "¿Cuál es el posible mecanismo de acción?",
-      "a": "Las MSCs ejercen una potente acción antiinflamatoria e inmunomoduladora que pudo revertir los procesos inflamatorios subyacentes del SOP, restaurando la función ovárica."
-    },
-    {
-      "q": "¿Es esta terapia un tratamiento validado?",
-      "a": "Se trata de un único caso clínico. Se están reclutando más pacientes con SOP para confirmar la reproducibilidad de estos resultados y establecer protocolos terapéuticos estandarizados."
-    }
-  ],
-  "conclusion": "Este reporte de caso sugiere que las MSCs del cordón umbilical podrían representar una estrategia regenerativa innovadora para el SOP, con efectos más allá del alivio sintomático. Sin embargo, se necesitan ensayos clínicos de mayor escala para validar su eficacia y seguridad.",
-  "fuente": "https://pubmed.ncbi.nlm.nih.gov/39308763/",
-  "fecha": "2025-08-27"
-},
-"014": {
-  "title": "Exosomas en neuropatías periféricas: potencial terapéutico y clínico",
-  "meta": "Los exosomas derivados de células madre pueden promover la regeneración nerviosa, modular la inflamación y mejorar la función en modelos de neuropatía periférica.",
-  "image": "blogimages/014ExosomasB.webp",
-  "imageAlt": "Microentorno nervioso y exosomas interactuando con fibras nerviosas",
-  "image2": "blogimages/014Exosomas.webp",
-  "imageAlt2": "Visualización anatómica de nervio periférico y reparación por exosomas",
-  "introduction": "Las neuropatías periféricas —incluyendo neuropatía diabética, lesión traumática y daño neurotóxico— afectan millones de pacientes y carecen de terapias regenerativas efectivas. Los exosomas, vesículas extracelulares ricas en proteínas, ARNs y factores de crecimiento, emergen como una alternativa 'cell-free' con capacidad para promover la reparación axonal, la remielinización y la recuperación funcional.",
-  "questions": [
-    {
-      "q": "¿Qué son los exosomas y por qué son interesantes en neuropatías periféricas?",
-      "a": "Los exosomas son pequeñas vesículas secretadas por células (incluidas MSCs, células de Schwann y macrófagos) que transportan señales bioactivas —miARNs, proteínas y factores de crecimiento— capaces de reprogramar el microambiente lesionado, estimular la regeneración axonal, activar células de Schwann y modular la inflamación local."
-    },
-    {
-      "q": "¿Qué mecanismos favorecen la regeneración nerviosa?",
-      "a": "Los exosomas promueven la regeneración mediante: 1) estimulación del crecimiento axonal y la migración de células de Schwann; 2) reducción de la inflamación pro-lesión y reclutamiento de respuestas reparadoras; 3) mejora de la angiogénesis local favoreciendo la perfusión; y 4) entrega de miARNs y factores que facilitan la remielinización."
-    },
-    {
-      "q": "¿Qué evidencia existe en modelos preclínicos y humanos?",
-      "a": "Numerosos estudios preclínicos muestran que exosomas derivados de MSCs o de células de Schwann aumentan la velocidad de conducción nerviosa, restauran la densidad de fibras y alivian el dolor neuropático en modelos de lesión periférica y neuropatía diabética. Existen además reportes clínicos tempranos y ensayos fase I/II preliminares en neuropatía diabética que indican seguridad y señales iniciales de eficacia, aunque la evidencia clínica aún es limitada."
-    },
-    {
-      "q": "¿Cuáles son las ventajas y desafíos para su aplicación clínica?",
-      "a": "Ventajas: terapia 'cell-free' con menor riesgo inmunológico, mejor estabilidad de almacenamiento, posibilidad de ingeniería (carga de miARNs) y administración localizada. Desafíos: estandarización de producción, caracterización molecular, dosis y vía óptimas, biodistribución, escalado GMP y regulación. Son necesarios ensayos aleatorizados y protocolos estandarizados para confirmar eficacia y seguridad."
-    }
-  ],
-  "conclusion": "Los exosomas constituyen una estrategia terapéutica prometedora para las neuropatías periféricas, con sólida evidencia preclínica y señales clínicas iniciales de seguridad y beneficio. Para su adopción clínica se requieren estudios controlados de mayor tamaño, estandarización bioprocesal y consenso regulatorio.",
-  "fuente": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9185764/",
-  "fecha": "2025-09-21"
-},
-"015": {
-  "title": "MESENCART®: terapia celular con MSCs para regeneración del cartílago en artrosis",
-  "meta": "MESENCART® es una formulación inyectable con células madre mesenquimales prediferenciadas para regenerar cartílago y aliviar síntomas en artrosis y lesiones articulares.",
-  "image": "blogimages/015MesencartB.webp",
-  "imageAlt": "Ilustración anatómica de rodilla con aplicación intraarticular de células madre mesenquimales",
-  "image2": "blogimages/015Mesencart.webp",
-  "imageAlt2": "Profesionales médicos aplicando terapia celular intraarticular en entorno clínico moderno",
-  "introduction": "MESENCART® es un producto de medicina regenerativa formulado como dispersión inyectable que contiene 25 millones de células troncales prediferenciadas a precursores condrales por vial. Está indicado para el tratamiento de artrosis, lesiones articulares, condromalacia y enfermedades degenerativas del cartílago en pacientes que no respondieron a terapias convencionales.",
-  "questions": [
-    {
-      "q": "¿Qué evidencia respalda el uso de MSCs intraarticulares para regeneración del cartílago y alivio sintomático?",
-      "a": "Los ensayos clínicos y metaanálisis sobre inyecciones de MSCs muestran mejoras en dolor, movilidad y signos de reparación cartilaginosa. Estas terapias reducen la inflamación y estimulan la producción de matriz extracelular, lo que explica la mejoría funcional observada en pacientes con osteoartritis."
-    },
-    {
-      "q": "¿Cómo se administra MESENCART® y cuáles son los protocolos recomendados?",
-      "a": "Según la ficha técnica, MESENCART® se administra por vía intraarticular exclusivamente por médicos especialistas. Cada vial contiene 25 millones de células en solución salina. En articulaciones pequeñas o medianas se recomienda una dosis única, y en articulaciones grandes puede repetirse de forma anual o semestral."
-    },
-    {
-      "q": "¿Cuál es el perfil de seguridad y qué precauciones deben seguirse?",
-      "a": "El producto debe conservarse entre 2–8 °C y no mezclarse con sustancias distintas a solución salina. Los efectos secundarios descritos incluyen cefalea leve, hormigueo o fatiga transitoria. Los estudios clínicos respaldan su buen perfil de tolerancia cuando se aplica bajo supervisión médica especializada."
-    }
-  ],
-  "conclusion": "MESENCART® representa una alternativa avanzada para la regeneración del cartílago en pacientes con artrosis y lesiones articulares. Su acción antiinflamatoria, inmunomoduladora y regenerativa, junto con evidencia clínica favorable, la posicionan como una opción prometedora dentro de la medicina regenerativa personalizada.",
-  "fuente": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10298392/",
-  "fecha": "2025-10-12"
-},
-"016": {
-  "title": "Terapia con Células Troncales en Alzheimer Avanzado",
-  "meta": "Explora cómo las células troncales mesenquimales podrían ofrecer una alternativa innovadora en el tratamiento del Alzheimer avanzado, con resultados prometedores en estudios clínicos y preclínicos.",
-  "image": "blogimages/016Alzheimer.webp",
-  "imageAlt": "Terapia con células troncales en Alzheimer avanzado",
-  "image2": "blogimages/016AlzheimerB.webp",
-  "imageAlt2": "Células troncales mesenquimales aplicadas en Alzheimer",
-  "introduction": "El Alzheimer avanzado representa uno de los mayores retos en la medicina moderna, ya que los tratamientos actuales solo alivian los síntomas sin frenar la progresión del daño neurológico. La terapia con células troncales mesenquimales (CTM) surge como una opción prometedora para regenerar y proteger el tejido cerebral.",
-  "questions": [
-    {
-      "q": "¿Cómo actúan las células troncales mesenquimales en el Alzheimer?",
-      "a": "Las CTM derivadas de médula ósea, tejido adiposo, placenta o cordón umbilical poseen propiedades inmunomoduladoras y neuroprotectoras. Estas células ayudan a reducir la inflamación, proteger las neuronas y favorecer la regeneración del tejido nervioso. En algunos protocolos también se utilizan exosomas derivados de CTM como opción menos invasiva."
-    },
-    {
-      "q": "¿Qué resultados se han observado en estudios científicos?",
-      "a": "En modelos animales, se ha observado mejoría de la función cognitiva y una reducción en los depósitos de beta-amiloide y proteína tau, ambos marcadores del Alzheimer. En ensayos clínicos preliminares, las terapias han mostrado buena tolerancia, seguridad y algunas señales de mejoría cognitiva y conductual, aunque los resultados aún son limitados."
-    },
-    {
-      "q": "¿Cuál es el futuro de esta terapia regenerativa?",
-      "a": "Las terapias con células troncales y exosomas se perfilan como un enfoque innovador en la lucha contra el Alzheimer, pero aún se requiere definir las dosis, vías de administración y el momento óptimo de intervención. Los estudios a gran escala serán clave para confirmar su eficacia y establecer protocolos estandarizados."
-    }
-  ],
-  "conclusion": "Las células troncales mesenquimales representan una esperanza para pacientes con Alzheimer avanzado. Aunque los resultados preliminares son alentadores, la investigación continúa para validar su efectividad y convertirla en una terapia estándar capaz de transformar el tratamiento de las enfermedades neurodegenerativas.",
-  "fuente": "https://www.wjgnet.com/1948-0210/full/v12/i8/787.htm",
-  "fecha": "2025-10-26"
-},
- "017": {
+  "011": {
+    "title": "Las MSCs en la artritis reumatoide: datos clínicos y perspectivas",
+    "meta": "Ensayos clínicos sugieren que las células madre mesenquimales (MSCs) pueden ser seguras y mostrar resultados prometedores en artritis reumatoide.",
+    "image": "blogimages/011ArtitisReB.webp",
+    "imageAlt": "Ilustración científica de MSCs y articulaciones afectadas por artritis reumatoide",
+    "image2": "blogimages/011ArtitisRe.webp",
+    "imageAlt2": "Médicos investigando terapias con MSCs para artritis reumatoide en laboratorio",
+    "introduction": "La artritis reumatoide (AR) es una enfermedad autoinmune que destruye articulaciones. A pesar de los avances con fármacos biológicos, persisten desafíos en eficacia a largo plazo y accesibilidad. Los MSCs han sido evaluadas como alternativa regenerativa e inmunomoduladora en AR.",
+    "questions": [
+      {
+        "q": "¿Qué evidencias clínicas existen sobre MSCs y AR?",
+        "a": "Algunos ensayos clínicos muestran mejoras en síntomas articulares y marcadores inflamatorios sin efectos adversos graves. Las MSCs actúan modulando la respuesta inmune y promoviendo un microambiente regenerativo."
+      },
+      {
+        "q": "¿Qué tan seguras son las MSCs en pacientes con AR?",
+        "a": "Los estudios sugieren que las MSCs son bien toleradas y no generan efectos adversos graves, lo que las posiciona como estrategia potencialmente segura en AR."
+      },
+      {
+        "q": "¿Cuáles son los pasos siguientes en investigación?",
+        "a": "Es necesario diseñar ensayos aleatorizados con criterios claros, control, seguimiento prolongado y comparación con terapias convencionales para evaluar eficacia real y seguridad."
+      }
+    ],
+    "conclusion": "Las MSCs representan una vía prometedora para pacientes con AR, gracias a su acción inmunomoduladora y el perfil favorable de seguridad. Sin embargo, estudios más robustos son clave antes de su uso clínico extendido.",
+    "fuente": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2021.631291/full",
+    "fecha": "2025-08-17"
+  },
+  "012": {
+    "title": "Oncoinmunoterapia con células CAR-T: avances y perspectivas",
+    "meta": "La terapia con células CAR-T es un hito en oncoinmunoterapia: explica cómo funciona, en qué cánceres se usa hoy y cuáles son sus riesgos y próximos pasos.",
+    "image": "blogimages/012cartB.webp",
+    "imageAlt": "Visualización anatómica realista de linfocitos T CAR-T atacando una célula tumoral",
+    "image2": "blogimages/012cart.webp",
+    "imageAlt2": "Equipo médico investigando la terapia celular CAR-T en un laboratorio moderno",
+    "introduction": "La oncoinmunoterapia con células CAR-T (Chimeric Antigen Receptor T-cells) modifica linfocitos T del propio paciente para que reconozcan y destruyan células tumorales con alta precisión. Esta estrategia celular ha transformado el manejo de varios cánceres hematológicos y se investiga activamente en tumores sólidos.",
+    "questions": [
+      {
+        "q": "¿Cómo funcionan las células CAR-T?",
+        "a": "Se extraen linfocitos T del paciente y se modifican para expresar un receptor quimérico (CAR) dirigido a un antígeno tumoral. Tras expandirlas en laboratorio, se reinfunden por vía intravenosa; una vez en el organismo, se activan al contactar con el tumor y promueven su destrucción."
+      },
+      {
+        "q": "¿En qué tipos de cáncer se usan actualmente?",
+        "a": "Han mostrado gran eficacia en neoplasias hematológicas como leucemia linfoblástica aguda y linfomas de células B. En tumores sólidos, la investigación continúa para superar barreras del microambiente tumoral y la heterogeneidad de antígenos."
+      },
+      {
+        "q": "¿Cuáles son los riesgos y limitaciones de la terapia CAR-T?",
+        "a": "Los principales efectos adversos incluyen el síndrome de liberación de citoquinas y la neurotoxicidad, que requieren manejo especializado. Además, su producción personalizada conlleva costos elevados y logística compleja."
+      }
+    ],
+    "conclusion": "La oncoinmunoterapia con células CAR-T representa un cambio de paradigma en oncología. Aunque persisten retos en seguridad, acceso y aplicación a tumores sólidos, su impacto clínico y la rápida innovación tecnológica auguran una expansión de indicaciones dentro de la medicina personalizada.",
+    "fuente": "https://www.cancer.gov/about-cancer/treatment/research/car-t-cells",
+    "fecha": "2025-08-21"
+  },
+  "013": {
+    "title": "Reversión completa del síndrome de ovario poliquístico con MSCs: un caso clínico",
+    "meta": "Un caso clínico documenta la reversión total y duradera del síndrome de ovario poliquístico tras infusión intravenosa de MSCs derivadas del cordón umbilical.",
+    "image": "blogimages/013SOPB.webp",
+    "imageAlt": "Ilustración anatómica realista de ovarios y células madre mesenquimales del cordón umbilical",
+    "image2": "blogimages/013SOP.webp",
+    "imageAlt2": "Visualización clínica de tratamiento con MSCs intravenosas para síndrome de ovario poliquístico",
+    "introduction": "El síndrome de ovario poliquístico (SOP) es una de las principales causas de infertilidad y afecta la calidad de vida de millones de mujeres. En un caso clínico reciente, una paciente con 14 años de irregularidades menstruales y alteraciones hormonales presentó reversión completa y sostenida tras una infusión intravenosa de MSCs derivadas del cordón umbilical.",
+    "questions": [
+      {
+        "q": "¿Cuál fue el resultado clínico tras la infusión de MSCs?",
+        "a": "La paciente recuperó la regularidad menstrual, normalizó sus niveles hormonales y presentó desaparición de los quistes ováricos, con todos los beneficios mantenidos durante más de un año."
+      },
+      {
+        "q": "¿Cuál es el posible mecanismo de acción?",
+        "a": "Las MSCs ejercen una potente acción antiinflamatoria e inmunomoduladora que pudo revertir los procesos inflamatorios subyacentes del SOP, restaurando la función ovárica."
+      },
+      {
+        "q": "¿Es esta terapia un tratamiento validado?",
+        "a": "Se trata de un único caso clínico. Se están reclutando más pacientes con SOP para confirmar la reproducibilidad de estos resultados y establecer protocolos terapéuticos estandarizados."
+      }
+    ],
+    "conclusion": "Este reporte de caso sugiere que las MSCs del cordón umbilical podrían representar una estrategia regenerativa innovadora para el SOP, con efectos más allá del alivio sintomático. Sin embargo, se necesitan ensayos clínicos de mayor escala para validar su eficacia y seguridad.",
+    "fuente": "https://pubmed.ncbi.nlm.nih.gov/39308763/",
+    "fecha": "2025-08-27"
+  },
+  "014": {
+    "title": "Exosomas en neuropatías periféricas: potencial terapéutico y clínico",
+    "meta": "Los exosomas derivados de células madre pueden promover la regeneración nerviosa, modular la inflamación y mejorar la función en modelos de neuropatía periférica.",
+    "image": "blogimages/014ExosomasB.webp",
+    "imageAlt": "Microentorno nervioso y exosomas interactuando con fibras nerviosas",
+    "image2": "blogimages/014Exosomas.webp",
+    "imageAlt2": "Visualización anatómica de nervio periférico y reparación por exosomas",
+    "introduction": "Las neuropatías periféricas —incluyendo neuropatía diabética, lesión traumática y daño neurotóxico— afectan millones de pacientes y carecen de terapias regenerativas efectivas. Los exosomas, vesículas extracelulares ricas en proteínas, ARNs y factores de crecimiento, emergen como una alternativa 'cell-free' con capacidad para promover la reparación axonal, la remielinización y la recuperación funcional.",
+    "questions": [
+      {
+        "q": "¿Qué son los exosomas y por qué son interesantes en neuropatías periféricas?",
+        "a": "Los exosomas son pequeñas vesículas secretadas por células (incluidas MSCs, células de Schwann y macrófagos) que transportan señales bioactivas —miARNs, proteínas y factores de crecimiento— capaces de reprogramar el microambiente lesionado, estimular la regeneración axonal, activar células de Schwann y modular la inflamación local."
+      },
+      {
+        "q": "¿Qué mecanismos favorecen la regeneración nerviosa?",
+        "a": "Los exosomas promueven la regeneración mediante: 1) estimulación del crecimiento axonal y la migración de células de Schwann; 2) reducción de la inflamación pro-lesión y reclutamiento de respuestas reparadoras; 3) mejora de la angiogénesis local favoreciendo la perfusión; y 4) entrega de miARNs y factores que facilitan la remielinización."
+      },
+      {
+        "q": "¿Qué evidencia existe en modelos preclínicos y humanos?",
+        "a": "Numerosos estudios preclínicos muestran que exosomas derivados de MSCs o de células de Schwann aumentan la velocidad de conducción nerviosa, restauran la densidad de fibras y alivian el dolor neuropático en modelos de lesión periférica y neuropatía diabética. Existen además reportes clínicos tempranos y ensayos fase I/II preliminares en neuropatía diabética que indican seguridad y señales iniciales de eficacia, aunque la evidencia clínica aún es limitada."
+      },
+      {
+        "q": "¿Cuáles son las ventajas y desafíos para su aplicación clínica?",
+        "a": "Ventajas: terapia 'cell-free' con menor riesgo inmunológico, mejor estabilidad de almacenamiento, posibilidad de ingeniería (carga de miARNs) y administración localizada. Desafíos: estandarización de producción, caracterización molecular, dosis y vía óptimas, biodistribución, escalado GMP y regulación. Son necesarios ensayos aleatorizados y protocolos estandarizados para confirmar eficacia y seguridad."
+      }
+    ],
+    "conclusion": "Los exosomas constituyen una estrategia terapéutica prometedora para las neuropatías periféricas, con sólida evidencia preclínica y señales clínicas iniciales de seguridad y beneficio. Para su adopción clínica se requieren estudios controlados de mayor tamaño, estandarización bioprocesal y consenso regulatorio.",
+    "fuente": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9185764/",
+    "fecha": "2025-09-21"
+  },
+  "015": {
+    "title": "MESENCART®: terapia celular con MSCs para regeneración del cartílago en artrosis",
+    "meta": "MESENCART® es una formulación inyectable con células madre mesenquimales prediferenciadas para regenerar cartílago y aliviar síntomas en artrosis y lesiones articulares.",
+    "image": "blogimages/015MesencartB.webp",
+    "imageAlt": "Ilustración anatómica de rodilla con aplicación intraarticular de células madre mesenquimales",
+    "image2": "blogimages/015Mesencart.webp",
+    "imageAlt2": "Profesionales médicos aplicando terapia celular intraarticular en entorno clínico moderno",
+    "introduction": "MESENCART® es un producto de medicina regenerativa formulado como dispersión inyectable que contiene 25 millones de células troncales prediferenciadas a precursores condrales por vial. Está indicado para el tratamiento de artrosis, lesiones articulares, condromalacia y enfermedades degenerativas del cartílago en pacientes que no respondieron a terapias convencionales.",
+    "questions": [
+      {
+        "q": "¿Qué evidencia respalda el uso de MSCs intraarticulares para regeneración del cartílago y alivio sintomático?",
+        "a": "Los ensayos clínicos y metaanálisis sobre inyecciones de MSCs muestran mejoras en dolor, movilidad y signos de reparación cartilaginosa. Estas terapias reducen la inflamación y estimulan la producción de matriz extracelular, lo que explica la mejoría funcional observada en pacientes con osteoartritis."
+      },
+      {
+        "q": "¿Cómo se administra MESENCART® y cuáles son los protocolos recomendados?",
+        "a": "Según la ficha técnica, MESENCART® se administra por vía intraarticular exclusivamente por médicos especialistas. Cada vial contiene 25 millones de células en solución salina. En articulaciones pequeñas o medianas se recomienda una dosis única, y en articulaciones grandes puede repetirse de forma anual o semestral."
+      },
+      {
+        "q": "¿Cuál es el perfil de seguridad y qué precauciones deben seguirse?",
+        "a": "El producto debe conservarse entre 2–8 °C y no mezclarse con sustancias distintas a solución salina. Los efectos secundarios descritos incluyen cefalea leve, hormigueo o fatiga transitoria. Los estudios clínicos respaldan su buen perfil de tolerancia cuando se aplica bajo supervisión médica especializada."
+      }
+    ],
+    "conclusion": "MESENCART® representa una alternativa avanzada para la regeneración del cartílago en pacientes con artrosis y lesiones articulares. Su acción antiinflamatoria, inmunomoduladora y regenerativa, junto con evidencia clínica favorable, la posicionan como una opción prometedora dentro de la medicina regenerativa personalizada.",
+    "fuente": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10298392/",
+    "fecha": "2025-10-12"
+  },
+  "016": {
+    "title": "Terapia con Células Troncales en Alzheimer Avanzado",
+    "meta": "Explora cómo las células troncales mesenquimales podrían ofrecer una alternativa innovadora en el tratamiento del Alzheimer avanzado, con resultados prometedores en estudios clínicos y preclínicos.",
+    "image": "blogimages/016Alzheimer.webp",
+    "imageAlt": "Terapia con células troncales en Alzheimer avanzado",
+    "image2": "blogimages/016AlzheimerB.webp",
+    "imageAlt2": "Células troncales mesenquimales aplicadas en Alzheimer",
+    "introduction": "El Alzheimer avanzado representa uno de los mayores retos en la medicina moderna, ya que los tratamientos actuales solo alivian los síntomas sin frenar la progresión del daño neurológico. La terapia con células troncales mesenquimales (CTM) surge como una opción prometedora para regenerar y proteger el tejido cerebral.",
+    "questions": [
+      {
+        "q": "¿Cómo actúan las células troncales mesenquimales en el Alzheimer?",
+        "a": "Las CTM derivadas de médula ósea, tejido adiposo, placenta o cordón umbilical poseen propiedades inmunomoduladoras y neuroprotectoras. Estas células ayudan a reducir la inflamación, proteger las neuronas y favorecer la regeneración del tejido nervioso. En algunos protocolos también se utilizan exosomas derivados de CTM como opción menos invasiva."
+      },
+      {
+        "q": "¿Qué resultados se han observado en estudios científicos?",
+        "a": "En modelos animales, se ha observado mejoría de la función cognitiva y una reducción en los depósitos de beta-amiloide y proteína tau, ambos marcadores del Alzheimer. En ensayos clínicos preliminares, las terapias han mostrado buena tolerancia, seguridad y algunas señales de mejoría cognitiva y conductual, aunque los resultados aún son limitados."
+      },
+      {
+        "q": "¿Cuál es el futuro de esta terapia regenerativa?",
+        "a": "Las terapias con células troncales y exosomas se perfilan como un enfoque innovador en la lucha contra el Alzheimer, pero aún se requiere definir las dosis, vías de administración y el momento óptimo de intervención. Los estudios a gran escala serán clave para confirmar su eficacia y establecer protocolos estandarizados."
+      }
+    ],
+    "conclusion": "Las células troncales mesenquimales representan una esperanza para pacientes con Alzheimer avanzado. Aunque los resultados preliminares son alentadores, la investigación continúa para validar su efectividad y convertirla en una terapia estándar capaz de transformar el tratamiento de las enfermedades neurodegenerativas.",
+    "fuente": "https://www.wjgnet.com/1948-0210/full/v12/i8/787.htm",
+    "fecha": "2025-10-26"
+  },
+  "017": {
     "title": "Células NK autólogas combinadas con trastuzumab en cáncer HER2 positivo",
     "meta": "El estudio demuestra factibilidad y seguridad de las infusiones de células NK autólogas combinadas con trastuzumab en cáncer de mama HER2+",
     "image": "blogimages/017nkB.webp",
@@ -451,10 +451,34 @@
     "conclusion": "La combinación de células NK autólogas y trastuzumab podría convertirse en una alternativa prometedora para pacientes con cáncer HER2+ refractario. El estudio aporta evidencia de seguridad y control parcial de la enfermedad, abriendo el camino hacia terapias inmunocelulares más duraderas y personalizadas.",
     "fuente": "https://aacrjournals.org/clincancerres/article-abstract/26/17/4494/82678/Phase-I-Trial-of-Expanded-Activated-Autologous-NK?redirectedFrom=fulltext",
     "fecha": "2025-11-11"
+  },
+  "018": {
+    "title": "MSC en neumonía severa post-COVID en paciente con cáncer pulmonar",
+    "meta": "Caso clínico: Uso de células madre mesenquimales en neumonía resistente a tratamiento en paciente con cáncer de pulmón.",
+    "fecha": "2025-12-03",
+    "image": "blogimages/caso-covid-msc.webp",
+    "imageAlt": "Terapia con células madre en paciente con neumonía severa",
+    "image2": "blogimages/caso-covid-mscB.webp",
+    "introduction": "Una paciente de 67 años con cáncer de pulmón y neumonitis por radiación desarrolló COVID-19 severo sin respuesta a tratamientos convencionales. La aplicación de MSC derivadas de cordón umbilical produjo una mejoría rápida y sostenida.",
+    "questions": [
+      {
+        "q": "¿Cuál era el estado clínico inicial de la paciente?",
+        "a": "La paciente tenía antecedentes de adenocarcinoma pulmonar, neumonitis por radiación e infecciones respiratorias recurrentes. Al contraer COVID-19, progresó rápidamente a neumonía severa con mala respuesta a los tratamientos habituales."
+      },
+      {
+        "q": "¿Qué intervención con MSC se realizó?",
+        "a": "Recibió cuatro dosis de células madre mesenquimales derivadas de cordón umbilical como terapia de rescate, debido a su deterioro progresivo y falta de respuesta a las terapias estándar."
+      },
+      {
+        "q": "¿Qué resultados clínicos se observaron?",
+        "a": "Hubo una rápida normalización del oxígeno, disminución de la inflamación, mejoría radiológica significativa y recuperación funcional. A los seis meses no hubo complicaciones ni progresión tumoral."
+      },
+      {
+        "q": "¿Qué relevancia tiene este caso para la práctica clínica?",
+        "a": "El caso sugiere que las MSC pueden ser una opción para neumonía severa resistente, incluso en pacientes con comorbilidades complejas, aunque su uso debe considerarse con cautela en pacientes oncológicos."
+      }
+    ],
+    "conclusion": "Este caso refuerza el potencial de las MSC como terapia de rescate en neumonía severa post-COVID, mostrando eficacia y seguridad en un escenario clínico complejo. Se requieren estudios controlados que validen estos resultados.",
+    "fuente": "https://pubmed.ncbi.nlm.nih.gov/38380312/"
   }
-
-
-
-
-
 }

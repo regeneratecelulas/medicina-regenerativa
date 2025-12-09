@@ -480,5 +480,35 @@
     ],
     "conclusion": "Este caso refuerza el potencial de las MSC como terapia de rescate en neumonía severa post-COVID, mostrando eficacia y seguridad en un escenario clínico complejo. Se requieren estudios controlados que validen estos resultados.",
     "fuente": "https://pubmed.ncbi.nlm.nih.gov/38380312/"
-  }
+  },
+  "019": {
+  "title": "Infusión de UC-MSCs en diabetes tipo 2: mejoría metabólica",
+  "meta": "Estudio  en 218 pacientes con T2DM. Mejoría sostenida en HbA1c, resistencia a la insulina y marcadores inflamatorios.",
+  "fecha": "2025-12-09",
+  "image": "blogimages/019DiabetesB.webp",
+  "imageAlt": "Mejoría metabólica tras infusión de células madre en paciente con diabetes tipo 2",
+  "image2": "blogimages/019Diabetes.webp",
+  "introduction": "Un registro retrospectivo analizó el efecto de infusiones intravenosas de UC-MSCs (50–100×10⁶ células) en pacientes con diabetes tipo 2. El estudio evaluó control glucémico, resistencia a la insulina, marcadores hepáticos, renales e inflamatorios a los 6 y 12 meses.",
+  "questions": [
+    {
+      "q": "¿Cuál fue el diseño y la población del estudio?",
+      "a": "Registro retrospectivo que incluyó 218 pacientes con T2DM evaluados a 6 meses y 83 con seguimiento a 12 meses tras recibir 50–100×10⁶ UC-MSCs por vía intravenosa."
+    },
+    {
+      "q": "¿Qué mejoras metabólicas se observaron?",
+      "a": "Reducción significativa de HbA1c a 6 y 12 meses; disminuciones en niveles de insulina y HOMA-IR (mejor sensibilidad insulínica). También mejoraron perfiles hepático (ALT, GGT) y reducción de hs-CRP en pacientes con inflamación elevada."
+    },
+    {
+      "q": "¿Fue seguro y hubo otros efectos clínicos relevantes?",
+      "a": "El tratamiento fue bien tolerado sin efectos adversos graves reportados en el registro. Además se observaron mejoras en marcadores renales (eGFR y creatinina) en pacientes con enfermedad renal crónica en estadio 2."
+    },
+    {
+      "q": "¿Qué limitaciones y próximos pasos se identificaron?",
+      "a": "Al ser un estudio retrospectivo de registro, requiere validación en ensayos aleatorizados controlados para confirmar causalidad, definir dosis óptima, protocolos y mecanismos a largo plazo."
+    }
+  ],
+  "conclusion": "La infusión de UC-MSCs en este registro se asoció a mejoras clínicas y bioquímicas sostenidas en diabetes tipo 2, con buen perfil de seguridad. Los hallazgos justifican ensayos controlados que confirmen eficacia y establezcan protocolos estandarizados.",
+  "fuente": "https://pubmed.ncbi.nlm.nih.gov/40416928/"
+}
+
 }

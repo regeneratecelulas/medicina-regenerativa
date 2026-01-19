@@ -539,7 +539,42 @@
   "conclusion": "La medicina regenerativa integra beneficio clínico, facilidad operativa y alto valor percibido por el paciente. Para el médico, representa una herramienta moderna y segura que fortalece su práctica y responde a la creciente demanda de terapias innovadoras basadas en evidencia.",
   "fuente": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9301257/",
   "fecha": "2026-01-04"
+},
+"021": {
+  "title": "Células Muse: avances en terapia regenerativa pluripotente",
+  "meta": "Las células Muse representan un subtipo de MSC con pluripotencialidad natural, tolerancia al estrés y aplicaciones clínicas diversas.",
+  "fecha": "2026-01-15",
+  "image": "blogimages/021MuseB.webp",
+  "imageAlt": "Ilustración de células Muse y su actividad regenerativa",
+  "image2": "blogimages/021Muse.webp",
+  "imageAlt2": "Representación de células pluripotentes en reparación de tejidos",
+  "introduction": "Las células Muse (Multilineage-differentiating Stress Enduring) han emergido como una alternativa avanzada dentro de la medicina regenerativa. Se distinguen por su pluripotencialidad natural y su capacidad para sobrevivir en condiciones adversas, lo que las convierte en una herramienta prometedora para la reparación de tejidos complejos.",
+  "questions": [
+    {
+      "q": "¿Qué características biológicas definen a las células Muse?",
+      "a": "Las células Muse son células madre pluripotentes no tumorogénicas que expresan marcadores como Oct3/4, Sox2, Nanog, Rex1 y PAR4, y residen de forma natural en tejidos conectivos. Poseen una tolerancia extrema al estrés y pueden alternar entre estados activos e inactivos."
+    },
+    {
+      "q": "¿Cómo actúan en el organismo?",
+      "a": "Las células Muse migran selectivamente hacia sitios de lesión, sobreviven en entornos hostiles como hipoxia o daño genotóxico, y tienen la capacidad de diferenciarse espontáneamente en células de los tres linajes germinales para integrarse funcionalmente en tejidos dañados."
+    },
+    {
+      "q": "¿Cuáles son las ventajas clínicas de las células Muse sobre otras terapias celulares?",
+      "a": "Comparadas con MSC convencionales y iPSCs, las células Muse presentan menor riesgo tumorogénico, mejor capacidad de circulación sistémica evitando atrapamiento pulmonar y una versatilidad tisular que les permite generar células especializadas según las necesidades del microentorno."
+    },
+    {
+      "q": "¿En qué áreas terapéuticas pueden aplicarse?",
+      "a": "Su potencial terapéutico abarca neurología (lesiones medulares, neurodegenerativas), cardiología (regeneración post-infarto), hepatología y dermatología (reparación de daños estructurales en hígado y piel), entre otras aplicaciones."
+    },
+    {
+      "q": "¿Cómo se presentan los productos con células Muse?",
+      "a": "La línea MUCells se ofrece en viales estériles con diferentes dosis: 15 millones (reparaciones focalizadas), 30 millones (regeneración tisular intermedia) y 70 millones (aplicaciones de alta demanda regenerativa)."
+    }
+  ],
+  "conclusion": "Las células Muse representan el futuro de la terapia celular regenerativa por su robustez biológica, pluripotencialidad no tumorogénica y adaptabilidad a diferentes tejidos. Su integración en protocolos clínicos ofrece una alternativa eficiente y segura para restaurar funciones complejas, superando muchas limitaciones de la terapia celular convencional.",
+  "fuente": "https://immunotherapymx.com/es/terapia-con-celulas-madre-muse-en-mexico/"
 }
+
 
 
 }

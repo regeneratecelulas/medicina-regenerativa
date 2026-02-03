@@ -573,8 +573,35 @@
   ],
   "conclusion": "Las células Muse representan el futuro de la terapia celular regenerativa por su robustez biológica, pluripotencialidad no tumorogénica y adaptabilidad a diferentes tejidos. Su integración en protocolos clínicos ofrece una alternativa eficiente y segura para restaurar funciones complejas, superando muchas limitaciones de la terapia celular convencional.",
   "fuente": "https://immunotherapymx.com/es/terapia-con-celulas-madre-muse-en-mexico/"
+},
+"022": {
+  "title": "Exosomas intranasales: una nueva vía terapéutica",
+  "meta": "Los exosomas intranasales emergen para atravesar la barrera hematoencefálica y apoyar la regeneración neurológica.",
+  "fecha": "2026-02-03",
+  "image": "blogimages/022exosomas-intranasales.webp",
+  "imageAlt": "Exosomas administrados por vía intranasal y su acción en el cerebro",
+  "image2": "blogimages/022exosomas-intranasalesB.webp",
+  "introduction": "La administración intranasal de exosomas representa un avance relevante en la medicina regenerativa neurológica. Esta vía permite un acceso directo al sistema nervioso central, superando la barrera hematoencefálica de forma no invasiva y con un perfil de seguridad favorable.",
+  "questions": [
+    {
+      "q": "¿Por qué la vía intranasal es clave en terapias neurológicas?",
+      "a": "La vía intranasal permite un acceso directo nose-to-brain, evitando el paso sistémico y la barrera hematoencefálica. Esto mejora la biodisponibilidad cerebral y reduce la necesidad de dosis elevadas."
+    },
+    {
+      "q": "¿Cómo actúan los exosomas en el sistema nervioso central?",
+      "a": "Los exosomas funcionan como vesículas mensajeras que transportan proteínas, lípidos y material genético. En el cerebro, modulan la neuroinflamación, favorecen la neurogénesis y apoyan la reparación sináptica."
+    },
+    {
+      "q": "¿En qué patologías neurológicas se están investigando?",
+      "a": "Se estudian en ictus, traumatismo craneoencefálico, Alzheimer, Parkinson, esclerosis múltiple y trastornos psicoafectivos, mostrando potencial para la neuroprotección y la recuperación funcional."
+    },
+    {
+      "q": "¿Qué ventajas ofrece frente a otras vías de administración?",
+      "a": "Ofrece una alternativa no invasiva, con menor riesgo sistémico, mayor precisión terapéutica y la posibilidad de ingeniería de exosomas para un targeting específico."
+    }
+  ],
+  "conclusion": "Los exosomas intranasales abren una nueva frontera en la terapéutica del sistema nervioso central. Su capacidad para atravesar barreras biológicas y modular procesos regenerativos los posiciona como una estrategia prometedora en neurología regenerativa.",
+  "fuente": "https://americacellbank.com/exosomas-la-medicina-del-futuro-ya-esta-aqui/"
 }
-
-
 
 }

@@ -602,6 +602,33 @@
   ],
   "conclusion": "Los exosomas intranasales abren una nueva frontera en la terapéutica del sistema nervioso central. Su capacidad para atravesar barreras biológicas y modular procesos regenerativos los posiciona como una estrategia prometedora en neurología regenerativa.",
   "fuente": "https://americacellbank.com/exosomas-la-medicina-del-futuro-ya-esta-aqui/"
+},
+"023": {
+  "title": "Señalización biológica para la reparación tisular",
+  "meta": "Conoce qué son los secretomas derivados de células madre, cómo actúan en la regeneración tisular y su potencial terapéutico.",
+  "image": "blogimages/023secretomasB.webp",
+  "imageAlt": "Aplicación clínica de secretomas en medicina regenerativa",
+  "image2": "blogimages/023secretomas.webp",
+  "imageAlt2": "Factores bioactivos y señalización celular asociados a secretomas",
+  "introduction": "Los secretomas son el conjunto de factores bioactivos liberados por células madre, incluyendo citocinas, factores de crecimiento y vesículas extracelulares. Estas señales biológicas activan procesos naturales de reparación, modulación inmunológica y regeneración tisular sin necesidad de implantar células vivas.",
+  "questions": [
+    {
+      "q": "¿Qué es un secretoma y cómo actúa en el organismo?",
+      "a": "El secretoma está compuesto por proteínas, factores de crecimiento y vesículas extracelulares que las células madre liberan para comunicarse con otros tejidos. Estas señales estimulan la regeneración celular, reducen la inflamación y promueven la reparación de estructuras dañadas."
+    },
+    {
+      "q": "¿En qué áreas médicas puede aplicarse?",
+      "a": "Se investiga y utiliza como apoyo en medicina estética, cicatrización de heridas, tratamiento de úlceras crónicas, regeneración dérmica y terapias ortopédicas, donde contribuye a mejorar la calidad del tejido y acelerar los procesos de recuperación."
+    },
+    {
+      "q": "¿Qué ventajas ofrece frente a otras terapias celulares?",
+      "a": "Al no contener células vivas, su manejo y aplicación clínica pueden ser más simples. Mantiene los efectos regenerativos mediante señalización biológica activa, con un perfil enfocado en la modulación del entorno tisular y la estimulación de la reparación natural."
+    }
+  ],
+  "conclusion": "El uso de secretomas representa una estrategia innovadora dentro de la medicina regenerativa, al aprovechar los mecanismos de comunicación celular para favorecer la reparación de tejidos y ampliar las opciones terapéuticas en distintos contextos clínicos.",
+  "fuente": "https://www.consalud.es/estetic/belleza/secretomas-la-nueva-frontera-en-la-medicina-estetica-regenerativa.html#:~:text=La%20importancia%20de%20los%20secretomas,Pero%2C%20%C2%BFqu%C3%A9%20son%20exactamente?&text=esencial%20entre%20ellas-,Los%20secretomas%20son%20el%20conjunto%20completo%20de%20componentes%20que%20las,la%20piel%20desde%20su%20origen.",
+  "fecha": "2026-02-15"
 }
+
 
 }

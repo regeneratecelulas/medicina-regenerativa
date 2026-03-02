@@ -628,6 +628,32 @@
   "conclusion": "El uso de secretomas representa una estrategia innovadora dentro de la medicina regenerativa, al aprovechar los mecanismos de comunicación celular para favorecer la reparación de tejidos y ampliar las opciones terapéuticas en distintos contextos clínicos.",
   "fuente": "https://www.consalud.es/estetic/belleza/secretomas-la-nueva-frontera-en-la-medicina-estetica-regenerativa.html",
   "fecha": "2026-02-15"
+},
+"024": {
+  "title": "Terapias basadas en MSC en el síndrome neurológico post-COVID",
+  "meta": "Las terapias con células madre mesenquimales y sus exosomas emergen como estrategias para abordar el deterioro cognitivo y la neuroinflamación en el long COVID.",
+  "image": "blogimages/024msc-long-covid.webp",
+  "imageAlt": "Ilustración médica de MSC actuando sobre tejido cerebral inflamado",
+  "image2": "blogimages/024msc-long-covidB.webp",
+  "imageAlt2": "Exosomas derivados de MSC atravesando la barrera hematoencefálica",
+  "introduction": "El síndrome post-COVID o long COVID ha revelado una carga neurológica significativa, incluyendo deterioro cognitivo, neuroinflamación y alteraciones sinápticas. Ante la ausencia de tratamientos específicos, las terapias basadas en células madre mesenquimales (MSC) y sus exosomas han despertado interés por sus propiedades inmunomoduladoras, antiinflamatorias y regenerativas.",
+  "questions": [
+    {
+      "q": "¿Por qué las MSC son relevantes en el long COVID neurológico?",
+      "a": "Las MSC poseen capacidad de homing hacia tejidos lesionados, modulan la respuesta inmune y secretan factores paracrinos que reducen la neuroinflamación, protegen neuronas y favorecen la reparación del tejido neural, procesos clave en el deterioro cognitivo post-COVID."
+    },
+    {
+      "q": "¿Qué papel cumplen los exosomas derivados de MSC?",
+      "a": "Los exosomas son componentes activos del secretoma de las MSC y transportan proteínas, lípidos y ácidos nucleicos que median efectos terapéuticos. Presentan menor riesgo inmunogénico y mayor capacidad para atravesar la barrera hematoencefálica, lo que los convierte en candidatos estratégicos para terapias dirigidas al sistema nervioso central."
+    },
+    {
+      "q": "¿Cuáles son los retos actuales de estas terapias?",
+      "a": "Persisten desafíos relacionados con la vía óptima de administración, estandarización de formulaciones, ingeniería de exosomas para targeting específico y validación clínica en estudios controlados que demuestren eficacia y seguridad en pacientes con long COVID."
+    }
+  ],
+  "conclusion": "Las terapias basadas en MSC y sus exosomas representan una oportunidad innovadora para abordar las secuelas neurológicas del long COVID. Aunque los datos preclínicos son prometedores, se requieren ensayos clínicos robustos que confirmen su eficacia y permitan su integración segura en protocolos terapéuticos.",
+  "fuente": "https://www.mdpi.com/2218-273X/14/1/8",
+  "fecha": "2026-03-02"
 }
 
 

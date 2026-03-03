@@ -342,6 +342,16 @@ text-align: center;
   );
 }
 
+.avisolink {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+  background-color: #174670;
+  padding: 0.5vw 1vw;
+  border-radius: 5px;
+  transition: all 0.3s ease-out;
+}
+
 form {
   padding: 2vw;
   font-family: Roboto;

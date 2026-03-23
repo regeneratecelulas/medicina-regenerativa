@@ -654,7 +654,35 @@
   "conclusion": "Las terapias basadas en MSC y sus exosomas representan una oportunidad innovadora para abordar las secuelas neurológicas del long COVID. Aunque los datos preclínicos son prometedores, se requieren ensayos clínicos robustos que confirmen su eficacia y permitan su integración segura en protocolos terapéuticos.",
   "fuente": "https://www.mdpi.com/2218-273X/14/1/8",
   "fecha": "2026-03-02"
+},
+
+  "025": {
+    "title": "Células Madre y Salud Renal",
+    "meta": "Descubre cómo las células madre mesenquimales alogénicas pueden mejorar la función renal y combatir el deterioro celular por la edad.",
+    "image": "blogimages/rinon-regeneracionB.webp",
+    "imageAlt": "Representación microscópica de células madre actuando en tejido renal",
+    "image2": "blogimages/rinon-regeneracion.webp",
+    "imageAlt2": "Especialista analizando resultados de filtración glomerular",
+    "introduction": "El declive de la función renal es una consecuencia común del envejecimiento, impulsado en gran medida por la inflamación crónica de bajo grado. Investigaciones recientes exploran cómo las células madre mesenquimales alogénicas (allo-hMSCs) pueden no solo detener este proceso, sino mejorar activamente la capacidad de filtración del riñón.",
+    "questions": [
+      {
+        "q": "¿Cómo ayudan las células madre a la función renal?",
+        "a": "Las células madre mesenquimales derivadas de médula ósea actúan como inmunomoduladores, reduciendo la inflamación y el estrés oxidativo en las nefronas, lo que permite una mejor depuración de toxinas en la sangre."
+      },
+      {
+        "q": "¿Qué resultados muestran los estudios clínicos recientes?",
+        "a": "Pacientes que recibieron infusiones repetidas de allo-hMSCs mostraron un incremento anual en su tasa de filtración glomerular (eGFR) y una disminución en los niveles de creatinina sérica, a diferencia de quienes no recibieron el tratamiento."
+      },
+      {
+        "q": "¿Es seguro este tratamiento para adultos mayores?",
+        "a": "Sí, el uso de células alogénicas ha demostrado ser seguro y bien tolerado. Al ser de baja inmunogenicidad, no requieren una compatibilidad perfecta y ofrecen una alternativa viable para preservar la salud renal de forma preventiva."
+      }
+    ],
+    "conclusion": "Las infusiones de células madre mesenquimales representan una herramienta prometedora para transformar el manejo del envejecimiento renal, permitiendo pasar de un enfoque de cuidado pasivo a una regeneración funcional activa.",
+    "fuente": "https://pubmed.ncbi.nlm.nih.gov/40993774/",
+    "fecha": "2026-03-23"
+  }
 }
 
 
-}
+

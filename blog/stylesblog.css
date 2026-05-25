@@ -297,6 +297,16 @@ footer img {
   color: var(--purplelight);
 }
 
+.whatsapp-section {
+  height: 30px;
+  width: 30px;
+  position: fixed;
+  bottom: 10vw;
+  right: 10vw;
+  z-index: 1000;
+  cursor: pointer;
+}
+
 @media (min-width: 600px) {
   nav a {
     padding: 1vw 0;

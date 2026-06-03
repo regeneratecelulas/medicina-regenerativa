@@ -298,13 +298,20 @@ footer img {
 }
 
 .whatsapp-section {
-  height: 30px;
-  width: 30px;
+
   position: fixed;
-  bottom: 10vw;
-  right: 10vw;
+  bottom: 8vw;
+  right: 8vw;
   z-index: 1000;
   cursor: pointer;
+    border:#ffffff solid 1px;
+
+}
+
+.whatsapp-section a{
+  border:#52a650 solid 1px;
+  width: 90px;
+  height: 50px;
 }
 
 @media (min-width: 600px) {

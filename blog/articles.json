@@ -814,8 +814,35 @@
     "conclusion": "La evolución hacia una medicina regenerativa de precisión exige transitar del enfoque exclusivo en el injerto hacia la gestión integral del tejido receptor. Preparar adecuadamente el terreno biológico es la clave definitiva para garantizar la permanencia celular y maximizar los resultados clínicos.",
     "fuente": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9395990/",
     "fecha": "2026-06-03"
+  },
+  "031": {
+    "title": "Biopsia Líquida Mediante Exosomas. Medicina Personalizada Farmacología",
+    "meta": "Investigadores desarrollan un método microfluídico no invasivo para aislar exosomas hepáticos y predecir el metabolismo de fármacos.",
+    "image": "blogimages/biopsia-liquida-exosomas.webp",
+    "imageAlt": "Representación tridimensional de nanovesículas exosómicas en fluidos corporales para diagnóstico médico",
+    "image2": "blogimages/tecnologia-lab-on-a-chip.webp",
+    "imageAlt2": "Dispositivo microfluídico lab-on-a-chip aislando biomarcadores hepáticos de una muestra de plasma",
+    "introduction": "A través de una subvención del fondo J.R. & Inez Jay, científicos de la Universidad de Kansas y el Hospital Infantil Mercy investigan cómo diseñar terapias farmacológicas personalizadas utilizando exosomas. Estas nanovesículas (de 30 a 150 nanómetros) actúan como un reflejo exacto de sus células de origen, permitiendo realizar 'biopsias líquidas' no invasivas a partir de suero sanguíneo u orina para capturar cambios patológicos y ambientales.",
+    "questions": [
+      {
+        "q": "¿Cómo logran aislar los exosomas del hígado de los producidos por otros órganos?",
+        "a": "El equipo liderado por el Dr. Michael Wang utiliza la proteína ASGR1, un biomarcador específico del hígado. Al dirigirse a esta proteína, logran capturar exclusivamente los exosomas hepáticos y cuantificar sus enzimas metabolizadoras, evitando la interferencia de vesículas secretadas por los riñones o los intestinos."
+      },
+      {
+        "q": "¿Qué tecnología se emplea para analizar estas nanovesículas en la sangre?",
+        "a": "Se utiliza un dispositivo especializado de microfluídica denominado 'lab-on-a-chip' (laboratorio en un chip). Este chip avanzado realiza un ensayo inmunoabsorbente ligado a enzimas (ELISA) automatizado para aislar, capturar y contar las proteínas hepáticas con la más alta sensibilidad, superando las limitaciones de su baja concentración en el plasma."
+      },
+      {
+        "q": "¿Por qué este enfoque exosómico es crucial para la población pediátrica?",
+        "a": "Durante el desarrollo de la niñez a la adultez, la expresión de las enzimas hepáticas varía drásticamente debido a factores ambientales y de maduración que la genética por sí sola no puede predecir. El análisis de exosomas permite monitorear en tiempo real la actividad metabólica real del paciente pediátrico, abriendo las puertas a tratamientos personalizados y seguros en oncología y otras especialidades."
+      }
+    ],
+    "conclusion": "El uso de exosomas hepáticos como biomarcadores dinámicos promete revolucionar la práctica clínica. Al proporcionar una ventana no invasiva al metabolismo del paciente, esta tecnología trasciende los límites de la genotipificación tradicional, permitiendo predecir con precisión milimétrica la respuesta a los fármacos y optimizar el éxito de los tratamientos.",
+    "fuente": "University of Kansas & Mercy Children's Hospital, 2026.",
+    "fecha": "2026-06-16"
   }
 }
+
 
 
 

@@ -791,7 +791,7 @@
   },
   "030": {
     "title": "Optimización del Microambiente Tisular: El Verdadero Secreto de la Retención Celular",
-    "meta": "Descubra por qué el acondicionamiento previo del tejido receptor es el factor crítico para garantizar la supervivencia y el éxito de las terapias celulares avanzadas.",
+    "meta": "Descubra por qué el acondicionamiento previo del tejido receptor es el factor crítico para garantizar la supervivencia y el éxito de las terapias celulares avanzadas",
     "image": "blogimages/tejido-acondicionado-exito.webp",
     "imageAlt": "Ilustración médica de células terapéuticas enfrentando un microambiente con estrés oxidativo e inflamación",
     "image2": "blogimages/microambiente-hostil-celular.webp",
@@ -817,7 +817,7 @@
   },
   "031": {
     "title": "Biopsia Líquida Mediante Exosomas. Medicina Personalizada y Farmacología",
-    "meta": "Investigadores desarrollan un método microfluídico no invasivo para aislar exosomas hepáticos y predecir el metabolismo de fármacos.",
+    "meta": "Investigadores desarrollan un método microfluídico no invasivo para aislar exosomas hepáticos y predecir el metabolismo de fármacos",
     "image": "blogimages/biopsia-liquida-exosomas.webp",
     "imageAlt": "Representación tridimensional de nanovesículas exosómicas en fluidos corporales para diagnóstico médico",
     "image2": "blogimages/tecnologia-lab-on-a-chip.webp",
@@ -840,6 +840,32 @@
     "conclusion": "El uso de exosomas hepáticos como biomarcadores dinámicos promete revolucionar la práctica clínica. Al proporcionar una ventana no invasiva al metabolismo del paciente, esta tecnología trasciende los límites de la genotipificación tradicional, permitiendo predecir con precisión milimétrica la respuesta a los fármacos y optimizar el éxito de los tratamientos.",
     "fuente": "https://institutonutrigenomica.com/noticias-nutrigenomica/los-investigadores-ven-los-exosomas-una-forma-mas-precisa-la-terapia-dirigida-cancer-pediatrico/",
     "fecha": "2026-06-16"
+  },
+  "032": {
+    "title": "Consentimiento Informado y Ética Clínica | Medicina Regenerativa Responsable",
+    "meta": "La transparencia legal y la honestidad médica definen la seguridad y el éxito en la aplicación de terapias avanzadas.",
+    "image": "blogimages/consentimiento-informado-clinica.webp",
+    "imageAlt": "Médico explicando un documento de consentimiento informado y el mecanismo celular a un paciente en consulta",
+    "image2": "blogimages/seguimiento-clinico-paciente.webp",
+    "imageAlt2": "Especialista realizando el protocolo de seguimiento clínico post-tratamiento en un entorno médico seguro",
+    "introduction": "El consentimiento informado es un pilar ético y legal indispensable para el ejercicio de la medicina regenerativa responsable. Lejos de ser un simple trámite burocrático, representa un compromiso de transparencia absoluta entre el especialista y el paciente, garantizando que cada decisión terapéutica esté respaldada por el conocimiento mutuo y la rigurosidad científica.",
+    "questions": [
+      {
+        "q": "¿Qué elementos esenciales debe incluir la explicación inicial al paciente?",
+        "a": "El médico debe ofrecer una explicación clara del procedimiento, especificando detalladamente el origen celular que se va a utilizar y su mecanismo de acción biológica en el organismo."
+      },
+      {
+        "q": "¿Cómo se debe manejar la evidencia y las expectativas en la consulta?",
+        "a": "Es obligatorio realizar una descripción honesta de la evidencia científica disponible hasta el momento, exponiendo con total claridad tanto sus alcances como sus limitaciones actuales."
+      },
+      {
+        "q": "¿Cuáles son los compromisos de seguridad antes y después del tratamiento?",
+        "a": "Se deben desglosar detalladamente los riesgos conocidos, los beneficios esperados y las alternativas terapéuticas existentes, consolidando el proceso con un estricto protocolo de seguimiento clínico post-tratamiento."
+      }
+    ],
+    "conclusion": "La ética clínica y el consentimiento informado no solo protegen legalmente la práctica médica, sino que fortalecen la confianza del paciente. Al transparentar los mecanismos, riesgos y seguimientos, la medicina regenerativa se consolida como una disciplina científica, segura y de vanguardia.",
+    "fuente": "https://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S0026-17422025000300040",
+    "fecha": "2026-06-30"
   }
 }
 

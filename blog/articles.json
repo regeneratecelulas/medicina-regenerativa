@@ -918,6 +918,32 @@
     "conclusion": "Las terapias regenerativas ofrecen una alternativa valiosa y comprobada para disminuir el dolor y recuperar movilidad en la osteoartrosis de rodilla. No obstante, aplicarlas con éxito exige rigor científico, un manejo integral del paciente y no sobredimensionar sus alcances estructurales reales.",
     "fuente": "https://www.revistacmfr.org/index.php/rcmfr/article/download/7/7/13",
     "fecha": "2026-08-17"
+  },
+  "035": {
+    "title": "Guía de Buenas Prácticas en Medicina Estética Regenerativa: ",
+    "meta": "Principios éticos, transparencia y estándares de seguridad que deben regir la medicina estética regenerativa para garantizar tratamientos seguros y basados en evidencia.",
+    "image": "blogimages/etica-medicina-estetica-regenerativa.webp",
+    "imageAlt": "Médico explicando un consentimiento informado a un paciente en una clínica estética moderna y profesional",
+    "image2": "blogimages/protocolos-seguridad-medicina-celular.webp",
+    "imageAlt2": "Vista de laboratorio clínico mostrando estándares de esterilidad y procesamiento de muestras celulares",
+    "introduction": "El auge de la medicina estética regenerativa ofrece alternativas innovadoras para el rejuvenecimiento y la salud cutánea. Sin embargo, su crecimiento exige un compromiso firme con la ética médica, la veracidad científica y la seguridad del paciente para evitar la sobrepromesa y el uso irresponsable de terapias celulares.",
+    "questions": [
+      {
+        "q": "¿Cuáles son los pilares éticos fundamentales en la captación de pacientes?",
+        "a": "La captación debe basarse en la transparencia absoluta: informar detalladamente sobre el proceso de obtención e implantación celular, desglosar costos reales, verificar el estatus legal de la terapia y prohibir categóricamente el uso de actores o testimonios engañosos."
+      },
+      {
+        "q": "¿Cómo se garantiza la veracidad científica y la seguridad en los tratamientos?",
+        "a": "Toda indicación clínica debe sustentarse en evidencia científica actual y experiencia médica comprobada. Además, es indispensable aplicar protocolos estériles estrictos, no prometer resultados garantizados y aprobar candidatos únicamente tras una evaluación rigurosa de su expediente clínico."
+      },
+      {
+        "q": "¿Qué responsabilidad existe respecto al seguimiento a largo plazo?",
+        "a": "El ejercicio responsable exige implementar un monitoreo continuo del paciente, contar con un protocolo claro para el reporte inmediato de eventos adversos y someter los procedimientos a la revisión periódica de comités o mecanismos de supervisión independientes."
+      }
+    ],
+    "conclusion": "La medicina estética regenerativa solo alcanza su verdadero potencial cuando la innovación técnica se combina con un rigor ético inquebrantable. Proteger la autonomía y seguridad del paciente es la única forma de consolidar la confianza en esta disciplina.",
+    "fuente": "https://www.researchgate.net/post/Investigacion_sobre_etica_en_la_medicina_estetica_y_regenerativa",
+    "fecha": "2026-08-30"
   }
 }
 

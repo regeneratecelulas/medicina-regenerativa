@@ -944,7 +944,43 @@
     "conclusion": "La medicina estética regenerativa solo alcanza su verdadero potencial cuando la innovación técnica se combina con un rigor ético inquebrantable. Proteger la autonomía y seguridad del paciente es la única forma de consolidar la confianza en esta disciplina.",
     "fuente": "https://www.researchgate.net/post/Investigacion_sobre_etica_en_la_medicina_estetica_y_regenerativa",
     "fecha": "2026-08-30"
+  },
+  
+  "036": {
+    "title": "Biología y Variedad Celular Madre",
+    "meta": "Clasificación, funciones biológicas y potencial clínico de las células madre en la medicina científica moderna.",
+    "image": "blogimages/biologia-tipos-celulas-madre.webp",
+    "imageAlt": "Esquema ilustrativo de los diferentes tipos de células madre y su especialización",
+    "image2": "blogimages/investigacion-celular-avanzada.webp",
+    "imageAlt2": "Científico analizando cultivos celulares bajo un microscopio de alta precisión en un laboratorio clínico",
+    "introduction": "Las células madre representan la base de la medicina regenerativa gracias a su capacidad de autorenovación y diferenciación. El cuerpo humano cuenta con cinco tipos principales, cada uno con características biológicas únicas que determinan su aplicación clínica y su potencial terapéutico.",
+    "questions": [
+      {
+        "q": "¿Qué función cumplen las células madre hematopoyéticas?",
+        "a": "Ubicadas en la médula ósea y la sangre periférica, son células adultas especializadas en generar la totalidad de los elementos formes de la sangre y renovar de manera continua el sistema inmunitario."
+      },
+      {
+        "q": "¿Qué caracteriza a las células madre mesenquimales?",
+        "a": "Presentes en el tejido adiposo, piel y médula ósea, producen estroma y señales paracrinas esenciales que regulan la inflamación, promueven la reparación tisular y auxilian a otras poblaciones celulares a funcionar adecuadamente."
+      },
+      {
+        "q": "¿Cuál es el rol de las células madre neurales?",
+        "a": "Se localizan en zonas específicas del sistema nervioso central y poseen la capacidad de diferenciarse en neuronas, astrocitos y oligodendrocitos, siendo clave en la investigación de patologías neurodegenerativas."
+      },
+      {
+        "q": "¿Qué diferencia a las células madre de embriones humanos?",
+        "a": "Provienen del blastocisto y son verdaderamente pluripotentes, lo que significa que pueden derivar en cualquier tipo de tejido del organismo, aunque su uso requiere estrictos marcos éticos y regulatorios."
+      },
+      {
+        "q": "¿Qué son las células madre pluripotentes inducidas (iPSC)?",
+        "a": "Son células adultas maduras reprogramadas genéticamente en laboratorio para retornar a un estado pluripotente semejante al embrionario, evitando dilemas éticos y permitiendo modelos de tratamiento personalizados."
+      }
+    ],
+    "conclusion": "Comprender la diversidad celular y sus mecanismos biológicos es el cimiento fundamental para impulsar la medicina regenerativa con rigor, transformando la investigación básica en aplicaciones clínicas verdaderamente seguras y efectivas.",
+    "fuente": "https://www.nationalmssociety.org/es/understanding-ms/ms-research/research-news-progress/stem-cells",
+    "fecha": "2026-09-14"
   }
+
 }
 
 

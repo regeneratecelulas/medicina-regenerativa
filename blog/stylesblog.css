@@ -304,16 +304,13 @@ footer img {
   right: 8vw;
   z-index: 1000;
   cursor: pointer;
-    border:#ffffff solid 1px;
-    padding: 0.5vw;
-
+  border:#52a650 solid 1vw;
+  padding: 0.5vw;
+  border-radius: 50%;
+  text-align: center;
 }
 
-.whatsapp-section a{
-  border:#52a650 solid 1px;
-  width: 90px;
-  height: 50px;
-}
+
 
 @media (min-width: 600px) {
   nav a {

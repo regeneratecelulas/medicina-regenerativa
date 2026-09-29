@@ -948,7 +948,7 @@
   
   "036": {
     "title": "Biología y Variedad Celular Madre",
-    "meta": "Clasificación, funciones biológicas y potencial clínico de las células madre en la medicina científica moderna.",
+    "meta": "Clasificación, funciones biológicas y potencial clínico de las células madre en la medicina científica moderna",
     "image": "blogimages/biologia-tipos-celulas-madre.webp",
     "imageAlt": "Esquema ilustrativo de los diferentes tipos de células madre y su especialización",
     "image2": "blogimages/investigacion-celular-avanzada.webp",
@@ -979,9 +979,45 @@
     "conclusion": "Comprender la diversidad celular y sus mecanismos biológicos es el cimiento fundamental para impulsar la medicina regenerativa con rigor, transformando la investigación básica en aplicaciones clínicas verdaderamente seguras y efectivas.",
     "fuente": "https://www.nationalmssociety.org/es/understanding-ms/ms-research/research-news-progress/stem-cells",
     "fecha": "2026-09-14"
+  },
+  
+  "037": {
+    "title": "Terapias Mesenquimales en Neurología Regenerativa",
+    "meta": "Explora el potencial de las células madre mesenquimales en la reparación tisular y protección neurodegenerativa.",
+    "image": "blogimages/terapias-mesenquimales-cerebro.webp",
+    "imageAlt": "Representación tridimensional de células madre mesenquimales interactuando con redes neuronales",
+    "image2": "blogimages/investigacion-neurologia-celular.webp",
+    "imageAlt2": "Especialista en neurología analizando respuestas celulares e imágenes cerebrales en un laboratorio clínico",
+    "introduction": "El uso de células madre mesenquimales (MSC) en el tratamiento de afecciones del sistema nervioso central representa uno de los campos de mayor avance en la medicina regenerativa. Aunque no originan neuronas directamente de forma primaria, su capacidad de inmunomodulación y secreción de factores neurotróficos abre nuevas posibilidades clínicas frente a daños y enfermedades neurodegenerativas.",
+    "questions": [
+      {
+        "q": "¿Cómo actúan las células madre mesenquimales en el tejido cerebral?",
+        "a": "Actúan mediante mecanismos paracrinos, liberando vesículas extracelulares y citocinas que reducen la neuroinflamación, limitan la apoptosis y estimulan los procesos endógenos de reparación vascular y tisular."
+      },
+      {
+        "q": "¿Pueden las células mesenquimales transformarse en neuronas funcionales?",
+        "a": "Su mecanismo principal no es la transdiferenciación masiva en neuronas, sino la creación de un microambiente favorable que protege el tejido nervioso existente y promueve la plasticidad neuronal."
+      },
+      {
+        "q": "¿En qué condiciones neurológicas se investiga su aplicación?",
+        "a": "Se evalúa su eficacia en ensayos clínicos para patologías como la esclerosis múltiple, accidentes cerebrovasculares (ictus), traumatismos craneoencefálicos y enfermedades neurodegenerativas."
+      },
+      {
+        "q": "¿Cuáles son las vías de administración estudiadas para llegar al cerebro?",
+        "a": "Las principales vías evaluadas son la intratecal (directamente en el líquido cefalorraquídeo) y la endovenosa, buscando optimizar la migración celular hacia las zonas de lesión mediante señales quimiotácticas."
+      },
+      {
+        "q": "¿Qué garantías de seguridad exige este tipo de abordaje clínico?",
+        "a": "Requiere una rigurosa caracterización en laboratorio, pruebas exhaustivas de esterilidad, monitoreo de la viabilidad celular y supervisión independiente para evitar efectos adversos y asegurar la trazabilidad del proceso."
+      }
+    ],
+    "conclusion": "La terapia con células madre mesenquimales para el ámbito neurológico no ofrece soluciones mágicas, sino una estrategia científica fundamentada en la neuroprotección y la modulación biológica, abriendo un camino ético y riguroso para la restauración del sistema nervioso.",
+    "fuente": "https://www.startstemcells.com/es/mesenchymal-stem-cell-therapy.html",
+    "fecha": "2026-09-21"
   }
-
 }
+
+
 
 
 

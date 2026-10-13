@@ -1014,6 +1014,40 @@
     "conclusion": "La terapia con células madre mesenquimales para el ámbito neurológico no ofrece soluciones mágicas, sino una estrategia científica fundamentada en la neuroprotección y la modulación biológica, abriendo un camino ético y riguroso para la restauración del sistema nervioso.",
     "fuente": "https://www.startstemcells.com/es/mesenchymal-stem-cell-therapy.html",
     "fecha": "2026-09-21"
+  },
+  "038": {
+    "title": "Terapias Mesenquimales en la Fibrosis Pulmonar Post-COVID",
+    "meta": "Abordaje clínico de las células madre mesenquimales en la regeneración y control de la fibrosis pulmonar.",
+    "image": "blogimages/fibrosis-pulmonar-mesenquimal.webp",
+    "imageAlt": "Representación microscópica de células madre mesenquimales aplicadas al tejido pulmonar dañado",
+    "image2": "blogimages/investigacion-pulmonar-clinica.webp",
+    "imageAlt2": "Especialista analizando patrones respiratorios y cultivos celulares en entorno hospitalario",
+    "introduction": "El uso de células madre mesenquimales como tratamiento coadyuvante en la fibrosis pulmonar post-COVID-19 representa una alternativa innovadora dentro de la medicina regenerativa, enfocándose en la modulación inflamatoria y la protección del tejido respiratorio afectado.",
+    "questions": [
+      {
+        "q": "¿Qué función cumplen las células madre mesenquimales en el pulmón fibrótico?",
+        "a": "Actúan disminuyendo la inflamación crónica y segregando factores tróficos que ayudan a mitigar el daño tisular y modular la respuesta fibrótica."
+      },
+      {
+        "q": "¿Representa una cura definitiva para la fibrosis pulmonar?",
+        "a": "No constituye una cura, sino un tratamiento de apoyo diseñado para complementar la rehabilitación pulmonar y mejorar la capacidad respiratoria."
+      },
+      {
+        "q": "¿A qué pacientes está dirigida principalmente esta terapia?",
+        "a": "Se orienta a personas que sufrieron neumonía grave por COVID-19 y presentan secuelas fibróticas persistentes tras una evaluación médica rigurosa."
+      },
+      {
+        "q": "¿Cómo se integra con otros tratamientos médicos?",
+        "a": "Funciona de manera coadyuvante junto con fármacos antifibróticos, soporte de oxígeno y terapias de rehabilitación respiratoria."
+      },
+      {
+        "q": "¿Qué garantías de seguridad e investigación se requieren?",
+        "a": "Exige estrictos protocolos de control de calidad celular, esterilidad y un seguimiento clínico a largo plazo para validar su eficacia terapéutica."
+      }
+    ],
+    "conclusion": "La aplicación de células madre mesenquimales en la fibrosis pulmonar busca optimizar la calidad de vida de los pacientes mediante un enfoque científico riguroso y regulado, abriendo nuevas expectativas en la medicina respiratoria.",
+    "fuente": "https://cellstime.mx/tratamiento.php?idTratamiento=fibrosis",
+    "fecha": "2026-10-12"
   }
 }
 

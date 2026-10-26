@@ -1016,7 +1016,7 @@
     "fecha": "2026-09-21"
   },
   "038": {
-    "title": "Terapias Mesenquimales en la Fibrosis Pulmonar Post-COVID",
+    "title": "Fibrosis Pulmonar Post-COVID con Tratamientos Mesenquimales",
     "meta": "Abordaje clínico de las células madre mesenquimales en la regeneración y control de la fibrosis pulmonar.",
     "image": "blogimages/fibrosis-pulmonar-mesenquimal.webp",
     "imageAlt": "Representación microscópica de células madre mesenquimales aplicadas al tejido pulmonar dañado",
@@ -1048,6 +1048,40 @@
     "conclusion": "La aplicación de células madre mesenquimales en la fibrosis pulmonar busca optimizar la calidad de vida de los pacientes mediante un enfoque científico riguroso y regulado, abriendo nuevas expectativas en la medicina respiratoria.",
     "fuente": "https://cellstime.mx/tratamiento.php?idTratamiento=fibrosis",
     "fecha": "2026-10-12"
+  },
+  "039": {
+    "title": "Secretomas Purificados: Comunicación Celular",
+    "meta": "Descubre el poder terapéutico de los secretomas y su rol en la regeneración celular avanzada.",
+    "image": "blogimages/secretoma.webp",
+    "imageAlt": "Representación microscópica de exosomas y factores de crecimiento en el secretoma",
+    "image2": "blogimages/investigacion-secretomas-clinica.webp",
+    "imageAlt2": "Especialista analizando componentes bioquímicos en un laboratorio avanzado",
+    "introduction": "El secretoma representa el conjunto de señales bioquímicas, que incluye factores de crecimiento, citocinas y exosomas, empleadas por las células madre para ordenar la regeneración y modular los procesos inflamatorios.",
+    "questions": [
+      {
+        "q": "¿Qué es el secretoma y cuál es su enfoque fundamental?",
+        "a": "Es un conjunto de señales bioquímicas celulares que resumen su principio bajo la premisa de que no son las células en sí, sino el mensaje lo que genera la acción."
+      },
+      {
+        "q": "¿Cuáles son las ventajas clave de esta terapia?",
+        "a": "Ofrece un tratamiento preciso, estandarizado, de fácil almacenamiento y sin los desafíos logísticos asociados al manejo de células vivas."
+      },
+      {
+        "q": "¿Qué función cumplen las pequeñas cápsulas de información o exosomas?",
+        "a": "Entregan instrucciones directamente a las células objetivo para influir de manera directa en su comportamiento biológico."
+      },
+      {
+        "q": "¿Cómo actúan las citocinas dentro de la fórmula?",
+        "a": "Regulan la respuesta inmune del organismo y atraen de forma activa a las células reparadoras hacia el sitio exacto de la lesión."
+      },
+      {
+        "q": "¿Qué papel desempeñan los factores de crecimiento?",
+        "a": "Estimulan la proliferación de fibroblastos y queratinocitos, constituyendo la base fundamental para una óptima regeneración cutánea y tisular."
+      }
+    ],
+    "conclusion": "Los secretomas purificados transforman la medicina regenerativa al transmitir el mensaje biológico de las células madre con total seguridad, eficacia y versatilidad clínica.",
+    "fuente": "https://inpiela.com/apps/lp/secretoma",
+    "fecha": "2026-10-15"
   }
 }
 

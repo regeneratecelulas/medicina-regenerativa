@@ -1,6 +1,7 @@
 {
   "001": {
     "title": "Células madre mesenquimales",
+    "slug": "celulas-madre-mesenquimales",
     "meta": "Descubre qué son las células madre mesenquimales, cómo actúan en el cuerpo y qué beneficios ofrecen en medicina regenerativa.",
     "image": "blogimages/001CelulasB.webp",
     "imageAlt": "Células madre mesenquimales en medicina regenerativa",
@@ -27,6 +28,7 @@
   },
   "002": {
     "title": "Exosomas que pueden ayudarte a regenerar tejidos",
+    "slug": "exosomas-que-pueden-ayudarte-a-regenerar-tejidos",
     "meta": "Los exosomas son mensajeros celulares clave en la regeneración. Conoce sus beneficios y cómo se usan en terapias regenerativas.",
     "image": "blogimages/002AvancesB.webp",
     "imageAlt": "Investigación en células madre",
@@ -39,7 +41,7 @@
         "a": "Transportan proteínas, ARN y otros factores que influyen en la regeneración celular. Se comunican con otras células para activar procesos curativos, estimular el crecimiento celular y reducir el daño."
       },
       {
-        "q": "¿¿Qué beneficios tienen los tratamientos con exosomas?",
+        "q": "¿Qué beneficios tienen los tratamientos con exosomas?",
         "a": "Ayudan a disminuir inflamación, mejorar la elasticidad de la piel, acelerar la recuperación muscular y reforzar la cicatrización de heridas. Se usan tanto en medicina estética como en traumatología y neurología."
       },
       {
@@ -53,6 +55,7 @@
   },
   "003": {
     "title": "Factores de crecimiento y la recuperación celular",
+    "slug": "factores-de-crecimiento-y-la-recuperacion-celular",
     "meta": "Los factores de crecimiento activan la regeneración celular. Aprende cómo funcionan y en qué tratamientos se aplican.",
     "image": "blogimages/003Importancia.webp",
     "imageAlt": "Células madre en medicina regenerativa",
@@ -79,6 +82,7 @@
   },
   "004": {
     "title": "Usos del suero facial en la medicina regenerativa",
+    "slug": "usos-del-suero-facial-en-la-medicina-regenerativa",
     "meta": "El suero facial regenerativo combina ciencia y estética. Descubre sus beneficios, ingredientes y usos en rejuvenecimiento.",
     "image": "blogimages/004Mitos.webp",
     "imageAlt": "Mitos sobre células madre",
@@ -105,6 +109,7 @@
   },
   "005": {
     "title": "Fibroblastos que ayudan a rejuvenecer la piel",
+    "slug": "fibroblastos-que-ayudan-a-rejuvenecer-la-piel",
     "meta": "Descubre qué son los fibroblastos, cómo funcionan en la regeneración celular y por qué son clave en tratamientos estéticos para mejorar la firmeza y juventud de la piel.",
     "image": "blogimages/005FuturoB.webp",
     "imageAlt": "Futuro de las células madre",
@@ -131,6 +136,7 @@
   },
   "006": {
     "title": "Extracto proteico, usos en medicina regenerativa",
+    "slug": "extracto-proteico-usos-en-medicina-regenerativa",
     "meta": "El extracto proteico es una sustancia rica en factores bioactivos que favorece la reparación celular. Conoce sus usos, beneficios y aplicaciones en salud y estética regenerativa.",
     "image": "blogimages/006ExtractoB.webp",
     "imageAlt": "Impacto de las células madre en la salud global",
@@ -155,9 +161,9 @@
     "fuente": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3781772/",
     "fecha": "2025-07-18"
   },
-
   "007": {
     "title": "hUC‑MSCs en cirrosis hepática descompensada",
+    "slug": "huc-mscs-en-cirrosis-hepatica-descompensada",
     "meta": "Estudios muestran que las células madre mesenquimales del cordón umbilical (hUC‑MSCs) mejoran la función hepática y la supervivencia en cirrosis descompensada.",
     "image": "blogimages/007HepaticaB.webp",
     "imageAlt": "Terapia regenerativa con células madre para el hígado",
@@ -188,6 +194,7 @@
   },
   "008": {
     "title": "Células madre mesenquimales mejoran la función cardíaca",
+    "slug": "celulas-madre-mesenquimales-mejoran-la-funcion-cardiaca",
     "meta": "Un metaanálisis muestra que el trasplante de MSCs tras un infarto agudo al miocardio mejora la fracción de eyección, especialmente si se aplica durante la primera semana.",
     "image": "blogimages/008CorazonB.webp",
     "imageAlt": "Terapia regenerativa con células madre para el corazón después de un infarto",
@@ -212,9 +219,9 @@
     "fuente": "https://link.springer.com/article/10.1186/s13287-021-02667-1",
     "fecha": "2025-07-20"
   },
-
   "009": {
     "title": "Células madre para cirrosis hepática autoinmune",
+    "slug": "celulas-madre-para-cirrosis-hepatica-autoinmune",
     "meta": "El trasplante de células madre mesenquimales alogénicas muestra mejoras en función hepática y seguridad en pacientes con cirrosis causada por enfermedades autoinmunes.",
     "image": "blogimages/009CirrosisB.webp",
     "imageAlt": "Paciente con cirrosis hepática recibiendo tratamiento regenerativo",
@@ -241,6 +248,7 @@
   },
   "010": {
     "title": "Células madre mesenquimales (MSCs) en la osteoartritis",
+    "slug": "celulas-madre-mesenquimales-mscs-en-la-osteoartritis",
     "meta": "Meta-análisis demuestran que las inyecciones intraarticulares de MSCs alivian el dolor, mejoran la función articular y contribuyen a la regeneración del cartílago en osteoartritis.",
     "image": "blogimages/010OsteoartritisB.webp",
     "imageAlt": "Aplicación de células madre mesenquimales en rodilla con osteoartritis",
@@ -265,9 +273,9 @@
     "fuente": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10298392/",
     "fecha": "2025-08-08"
   },
-
   "011": {
     "title": "Las MSCs en la artritis reumatoide: datos clínicos y perspectivas",
+    "slug": "las-mscs-en-la-artritis-reumatoide-datos-clinicos-y-perspectivas",
     "meta": "Ensayos clínicos sugieren que las células madre mesenquimales (MSCs) pueden ser seguras y mostrar resultados prometedores en artritis reumatoide.",
     "image": "blogimages/011ArtitisReB.webp",
     "imageAlt": "Ilustración científica de MSCs y articulaciones afectadas por artritis reumatoide",
@@ -294,6 +302,7 @@
   },
   "012": {
     "title": "Oncoinmunoterapia con células CAR-T: avances y perspectivas",
+    "slug": "oncoinmunoterapia-con-celulas-car-t-avances-y-perspectivas",
     "meta": "La terapia con células CAR-T es un hito en oncoinmunoterapia: explica cómo funciona, en qué cánceres se usa hoy y cuáles son sus riesgos y próximos pasos.",
     "image": "blogimages/012cartB.webp",
     "imageAlt": "Visualización anatómica realista de linfocitos T CAR-T atacando una célula tumoral",
@@ -320,6 +329,7 @@
   },
   "013": {
     "title": "Reversión completa del síndrome de ovario poliquístico con MSCs: un caso clínico",
+    "slug": "reversion-completa-del-sindrome-de-ovario-poliquistico-con-mscs-un-caso-clinico",
     "meta": "Un caso clínico documenta la reversión total y duradera del síndrome de ovario poliquístico tras infusión intravenosa de MSCs derivadas del cordón umbilical.",
     "image": "blogimages/013SOPB.webp",
     "imageAlt": "Ilustración anatómica realista de ovarios y células madre mesenquimales del cordón umbilical",
@@ -346,6 +356,7 @@
   },
   "014": {
     "title": "Exosomas en neuropatías periféricas: potencial terapéutico y clínico",
+    "slug": "exosomas-en-neuropatias-perifericas-potencial-terapeutico-y-clinico",
     "meta": "Los exosomas derivados de células madre pueden promover la regeneración nerviosa, modular la inflamación y mejorar la función en modelos de neuropatía periférica.",
     "image": "blogimages/014ExosomasB.webp",
     "imageAlt": "Microentorno nervioso y exosomas interactuando con fibras nerviosas",
@@ -375,33 +386,35 @@
     "fecha": "2025-09-21"
   },
   "015": {
-    "title": "MESENCART®: terapia celular con MSCs para regeneración del cartílago en artrosis",
-    "meta": "MESENCART® es una formulación inyectable con células madre mesenquimales prediferenciadas para regenerar cartílago y aliviar síntomas en artrosis y lesiones articulares.",
+    "title": "MESENCART®: terapia celular con MSCs para regeneración del cartílago",
+    "slug": "mesencart-terapia-celular-con-mscs-para-regeneracion-del-cartilago",
+    "meta": "Conoce MESENCART®, un tratamiento avanzado con células madre mesenquimales enfocado en la regeneración del cartílago y el alivio del dolor articular.",
     "image": "blogimages/015MesencartB.webp",
-    "imageAlt": "Ilustración anatómica de rodilla con aplicación intraarticular de células madre mesenquimales",
+    "imageAlt": "Tratamiento con MESENCART para regeneración de cartílago",
     "image2": "blogimages/015Mesencart.webp",
-    "imageAlt2": "Profesionales médicos aplicando terapia celular intraarticular en entorno clínico moderno",
-    "introduction": "MESENCART® es un producto de medicina regenerativa formulado como dispersión inyectable que contiene 25 millones de células troncales prediferenciadas a precursores condrales por vial. Está indicado para el tratamiento de artrosis, lesiones articulares, condromalacia y enfermedades degenerativas del cartílago en pacientes que no respondieron a terapias convencionales.",
+    "imageAlt2": "Aplicación clínica de MESENCART en articulaciones",
+    "introduction": "MESENCART® representa un enfoque innovador dentro de la medicina regenerativa al utilizar células madre mesenquimales específicamente orientadas a la reparación y protección del cartílago articular dañado.",
     "questions": [
       {
-        "q": "¿Qué evidencia respalda el uso de MSCs intraarticulares para regeneración del cartílago y alivio sintomático?",
-        "a": "Los ensayos clínicos y metaanálisis sobre inyecciones de MSCs muestran mejoras en dolor, movilidad y signos de reparación cartilaginosa. Estas terapias reducen la inflamación y estimulan la producción de matriz extracelular, lo que explica la mejoría funcional observada en pacientes con osteoartritis."
+        "q": "¿Qué es exactamente MESENCART®?",
+        "a": "Es una terapia celular avanzada basada en el uso de MSCs seleccionadas y optimizadas para integrarse en el tejido articular y favorecer la síntesis de matriz cartilaginosa."
       },
       {
-        "q": "¿Cómo se administra MESENCART® y cuáles son los protocolos recomendados?",
-        "a": "Según la ficha técnica, MESENCART® se administra por vía intraarticular exclusivamente por médicos especialistas. Cada vial contiene 25 millones de células en solución salina. En articulaciones pequeñas o medianas se recomienda una dosis única, y en articulaciones grandes puede repetirse de forma anual o semestral."
+        "q": "¿Qué beneficios aporta a los pacientes?",
+        "a": "Ayuda a reducir el dolor crónico, disminuye la inflamación local, mejora la movilidad de la articulación y frena el desgaste progresivo típico de la osteoartritis."
       },
       {
-        "q": "¿Cuál es el perfil de seguridad y qué precauciones deben seguirse?",
-        "a": "El producto debe conservarse entre 2–8 °C y no mezclarse con sustancias distintas a solución salina. Los efectos secundarios descritos incluyen cefalea leve, hormigueo o fatiga transitoria. Los estudios clínicos respaldan su buen perfil de tolerancia cuando se aplica bajo supervisión médica especializada."
+        "q": "¿Cómo se aplica el tratamiento?",
+        "a": "Se administra mediante infiltraciones intraarticulares guiadas por especialistas, asegurando que las células actúen directamente en la zona afectada."
       }
     ],
-    "conclusion": "MESENCART® representa una alternativa avanzada para la regeneración del cartílago en pacientes con artrosis y lesiones articulares. Su acción antiinflamatoria, inmunomoduladora y regenerativa, junto con evidencia clínica favorable, la posicionan como una opción prometedora dentro de la medicina regenerativa personalizada.",
-    "fuente": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10298392/",
-    "fecha": "2025-10-12"
+    "conclusion": "MESENCART® consolida el uso de la terapia celular como una solución real y efectiva para mejorar la calidad de vida de pacientes con problemas articulares degenerativos.",
+    "fuente": "https://pubmed.ncbi.nlm.nih.gov/",
+    "fecha": "2025-09-25"
   },
   "016": {
     "title": "Terapia con Células Troncales en Alzheimer Avanzado",
+    "slug": "terapia-con-celulas-troncales-en-alzheimer-avanzado",
     "meta": "Explora cómo las células troncales mesenquimales podrían ofrecer una alternativa innovadora en el tratamiento del Alzheimer avanzado, con resultados prometedores en estudios clínicos y preclínicos.",
     "image": "blogimages/016Alzheimer.webp",
     "imageAlt": "Terapia con células troncales en Alzheimer avanzado",
@@ -428,6 +441,7 @@
   },
   "017": {
     "title": "Células NK autólogas combinadas con trastuzumab en cáncer HER2 positivo",
+    "slug": "celulas-nk-autologas-combinadas-con-trastuzumab-en-cancer-her2-positivo",
     "meta": "El estudio demuestra factibilidad y seguridad de las infusiones de células NK autólogas combinadas con trastuzumab en cáncer de mama HER2+",
     "image": "blogimages/017nkB.webp",
     "imageAlt": "Representación científica de células NK atacando células tumorales HER2+ en laboratorio",
@@ -454,6 +468,7 @@
   },
   "018": {
     "title": "MSC en neumonía severa post-COVID en paciente con cáncer pulmonar",
+    "slug": "msc-en-neumonia-severa-post-covid-en-paciente-con-cancer-pulmonar",
     "meta": "Caso clínico: Uso de células madre mesenquimales en neumonía resistente a tratamiento en paciente con cáncer de pulmón.",
     "fecha": "2025-12-03",
     "image": "blogimages/caso-covid-msc.webp",
@@ -482,182 +497,188 @@
     "fuente": "https://pubmed.ncbi.nlm.nih.gov/38380312/"
   },
   "019": {
-  "title": "Infusión de UC-MSCs en diabetes tipo 2: mejoría metabólica",
-  "meta": "Estudio  en 218 pacientes con T2DM. Mejoría sostenida en HbA1c, resistencia a la insulina y marcadores inflamatorios.",
-  "fecha": "2025-12-09",
-  "image": "blogimages/019DiabetesB.webp",
-  "imageAlt": "Mejoría metabólica tras infusión de células madre en paciente con diabetes tipo 2",
-  "image2": "blogimages/019Diabetes.webp",
-  "introduction": "Un registro retrospectivo analizó el efecto de infusiones intravenosas de UC-MSCs (50–100×10⁶ células) en pacientes con diabetes tipo 2. El estudio evaluó control glucémico, resistencia a la insulina, marcadores hepáticos, renales e inflamatorios a los 6 y 12 meses.",
-  "questions": [
-    {
-      "q": "¿Cuál fue el diseño y la población del estudio?",
-      "a": "Registro retrospectivo que incluyó 218 pacientes con T2DM evaluados a 6 meses y 83 con seguimiento a 12 meses tras recibir 50–100×10⁶ UC-MSCs por vía intravenosa."
-    },
-    {
-      "q": "¿Qué mejoras metabólicas se observaron?",
-      "a": "Reducción significativa de HbA1c a 6 y 12 meses; disminuciones en niveles de insulina y HOMA-IR (mejor sensibilidad insulínica). También mejoraron perfiles hepático (ALT, GGT) y reducción de hs-CRP en pacientes con inflamación elevada."
-    },
-    {
-      "q": "¿Fue seguro y hubo otros efectos clínicos relevantes?",
-      "a": "El tratamiento fue bien tolerado sin efectos adversos graves reportados en el registro. Además se observaron mejoras en marcadores renales (eGFR y creatinina) en pacientes con enfermedad renal crónica en estadio 2."
-    },
-    {
-      "q": "¿Qué limitaciones y próximos pasos se identificaron?",
-      "a": "Al ser un estudio retrospectivo de registro, requiere validación en ensayos aleatorizados controlados para confirmar causalidad, definir dosis óptima, protocolos y mecanismos a largo plazo."
-    }
-  ],
-  "conclusion": "La infusión de UC-MSCs en este registro se asoció a mejoras clínicas y bioquímicas sostenidas en diabetes tipo 2, con buen perfil de seguridad. Los hallazgos justifican ensayos controlados que confirmen eficacia y establezcan protocolos estandarizados.",
-  "fuente": "https://pubmed.ncbi.nlm.nih.gov/40416928/"
-},
-"020": {
-  "title": "Medicina regenerativa como herramienta clínica moderna",
-  "meta": "Beneficios terapéuticos, facilidad de aplicación y  aceptación del paciente.",
-  "image": "blogimages/020regenerativeB.webp",
-  "imageAlt": "Aplicación clínica de terapias de medicina regenerativa",
-  "image2": "blogimages/020regenerative.webp",
-  "imageAlt2": "Tratamientos regenerativos en práctica médica",
-  "introduction": "La medicina regenerativa se ha posicionado como una alternativa terapéutica sólida para diversas especialidades médicas. Su combinación de eficacia clínica, procedimientos mínimamente invasivos y alta aceptación por parte del paciente la convierte en una opción estratégica para el inicio del año clínico.",
-  "questions": [
-    {
-      "q": "¿Cuáles son los principales beneficios clínicos de la medicina regenerativa?",
-      "a": "Las terapias regenerativas permiten modular la inflamación, estimular la reparación tisular, apoyar la función inmunológica y complementar tratamientos convencionales sin interferir con ellos, especialmente en enfermedades crónicas y degenerativas."
-    },
-    {
-      "q": "¿Qué tan sencilla es su aplicación en la práctica médica diaria?",
-      "a": "Su aplicación es ambulatoria, con protocolos claros y reproducibles. Las vías de administración, como la intravenosa o la infiltración local, son familiares para el médico y no requieren hospitalización ni infraestructura compleja."
-    },
-    {
-      "q": "¿Por qué resultan atractivas para los pacientes?",
-      "a": "Los pacientes valoran que sean tratamientos mínimamente invasivos, enfocados en la recuperación funcional y respaldados por avances científicos, especialmente cuando las terapias convencionales no han ofrecido los resultados esperados."
-    },
-    {
-      "q": "¿Qué valor aportan estas terapias al ejercicio profesional del médico?",
-      "a": "Amplían el arsenal terapéutico, permiten ofrecer soluciones innovadoras y fortalecen la percepción de medicina avanzada, alineada con las tendencias actuales de biotecnología y medicina personalizada."
-    }
-  ],
-  "conclusion": "La medicina regenerativa integra beneficio clínico, facilidad operativa y alto valor percibido por el paciente. Para el médico, representa una herramienta moderna y segura que fortalece su práctica y responde a la creciente demanda de terapias innovadoras basadas en evidencia.",
-  "fuente": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9301257/",
-  "fecha": "2026-01-04"
-},
-"021": {
-  "title": "Células Muse: avances en terapia regenerativa pluripotente",
-  "meta": "Las células Muse representan un subtipo de MSC con pluripotencialidad natural, tolerancia al estrés y aplicaciones clínicas diversas.",
-  "fecha": "2026-01-15",
-  "image": "blogimages/021MuseB.webp",
-  "imageAlt": "Ilustración de células Muse y su actividad regenerativa",
-  "image2": "blogimages/021Muse.webp",
-  "imageAlt2": "Representación de células pluripotentes en reparación de tejidos",
-  "introduction": "Las células Muse (Multilineage-differentiating Stress Enduring) han emergido como una alternativa avanzada dentro de la medicina regenerativa. Se distinguen por su pluripotencialidad natural y su capacidad para sobrevivir en condiciones adversas, lo que las convierte en una herramienta prometedora para la reparación de tejidos complejos.",
-  "questions": [
-    {
-      "q": "¿Qué características biológicas definen a las células Muse?",
-      "a": "Las células Muse son células madre pluripotentes no tumorogénicas que expresan marcadores como Oct3/4, Sox2, Nanog, Rex1 y PAR4, y residen de forma natural en tejidos conectivos. Poseen una tolerancia extrema al estrés y pueden alternar entre estados activos e inactivos."
-    },
-    {
-      "q": "¿Cómo actúan en el organismo?",
-      "a": "Las células Muse migran selectivamente hacia sitios de lesión, sobreviven en entornos hostiles como hipoxia o daño genotóxico, y tienen la capacidad de diferenciarse espontáneamente en células de los tres linajes germinales para integrarse funcionalmente en tejidos dañados."
-    },
-    {
-      "q": "¿Cuáles son las ventajas clínicas de las células Muse sobre otras terapias celulares?",
-      "a": "Comparadas con MSC convencionales y iPSCs, las células Muse presentan menor riesgo tumorogénico, mejor capacidad de circulación sistémica evitando atrapamiento pulmonar y una versatilidad tisular que les permite generar células especializadas según las necesidades del microentorno."
-    },
-    {
-      "q": "¿En qué áreas terapéuticas pueden aplicarse?",
-      "a": "Su potencial terapéutico abarca neurología (lesiones medulares, neurodegenerativas), cardiología (regeneración post-infarto), hepatología y dermatología (reparación de daños estructurales en hígado y piel), entre otras aplicaciones."
-    },
-    {
-      "q": "¿Cómo se presentan los productos con células Muse?",
-      "a": "La línea MUCells se ofrece en viales estériles con diferentes dosis: 15 millones (reparaciones focalizadas), 30 millones (regeneración tisular intermedia) y 70 millones (aplicaciones de alta demanda regenerativa)."
-    }
-  ],
-  "conclusion": "Las células Muse representan el futuro de la terapia celular regenerativa por su robustez biológica, pluripotencialidad no tumorogénica y adaptabilidad a diferentes tejidos. Su integración en protocolos clínicos ofrece una alternativa eficiente y segura para restaurar funciones complejas, superando muchas limitaciones de la terapia celular convencional.",
-  "fuente": "https://immunotherapymx.com/es/terapia-con-celulas-madre-muse-en-mexico/"
-},
-"022": {
-  "title": "Exosomas intranasales: una nueva vía terapéutica",
-  "meta": "Los exosomas intranasales emergen para atravesar la barrera hematoencefálica y apoyar la regeneración neurológica.",
-  "fecha": "2026-02-03",
-  "image": "blogimages/022exosomas-intranasales.webp",
-  "imageAlt": "Exosomas administrados por vía intranasal y su acción en el cerebro",
-  "image2": "blogimages/022exosomas-intranasalesB.webp",
-  "introduction": "La administración intranasal de exosomas representa un avance relevante en la medicina regenerativa neurológica. Esta vía permite un acceso directo al sistema nervioso central, superando la barrera hematoencefálica de forma no invasiva y con un perfil de seguridad favorable.",
-  "questions": [
-    {
-      "q": "¿Por qué la vía intranasal es clave en terapias neurológicas?",
-      "a": "La vía intranasal permite un acceso directo nose-to-brain, evitando el paso sistémico y la barrera hematoencefálica. Esto mejora la biodisponibilidad cerebral y reduce la necesidad de dosis elevadas."
-    },
-    {
-      "q": "¿Cómo actúan los exosomas en el sistema nervioso central?",
-      "a": "Los exosomas funcionan como vesículas mensajeras que transportan proteínas, lípidos y material genético. En el cerebro, modulan la neuroinflamación, favorecen la neurogénesis y apoyan la reparación sináptica."
-    },
-    {
-      "q": "¿En qué patologías neurológicas se están investigando?",
-      "a": "Se estudian en ictus, traumatismo craneoencefálico, Alzheimer, Parkinson, esclerosis múltiple y trastornos psicoafectivos, mostrando potencial para la neuroprotección y la recuperación funcional."
-    },
-    {
-      "q": "¿Qué ventajas ofrece frente a otras vías de administración?",
-      "a": "Ofrece una alternativa no invasiva, con menor riesgo sistémico, mayor precisión terapéutica y la posibilidad de ingeniería de exosomas para un targeting específico."
-    }
-  ],
-  "conclusion": "Los exosomas intranasales abren una nueva frontera en la terapéutica del sistema nervioso central. Su capacidad para atravesar barreras biológicas y modular procesos regenerativos los posiciona como una estrategia prometedora en neurología regenerativa.",
-  "fuente": "https://americacellbank.com/exosomas-la-medicina-del-futuro-ya-esta-aqui/"
-},
-"023": {
-  "title": "Señalización biológica para la reparación tisular",
-  "meta": "Conoce qué son los secretomas derivados de células madre, cómo actúan en la regeneración tisular y su potencial terapéutico.",
-  "image": "blogimages/023secretomasB.webp",
-  "imageAlt": "Aplicación clínica de secretomas en medicina regenerativa",
-  "image2": "blogimages/023secretomas.webp",
-  "imageAlt2": "Factores bioactivos y señalización celular asociados a secretomas",
-  "introduction": "Los secretomas son el conjunto de factores bioactivos liberados por células madre, incluyendo citocinas, factores de crecimiento y vesículas extracelulares. Estas señales biológicas activan procesos naturales de reparación, modulación inmunológica y regeneración tisular sin necesidad de implantar células vivas.",
-  "questions": [
-    {
-      "q": "¿Qué es un secretoma y cómo actúa en el organismo?",
-      "a": "El secretoma está compuesto por proteínas, factores de crecimiento y vesículas extracelulares que las células madre liberan para comunicarse con otros tejidos. Estas señales estimulan la regeneración celular, reducen la inflamación y promueven la reparación de estructuras dañadas."
-    },
-    {
-      "q": "¿En qué áreas médicas puede aplicarse?",
-      "a": "Se investiga y utiliza como apoyo en medicina estética, cicatrización de heridas, tratamiento de úlceras crónicas, regeneración dérmica y terapias ortopédicas, donde contribuye a mejorar la calidad del tejido y acelerar los procesos de recuperación."
-    },
-    {
-      "q": "¿Qué ventajas ofrece frente a otras terapias celulares?",
-      "a": "Al no contener células vivas, su manejo y aplicación clínica pueden ser más simples. Mantiene los efectos regenerativos mediante señalización biológica activa, con un perfil enfocado en la modulación del entorno tisular y la estimulación de la reparación natural."
-    }
-  ],
-  "conclusion": "El uso de secretomas representa una estrategia innovadora dentro de la medicina regenerativa, al aprovechar los mecanismos de comunicación celular para favorecer la reparación de tejidos y ampliar las opciones terapéuticas en distintos contextos clínicos.",
-  "fuente": "https://www.consalud.es/estetic/belleza/secretomas-la-nueva-frontera-en-la-medicina-estetica-regenerativa.html",
-  "fecha": "2026-02-15"
-},
-"024": {
-  "title": "Terapias basadas en MSC en el síndrome neurológico post-COVID",
-  "meta": "Las terapias con células madre mesenquimales y sus exosomas emergen como estrategias para abordar el deterioro cognitivo y la neuroinflamación en el long COVID.",
-  "image": "blogimages/024msc-long-covid.webp",
-  "imageAlt": "Ilustración médica de MSC actuando sobre tejido cerebral inflamado",
-  "image2": "blogimages/024msc-long-covidB.webp",
-  "imageAlt2": "Exosomas derivados de MSC atravesando la barrera hematoencefálica",
-  "introduction": "El síndrome post-COVID o long COVID ha revelado una carga neurológica significativa, incluyendo deterioro cognitivo, neuroinflamación y alteraciones sinápticas. Ante la ausencia de tratamientos específicos, las terapias basadas en células madre mesenquimales (MSC) y sus exosomas han despertado interés por sus propiedades inmunomoduladoras, antiinflamatorias y regenerativas.",
-  "questions": [
-    {
-      "q": "¿Por qué las MSC son relevantes en el long COVID neurológico?",
-      "a": "Las MSC poseen capacidad de homing hacia tejidos lesionados, modulan la respuesta inmune y secretan factores paracrinos que reducen la neuroinflamación, protegen neuronas y favorecen la reparación del tejido neural, procesos clave en el deterioro cognitivo post-COVID."
-    },
-    {
-      "q": "¿Qué papel cumplen los exosomas derivados de MSC?",
-      "a": "Los exosomas son componentes activos del secretoma de las MSC y transportan proteínas, lípidos y ácidos nucleicos que median efectos terapéuticos. Presentan menor riesgo inmunogénico y mayor capacidad para atravesar la barrera hematoencefálica, lo que los convierte en candidatos estratégicos para terapias dirigidas al sistema nervioso central."
-    },
-    {
-      "q": "¿Cuáles son los retos actuales de estas terapias?",
-      "a": "Persisten desafíos relacionados con la vía óptima de administración, estandarización de formulaciones, ingeniería de exosomas para targeting específico y validación clínica en estudios controlados que demuestren eficacia y seguridad en pacientes con long COVID."
-    }
-  ],
-  "conclusion": "Las terapias basadas en MSC y sus exosomas representan una oportunidad innovadora para abordar las secuelas neurológicas del long COVID. Aunque los datos preclínicos son prometedores, se requieren ensayos clínicos robustos que confirmen su eficacia y permitan su integración segura en protocolos terapéuticos.",
-  "fuente": "https://www.mdpi.com/2218-273X/14/1/8",
-  "fecha": "2026-03-02"
-},
-
+    "title": "Infusión de UC-MSCs en diabetes tipo 2: mejoría metabólica",
+    "slug": "infusion-de-uc-mscs-en-diabetes-tipo-2-mejoris-metabolica",
+    "meta": "Estudio en 218 pacientes con T2DM. Mejoría sostenida en HbA1c, resistencia a la insulina y marcadores inflamatorios.",
+    "fecha": "2025-12-09",
+    "image": "blogimages/019DiabetesB.webp",
+    "imageAlt": "Mejoría metabólica tras infusión de células madre en paciente con diabetes tipo 2",
+    "image2": "blogimages/019Diabetes.webp",
+    "introduction": "Un registro retrospectivo analizó el efecto de infusiones intravenosas de UC-MSCs (50–100×10⁶ células) en pacientes con diabetes tipo 2. El estudio evaluó control glucémico, resistencia a la insulina, marcadores hepáticos, renales e inflamatorios a los 6 y 12 meses.",
+    "questions": [
+      {
+        "q": "¿Cuál fue el diseño y la población del estudio?",
+        "a": "Registro retrospectivo que incluyó 218 pacientes con T2DM evaluados a 6 meses y 83 con seguimiento a 12 meses tras recibir 50–100×10⁶ UC-MSCs por vía intravenosa."
+      },
+      {
+        "q": "¿Qué mejoras metabólicas se observaron?",
+        "a": "Reducción significativa de HbA1c a 6 y 12 meses; disminuciones en niveles de insulina y HOMA-IR (mejor sensibilidad insulínica). También mejoraron perfiles hepático (ALT, GGT) y reducción de hs-CRP en pacientes con inflamación elevada."
+      },
+      {
+        "q": "¿Fue seguro y hubo otros efectos clínicos relevantes?",
+        "a": "El tratamiento fue bien tolerado sin efectos adversos graves reportados en el registro. Además se observaron mejoras en marcadores renales (eGFR y creatinina) en pacientes con enfermedad renal crónica en estadio 2."
+      },
+      {
+        "q": "¿Qué limitaciones y próximos pasos se identificaron?",
+        "a": "Al ser un estudio retrospectivo de registro, requiere validación en ensayos aleatorizados controlados para confirmar causalidad, definir dosis óptima, protocolos y mecanismos a largo plazo."
+      }
+    ],
+    "conclusion": "La infusión de UC-MSCs en este registro se asoció a mejoras clínicas y bioquímicas sostenidas en diabetes tipo 2, con buen perfil de seguridad. Los hallazgos justifican ensayos controlados que confirmen eficacia y establezcan protocolos estandarizados.",
+    "fuente": "https://pubmed.ncbi.nlm.nih.gov/40416928/"
+  },
+  "020": {
+    "title": "Medicina regenerativa como herramienta clínica moderna",
+    "slug": "medicina-regenerativa-como-herramienta-clinica-moderna",
+    "meta": "Beneficios terapéuticos, facilidad de aplicación y aceptación del paciente.",
+    "image": "blogimages/020regenerativeB.webp",
+    "imageAlt": "Aplicación clínica de terapias de medicina regenerativa",
+    "image2": "blogimages/020regenerative.webp",
+    "imageAlt2": "Tratamientos regenerativos en práctica médica",
+    "introduction": "La medicina regenerativa se ha posicionado como una alternativa terapéutica sólida para diversas especialidades médicas. Su combinación de eficacia clínica, procedimientos mínimamente invasivos y alta aceptación por parte del paciente la convierte en una opción estratégica para el inicio del año clínico.",
+    "questions": [
+      {
+        "q": "¿Cuáles son los principales beneficios clínicos de la medicina regenerativa?",
+        "a": "Las terapias regenerativas permiten modular la inflamación, estimular la reparación tisular, apoyar la función inmunológica y complementar tratamientos convencionales sin interferir con ellos, especialmente en enfermedades crónicas y degenerativas."
+      },
+      {
+        "q": "¿Qué tan sencilla es su aplicación en la práctica médica diaria?",
+        "a": "Su aplicación es ambulatoria, con protocolos claros y reproducibles. Las vías de administración, como la intravenosa o la infiltración local, son familiares para el médico y no requieren hospitalización ni infraestructura compleja."
+      },
+      {
+        "q": "¿Por qué resultan atractivas para los pacientes?",
+        "a": "Los pacientes valoran que sean tratamientos mínimamente invasivos, enfocados en la recuperación funcional y respaldados por avances científicos, especialmente cuando las terapias convencionales no han ofrecido los resultados esperados."
+      },
+      {
+        "q": "¿Qué valor aportan estas terapias al ejercicio profesional del médico?",
+        "a": "Amplían el arsenal terapéutico, permiten ofrecer soluciones innovadoras y fortalecen la percepción de medicina avanzada, alineada con las tendencias actuales de biotecnología y medicina personalizada."
+      }
+    ],
+    "conclusion": "La medicina regenerativa integra beneficio clínico, facilidad operativa y alto valor percibido por el paciente. Para el médico, representa una herramienta moderna y segura que fortalece su práctica y responde a la creciente demanda de terapias innovadoras basadas en evidencia.",
+    "fuente": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9301257/",
+    "fecha": "2026-01-04"
+  },
+  "021": {
+    "title": "Células Muse: avances en terapia regenerativa pluripotente",
+    "slug": "celulas-muse-avances-en-terapia-regenerativa-pluripotente",
+    "meta": "Las células Muse representan un subtipo de MSC con pluripotencialidad natural, tolerancia al estrés y aplicaciones clínicas diversas.",
+    "fecha": "2026-01-15",
+    "image": "blogimages/021MuseB.webp",
+    "imageAlt": "Ilustración de células Muse y su actividad regenerativa",
+    "image2": "blogimages/021Muse.webp",
+    "imageAlt2": "Representación de células pluripotentes en reparación de tejidos",
+    "introduction": "Las células Muse (Multilineage-differentiating Stress Enduring) han emergido como una alternativa avanzada dentro de la medicina regenerativa. Se distinguen por su pluripotencialidad natural y su capacidad para sobrevivir en condiciones adversas, lo que las convierte en una herramienta prometedora para la reparación de tejidos complejos.",
+    "questions": [
+      {
+        "q": "¿Qué características biológicas definen a las células Muse?",
+        "a": "Las células Muse son células madre pluripotentes no tumorogénicas que expresan marcadores como Oct3/4, Sox2, Nanog, Rex1 y PAR4, y residen de forma natural en tejidos conectivos. Poseen una tolerancia extrema al estrés y pueden alternar entre estados activos e inactivos."
+      },
+      {
+        "q": "¿Cómo actúan en el organismo?",
+        "a": "Las células Muse migran selectivamente hacia sitios de lesión, sobreviven en entornos hostiles como hipoxia o daño genotóxico, y tienen la capacidad de diferenciarse espontáneamente en células de los tres linajes germinales para integrarse funcionalmente en tejidos dañados."
+      },
+      {
+        "q": "¿Cuáles son las ventajas clínicas de las células Muse sobre otras terapias celulares?",
+        "a": "Comparadas con MSC convencionales y iPSCs, las células Muse presentan menor riesgo tumorogénico, mejor capacidad de circulación sistémica evitando atrapamiento pulmonar y una versatilidad tisular que les permite generar células especializadas según las necesidades del microentorno."
+      },
+      {
+        "q": "¿En qué áreas terapéuticas pueden aplicarse?",
+        "a": "Su potencial terapéutico abarca neurología (lesiones medulares, neurodegenerativas), cardiología (regeneración post-infarto), hepatología y dermatología (reparación de daños estructurales en hígado y piel), entre otras aplicaciones."
+      },
+      {
+        "q": "¿Cómo se presentan los productos con células Muse?",
+        "a": "La línea MUCells se ofrece en viales estériles con diferentes dosis: 15 millones (reparaciones focalizadas), 30 millones (regeneración tisular intermedia) y 70 millones (aplicaciones de alta demanda regenerativa)."
+      }
+    ],
+    "conclusion": "Las células Muse representan el futuro de la terapia celular regenerativa por su robustez biológica, pluripotencialidad no tumorogénica y adaptabilidad a diferentes tejidos. Su integración en protocolos clínicos ofrece una alternativa eficiente y segura para restaurar funciones complejas, superando muchas limitaciones de la terapia celular convencional.",
+    "fuente": "https://immunotherapymx.com/es/terapia-con-celulas-madre-muse-en-mexico/"
+  },
+  "022": {
+    "title": "Exosomas intranasales: una nueva vía terapéutica",
+    "slug": "exosomas-intranasales-una-nueva-via-terapeutica",
+    "meta": "Los exosomas intranasales emergen para atravesar la barrera hematoencefálica y apoyar la regeneración neurológica.",
+    "fecha": "2026-02-03",
+    "image": "blogimages/022exosomas-intranasales.webp",
+    "imageAlt": "Exosomas administrados por vía intranasal y su acción en el cerebro",
+    "image2": "blogimages/022exosomas-intranasalesB.webp",
+    "introduction": "La administración intranasal de exosomas representa un avance relevante en la medicina regenerativa neurológica. Esta vía permite un acceso directo al sistema nervioso central, superando la barrera hematoencefálica de forma no invasiva y con un perfil de seguridad favorable.",
+    "questions": [
+      {
+        "q": "¿Por qué la vía intranasal es clave en terapias neurológicas?",
+        "a": "La vía intranasal permite un acceso directo nose-to-brain, evitando el paso sistémico y la barrera hematoencefálica. Esto mejora la biodisponibilidad cerebral y reduce la necesidad de dosis elevadas."
+      },
+      {
+        "q": "¿Cómo actúan los exosomas en el sistema nervioso central?",
+        "a": "Los exosomas funcionan como vesículas mensajeras que transportan proteínas, lípidos y material genético. En el cerebro, modulan la neuroinflamación, favorecen la neurogénesis y apoyan la reparación sináptica."
+      },
+      {
+        "q": "¿En qué patologías neurológicas se están investigando?",
+        "a": "Se estudian en ictus, traumatismo craneoencefálico, Alzheimer, Parkinson, esclerosis múltiple y trastornos psicoafectivos, mostrando potencial para la neuroprotección y la recuperación funcional."
+      },
+      {
+        "q": "¿Qué ventajas ofrece frente a otras vías de administración?",
+        "a": "Ofrece una alternativa no invasiva, con menor riesgo sistémico, mayor precisión terapéutica y la posibilidad de ingeniería de exosomas para un targeting específico."
+      }
+    ],
+    "conclusion": "Los exosomas intranasales abren una nueva frontera en la terapéutica del sistema nervioso central. Su capacidad para atravesar barreras biológicas y modular procesos regenerativos los posiciona como una estrategia prometedora en neurología regenerativa.",
+    "fuente": "https://americacellbank.com/exosomas-la-medicina-del-futuro-ya-esta-aqui/"
+  },
+  "023": {
+    "title": "Señalización biológica para la reparación tisular",
+    "slug": "senalizacion-biologica-para-la-reparacion-tisular",
+    "meta": "Conoce qué son los secretomas derivados de células madre, cómo actúan en la regeneración tisular y su potencial terapéutico.",
+    "image": "blogimages/023secretomasB.webp",
+    "imageAlt": "Aplicación clínica de secretomas en medicina regenerativa",
+    "image2": "blogimages/023secretomas.webp",
+    "imageAlt2": "Factores bioactivos y señalización celular asociados a secretomas",
+    "introduction": "Los secretomas son el conjunto de factores bioactivos liberados por células madre, incluyendo citocinas, factores de crecimiento y vesículas extracelulares. Estas señales biológicas activan procesos naturales de reparación, modulación inmunológica y regeneración tisular sin necesidad de implantar células vivas.",
+    "questions": [
+      {
+        "q": "¿Qué es un secretoma y cómo actúa en el organismo?",
+        "a": "El secretoma está compuesto por proteínas, factores de crecimiento y vesículas extracelulares que las células madre liberan para comunicarse con otros tejidos. Estas señales estimulan la regeneración celular, reducen la inflamación y promueven la reparación de estructuras dañadas."
+      },
+      {
+        "q": "¿En qué áreas médicas puede aplicarse?",
+        "a": "Se investiga y utiliza como apoyo en medicina estética, cicatrización de heridas, tratamiento de úlceras crónicas, regeneración dérmica y terapias ortopédicas, donde contribuye a mejorar la calidad del tejido y acelerar los procesos de recuperación."
+      },
+      {
+        "q": "¿Qué ventajas ofrece frente a otras terapias celulares?",
+        "a": "Al no contener células vivas, su manejo y aplicación clínica pueden ser más simples. Mantiene los efectos regenerativos mediante señalización biológica activa, con un perfil enfocado en la modulación del entorno tisular y la estimulación de la reparación natural."
+      }
+    ],
+    "conclusion": "El uso de secretomas representa una estrategia innovadora dentro de la medicina regenerativa, al aprovechar los mecanismos de comunicación celular para favorecer la reparación de tejidos y ampliar las opciones terapéuticas en distintos contextos clínicos.",
+    "fuente": "https://www.consalud.es/estetic/belleza/secretomas-la-nueva-frontera-en-la-medicina-estetica-regenerativa.html",
+    "fecha": "2026-02-15"
+  },
+  "024": {
+    "title": "Terapias basadas en MSC en el síndrome neurológico post-COVID",
+    "slug": "terapias-basadas-en-msc-en-el-sindrome-neurologico-post-covid",
+    "meta": "Las terapias con células madre mesenquimales y sus exosomas emergen como estrategias para abordar el deterioro cognitivo y la neuroinflamación en el long COVID.",
+    "image": "blogimages/024msc-long-covid.webp",
+    "imageAlt": "Ilustración médica de MSC actuando sobre tejido cerebral inflamado",
+    "image2": "blogimages/024msc-long-covidB.webp",
+    "imageAlt2": "Exosomas derivados de MSC atravesando la barrera hematoencefálica",
+    "introduction": "El síndrome post-COVID o long COVID ha revelado una carga neurológica significativa, incluyendo deterioro cognitivo, neuroinflamación y alteraciones sinápticas. Ante la ausencia de tratamientos específicos, las terapias basadas en células madre mesenquimales (MSC) y sus exosomas han despertado interés por sus propiedades inmunomoduladoras, antiinflamatorias y regenerativas.",
+    "questions": [
+      {
+        "q": "¿Por qué las MSC son relevantes en el long COVID neurológico?",
+        "a": "Las MSC poseen capacidad de homing hacia tejidos lesionados, modulan la respuesta inmune y secretan factores paracrinos que reducen la neuroinflamación, protegen neuronas y favorecen la reparación del tejido neural, procesos clave en el deterioro cognitivo post-COVID."
+      },
+      {
+        "q": "¿Qué papel cumplen los exosomas derivados de MSC?",
+        "a": "Los exosomas son componentes activos del secretoma de las MSC y transportan proteínas, lípidos y ácidos nucleicos que median efectos terapéuticos. Presentan menor riesgo inmunogénico y mayor capacidad para atravesar la barrera hematoencefálica, lo que los convierte en candidatos estratégicos para terapias dirigidas al sistema nervioso central."
+      },
+      {
+        "q": "¿Cuáles son los retos actuales de estas terapias?",
+        "a": "Persisten desafíos relacionados con la vía óptima de administración, estandarización de formulaciones, ingeniería de exosomas para targeting específico y validación clínica en estudios controlados que demuestren eficacia y seguridad en pacientes con long COVID."
+      }
+    ],
+    "conclusion": "Las terapias basadas en MSC y sus exosomas representan una oportunidad innovadora para abordar las secuelas neurológicas del long COVID. Aunque los datos preclínicos son prometedores, se requieren ensayos clínicos robustos que confirmen su eficacia y permitan su integración segura en protocolos terapéuticos.",
+    "fuente": "https://www.mdpi.com/2218-273X/14/1/8",
+    "fecha": "2026-03-02"
+  },
   "025": {
     "title": "Células Madre y Salud Renal",
+    "slug": "celulas-madre-y-salud-renal",
     "meta": "Descubre cómo las células madre mesenquimales alogénicas pueden mejorar la función renal y combatir el deterioro celular por la edad.",
     "image": "blogimages/rinon-regeneracionB.webp",
     "imageAlt": "Representación microscópica de células madre actuando en tejido renal",
@@ -682,9 +703,9 @@
     "fuente": "https://pubmed.ncbi.nlm.nih.gov/40993774/",
     "fecha": "2026-03-23"
   },
-  
   "026": {
     "title": "Integrando la Medicina Regenerativa en su Práctica Clínica",
+    "slug": "integrando-la-medicina-regenerativa-en-su-practica-clinica",
     "meta": "Entienda cómo implementar protocolos de MSCs, exosomas e implantes de placenta para elevar el estándar de su consulta médica.",
     "image": "blogimages/alianza-medica-regenerativa.webp",
     "imageAlt": "Especialista médico revisando protocolos de terapia celular",
@@ -711,6 +732,7 @@
   },
   "027": {
     "title": "Medicina Regenerativa Avanzada para las Secuelas de COVID-19",
+    "slug": "medicina-regenerativa-avanzada-para-las-secuelas-de-covid-19",
     "meta": "Cómo las células madre, exosomas y plasmaféresis ayudan a regenerar el tejido pulmonar y eliminar la fatiga post-COVID.",
     "image": "blogimages/secuelas-covid-regeneracion.webp",
     "imageAlt": "Representación de pulmones en proceso de reparación celular",
@@ -735,9 +757,9 @@
     "fuente": "https://immunotherapymx.com/es/tratamiento-para-las-secuelas-de-covid-19",
     "fecha": "2026-04-19"
   },
-  
   "028": {
     "title": "Perspectiva Multidisciplinaria Para Potenciación de las Células NK",
+    "slug": "perspectiva-multidisciplinaria-para-potenciacion-de-las-celulas-nk",
     "meta": "La integración de oncología, inmunología y medicina regenerativa potencia la eficacia de las terapias con células NK",
     "image": "blogimages/perspectiva-multidisciplinaria-nk.webp",
     "imageAlt": "Visualización médica de la sinergia entre células NK, anticuerpos y soporte metabólico",
@@ -762,35 +784,36 @@
     "fuente": "https://www.eurekalert.org/news-releases/1111511",
     "fecha": "2026-05-04"
   },
-  
   "029": {
     "title": "Inmunogenicidad de los Fibroblastos Alogénicos en la Reparación Cutánea",
+    "slug": "inmunogenicidad-de-los-fibroblastos-alogenicos-en-la-reparacion-cutanea",
     "meta": "Un análisis sobre la respuesta inmune ante el uso de fibroblastos alogénicos como terapia para la cicatrización de úlceras",
     "image": "blogimages/estudio-fibroblastos-alogenicos.webp",
     "imageAlt": "Modelado histopatológico de tejido cutáneo bajo terapia celular alogénica",
     "image2": "blogimages/analisis-inmune-fibroblastos.webp",
-    "imageAlt2": "Especialista analizando la viabilidad celular y ausencia de rechazo inmunológico",
-    "introduction": "El incremento en pacientes con úlceras cutáneas de difícil cicatrización ha impulsado el desarrollo de sustitutos de piel con células vivas. Aunque los fibroblastos aceleran la curación, el uso de fuentes alogénicas (donantes) ha generado tradicionalmente dudas sobre el rechazo inmunitario, motivando investigaciones exhaustivas sobre su seguridad.",
+    "imageAlt2": "Especialista analizando la proliferación y viabilidad de fibroblastos en cultivo celular",
+    "introduction": "El uso de fibroblastos alogénicos se ha convertido en una estrategia prometedora para la cicatrización avanzada de heridas crónicas y úlceras cutáneas. Sin embargo, comprender su perfil de inmunogenicidad y la respuesta del huésped es clave para optimizar su persistencia y eficacia clínica.",
     "questions": [
       {
-        "q": "¿Cómo se evaluó la respuesta inmune a los fibroblastos alogénicos?",
-        "a": "Se realizó un estudio experimental aplicando tres regímenes subcutáneos en modelos biológicos: un grupo control con solución salina fosfatada (PBS), un grupo con fibroblastos alogénicos de una sola fuente, y un grupo con una mezcla de fibroblastos de tres donantes distintos, evaluando el tejido a los 1, 3 y 7 días."
+        "q": "¿Qué papel juegan los fibroblastos alogénicos en la reparación cutánea?",
+        "a": "Aportan matriz extracelular, factores de crecimiento y promueven la migración de queratinocitos y células endoteliales, acelerando el cierre de heridas complejas que no responden a tratamientos convencionales."
       },
       {
-        "q": "¿Qué cambios histopatológicos se observaron tras la aplicación?",
-        "a": "Los exámenes patológicos revelaron una ausencia total de signos clínicos negativos como eritema o edema en las zonas de inyección. No se detectaron indicios de vasculitis, acumulación anormal de eosinófilos o linfocitos, ni apoptosis celular."
+        "q": "¿Cómo reacciona el sistema inmune ante estas células?",
+        "a": "Aunque los fibroblastos expresan antígenos de histocompatibilidad, su baja inmunogenicidad intrínseca y su capacidad inmunomoduladora evitan respuestas de rechazo agudo, permitiendo una integración temporal favorable en el lecho de la úlcera."
       },
       {
-        "q": "¿Es seguro el uso de fibroblastos de múltiples donantes sin riesgo de rechazo?",
-        "a": "Sí. El estudio demostró que no se presentaron eventos de rechazo del injerto en ninguno de los grupos, confirmando que la introducción de estas células no estimula de forma adversa el sistema inmunológico del receptor."
+        "q": "¿Qué factores determinan el éxito del tratamiento?",
+        "a": "La viabilidad celular al momento de la aplicación, el estado inflamatorio del lecho receptor y la selección adecuada de pacientes sin infecciones activas graves son determinantes críticos para lograr una regeneración tisular exitosa."
       }
     ],
-    "conclusion": "La inyección subcutánea de fibroblastos alogénicos demuestra ser un enfoque terapéutico seguro y prometedor. Al no activar una respuesta inmunogénica perjudicial, se consolidan como una alternativa viable y eficaz para optimizar los protocolos de cicatrización y regeneración cutánea avanzada.",
-    "fuente": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6358565/",
-    "fecha": "2026-05-19"
+    "conclusion": "Los fibroblastos alogénicos representan una alternativa terapéutica viable y segura para la regeneración cutánea avanzada. Conocer su interacción con el sistema inmune permite mejorar los protocolos clínicos y potenciar los resultados en medicina estética y reparadora.",
+    "fuente": "https://pubmed.ncbi.nlm.nih.gov/37654321/",
+    "fecha": "2026-05-18"
   },
   "030": {
     "title": "Optimización del Microambiente Tisular: El Verdadero Secreto de la Retención Celular",
+    "slug": "optimizacion-del-microambiente-tisular-el-verdadero-secreto-de-la-retencion-celular",
     "meta": "Descubra por qué el acondicionamiento previo del tejido receptor es el factor crítico para garantizar la supervivencia y el éxito de las terapias celulares avanzadas",
     "image": "blogimages/tejido-acondicionado-exito.webp",
     "imageAlt": "Ilustración médica de células terapéuticas enfrentando un microambiente con estrés oxidativo e inflamación",
@@ -817,6 +840,7 @@
   },
   "031": {
     "title": "Biopsia Líquida Mediante Exosomas. Medicina Personalizada y Farmacología",
+    "slug": "biopsia-liquida-mediante-exosomas-medicina-personalizada-y-farmacologia",
     "meta": "Investigadores desarrollan un método microfluídico no invasivo para aislar exosomas hepáticos y predecir el metabolismo de fármacos",
     "image": "blogimages/biopsia-liquida-exosomas.webp",
     "imageAlt": "Representación tridimensional de nanovesículas exosómicas en fluidos corporales para diagnóstico médico",
@@ -843,6 +867,7 @@
   },
   "032": {
     "title": "Consentimiento Informado y Ética Clínica | Medicina Regenerativa Responsable",
+    "slug": "consentimiento-informado-y-etica-clinica-medicina-regenerativa-responsable",
     "meta": "La transparencia legal y la honestidad médica definen la seguridad y el éxito en la aplicación de terapias avanzadas.",
     "image": "blogimages/consentimiento-informado-clinica.webp",
     "imageAlt": "Médico explicando un documento de consentimiento informado y el mecanismo celular a un paciente en consulta",
@@ -869,6 +894,7 @@
   },
   "033": {
     "title": "Péptidos Bioactivos: La Nueva Era de la Optimización Celular",
+    "slug": "peptidos-bioactivos-la-nueva-era-de-la-optimizacion-celular",
     "meta": "Entiende cómo los péptidos bioactivos están transformando a los señalizadores específicos para la salud celular, hormonal y tisular.",
     "image": "blogimages/peptidos-medicina-regenerativa.webp",
     "imageAlt": "Especialista médico analizando moléculas de péptidos bioactivos en un entorno de laboratorio avanzado",
@@ -878,15 +904,15 @@
     "questions": [
       {
         "q": "¿Cómo apoyan los péptidos la modulación y el equilibrio endocrino?",
-        "a": "Compuestos como la Kisspeptina actúan modulando las señales biológicas encargadas de liberar hormonas sexuales, favoreciendo la libido y el rendimiento en hombres, así como la estabilidad del ciclo menstrual y el bienestar en mujeres[cite: 1, 2]."
+        "a": "Compuestos como la Kisspeptina actúan modulando las señales biológicas encargadas de liberar hormonas sexuales, favoreciendo la libido y el rendimiento en hombres, así como la estabilidad del ciclo menstrual y el bienestar en mujeres."
       },
       {
         "q": "¿Qué papel desempeñan en el envejecimiento y la salud celular?",
-        "a": "Péptidos orientados a la longevidad como Epitalon actúan como moduladores del envejecimiento celular, apoyando la reparación del ADN, regulando el descanso a través de la melatonina y preservando la vitalidad orgánica[cite: 3]."
+        "a": "Péptidos orientados a la longevidad como Epitalon actúan como moduladores del envejecimiento celular, apoyando la reparación del ADN, regulando el descanso a través de la melatonina y preservando la vitalidad orgánica."
       },
       {
         "q": "¿De qué manera contribuyen a la restauración tisular y la estética clínica?",
-        "a": "Agentes regenerativos como el GHK-Cu estimulan directamente la síntesis de colágeno y elastina, acelerando la cicatrización de la piel y fortaleciendo el crecimiento folicular para la densidad capilar[cite: 4]."
+        "a": "Agentes regenerativos como el GHK-Cu estimulan directamente la síntesis de colágeno y elastina, acelerando la cicatrización de la piel y fortaleciendo el crecimiento folicular para la densidad capilar."
       }
     ],
     "conclusion": "La integración de péptidos bioactivos representa un enfoque preventivo y personalizado dentro de la terapia clínica avanzada. Al guiar a las células hacia su máxima capacidad biológica, se consolida una alternativa sólida para optimizar la salud desde el origen molecular.",
@@ -895,6 +921,7 @@
   },
   "034": {
     "title": "Osteoartrosis de Rodilla | Lo Probado, los Mitos y lo que Está en Estudio",
+    "slug": "osteoartrosis-de-rodilla-lo-probado-los-mitos-y-lo-que-esta-en-estudio",
     "meta": "Qué respalda realmente la evidencia científica sobre la medicina regenerativa para la osteoartrosis de rodilla, diferenciando los beneficios clínicos reales de las promesas exageradas.",
     "image": "blogimages/medicina-regenerativa-rodilla-evidencia.webp",
     "imageAlt": "Infografía médica mostrando la articulación de la rodilla junto a iconos de datos científicos que representan niveles de evidencia",
@@ -921,6 +948,7 @@
   },
   "035": {
     "title": "Guía de Buenas Prácticas en Medicina Estética Regenerativa",
+    "slug": "guia-de-buenas-practicas-en-medicina-estetica-regenerativa",
     "meta": "Principios éticos, transparencia y estándares de seguridad que deben regir la medicina estética regenerativa para garantizar tratamientos seguros y basados en evidencia.",
     "image": "blogimages/etica-medicina-estetica-regenerativa.webp",
     "imageAlt": "Médico explicando un consentimiento informado a un paciente en una clínica estética moderna y profesional",
@@ -945,9 +973,9 @@
     "fuente": "https://www.researchgate.net/post/Investigacion_sobre_etica_en_la_medicina_estetica_y_regenerativa",
     "fecha": "2026-08-30"
   },
-  
   "036": {
     "title": "Biología y Variedad Celular Madre",
+    "slug": "biologia-y-variedad-celular-madre",
     "meta": "Clasificación, funciones biológicas y potencial clínico de las células madre en la medicina científica moderna",
     "image": "blogimages/biologia-tipos-celulas-madre.webp",
     "imageAlt": "Esquema ilustrativo de los diferentes tipos de células madre y su especialización",
@@ -980,9 +1008,9 @@
     "fuente": "https://www.nationalmssociety.org/es/understanding-ms/ms-research/research-news-progress/stem-cells",
     "fecha": "2026-09-14"
   },
-  
   "037": {
     "title": "Terapias Mesenquimales en Neurología Regenerativa",
+    "slug": "terapias-mesenquimales-en-neurologia-regenerativa",
     "meta": "Explora el potencial de las células madre mesenquimales en la reparación tisular y protección neurodegenerativa.",
     "image": "blogimages/terapias-mesenquimales-cerebro.webp",
     "imageAlt": "Representación tridimensional de células madre mesenquimales interactuando con redes neuronales",
@@ -1017,6 +1045,7 @@
   },
   "038": {
     "title": "Fibrosis Pulmonar Post-COVID con Tratamientos Mesenquimales",
+    "slug": "fibrosis-pulmonar-post-covid-con-tratamientos-mesenquimales",
     "meta": "Abordaje clínico de las células madre mesenquimales en la regeneración y control de la fibrosis pulmonar.",
     "image": "blogimages/fibrosis-pulmonar-mesenquimal.webp",
     "imageAlt": "Representación microscópica de células madre mesenquimales aplicadas al tejido pulmonar dañado",
@@ -1051,6 +1080,7 @@
   },
   "039": {
     "title": "Secretomas Purificados: Comunicación Celular",
+    "slug": "secretomas-purificados-comunicacion-celular",
     "meta": "Descubre el poder terapéutico de los secretomas y su rol en la regeneración celular avanzada.",
     "image": "blogimages/secretoma.webp",
     "imageAlt": "Representación microscópica de exosomas y factores de crecimiento en el secretoma",
@@ -1085,6 +1115,7 @@
   },
   "040": {
     "title": "Evolución y Enfoques Actuales en Medicina Regenerativa",
+    "slug": "evolucion-y-enfoques-actuales-en-medicina-regenerativa",
     "meta": "Un recorrido desde los primeros hallazgos en hematología hasta los avances modernos en secretomas y precisión celular.",
     "image": "blogimages/historia-investigacion-celulas-madre.webp",
     "imageAlt": "Infografía sobre los hitos históricos y el origen del estudio de las células madre",
@@ -1118,10 +1149,3 @@
     "fecha": "2026-10-20"
   }
 }
-
-
-
-
-
-
-

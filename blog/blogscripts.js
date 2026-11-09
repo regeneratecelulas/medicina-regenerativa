@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-  // Logic for blog.html (main blog page)
+  // Lógica para blog.html (página principal del blog)
   if (
     document.querySelector(".latest-articles") &&
     document.querySelector(".popular-articles")
@@ -7,17 +7,17 @@ document.addEventListener("DOMContentLoaded", function () {
     fetch("articles.json")
       .then((res) => res.json())
       .then((data) => {
-        // Convert to array and sort by date descending
+        // Convertir a array y ordenar por fecha descendente
         const articlesArr = Object.entries(data)
           .map(([id, art]) => ({ id, ...art }))
           .sort((a, b) => new Date(b.fecha) - new Date(a.fecha));
 
-        // "LO ÚLTIMO": the 3 most recent articles
+        // "LO ÚLTIMO": los 3 artículos más recientes
         const latest = articlesArr.slice(0, 3);
-        // "MÁS CONSULTADOS": the 3 articles before the latest 3 (i.e., articles 4, 5, 6 when sorted by date)
+        // "MÁS CONSULTADOS": los 3 artículos siguientes
         const popular = articlesArr.slice(3, 6);
 
-        // Render "LO ÚLTIMO" section
+        // Renderizar sección "LO ÚLTIMO"
         const latestGrid = document.querySelector(
           ".latest-articles .articles-grid"
         );
@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 <h3>${art.title}</h3>
                 <p>${art.meta}</p>
                 <span class="article-date">${art.fecha}</span>
-                <a href="articleview.html?id=${art.id}">Leer más</a>
+                <a href="articleview.html?articulo=${art.slug}">Leer más</a>
               </div>
             </article>
           `
@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", function () {
             .join("");
         }
 
-        // Render "MÁS CONSULTADOS" section
+        // Renderizar sección "MÁS CONSULTADOS"
         const popularGrid = document.querySelector(
           ".popular-articles .articles-grid"
         );
@@ -53,14 +53,15 @@ document.addEventListener("DOMContentLoaded", function () {
                 <h3>${art.title}</h3>
                 <p>${art.meta}</p>
                 <span class="article-date">${art.fecha}</span>
-                <a href="articleview.html?id=${art.id}">Leer más</a>
+                <a href="articleview.html?articulo=${art.slug}">Leer más</a>
               </div>
             </article>
           `
             )
             .join("");
         }
-        // Render "TODOS LOS ARTÍCULOS" section
+
+        // Renderizar sección "TODOS LOS ARTÍCULOS"
         const allArticlesGrid = document.querySelector(
           "main section:last-of-type .articles-grid"
         );
@@ -72,7 +73,7 @@ document.addEventListener("DOMContentLoaded", function () {
               <img src="${art.image}" alt="${art.imageAlt}" />
               <div class="article-texts">
                 <h3>${art.title}</h3>
-                <a href="articleview.html?id=${art.id}">Leer más</a>
+                <a href="articleview.html?articulo=${art.slug}">Leer más</a>
               </div>
             </article>
           `
@@ -81,16 +82,16 @@ document.addEventListener("DOMContentLoaded", function () {
         }
       })
       .catch((error) =>
-        console.error("Error fetching articles for blog page:", error)
+        console.error("Error al cargar los artículos para el blog:", error)
       );
   }
 
-  // Logic for articleview.html ////////////////////
+  // Lógica para articleview.html (vista detallada del artículo)
   if (document.querySelector(".article-content")) {
     const params = new URLSearchParams(window.location.search);
-    const id = params.get("id");
+    const articleSlug = params.get("articulo"); // Leemos el slug de la URL
 
-    if (!id) {
+    if (!articleSlug) {
       document.querySelector(".article-content").innerHTML =
         "<p>Artículo no encontrado.</p>";
       return;
@@ -99,27 +100,28 @@ document.addEventListener("DOMContentLoaded", function () {
     fetch("articles.json")
       .then((res) => res.json())
       .then((data) => {
-        const article = data[id];
+        // Buscamos el artículo cuyo slug coincida exactamente con el de la URL
+        const entry = Object.entries(data).find(
+          ([id, art]) => art.slug === articleSlug
+        );
 
-        if (!article) {
+        if (!entry) {
           document.querySelector(".article-content").innerHTML =
             "<p>Artículo no encontrado.</p>";
           return;
         }
 
-        // Populate the new hero banner using image2
+        const [id, article] = entry;
+
+        // Poblar el banner principal (Hero)
         const articleHero = document.querySelector(".article-hero");
         const articleHeroTitle = document.querySelector(".article-hero-title");
         if (articleHero && articleHeroTitle) {
-          // Only set the dynamic background image here
           articleHero.style.backgroundImage = `url('${article.image2}')`;
-
-          // Set the title text
           articleHeroTitle.textContent = article.title;
         }
 
         document.title = `${article.title} | Regenérate Blog`;
-
 
         const metaDescriptionTag = document.querySelector(
           'meta[name="description"]'
@@ -127,6 +129,8 @@ document.addEventListener("DOMContentLoaded", function () {
         if (metaDescriptionTag) {
           metaDescriptionTag.setAttribute("content", article.meta);
         }
+
+        // Poblar el contenido del artículo
         const articleContentDiv = document.querySelector(".article-content");
         if (articleContentDiv) {
           articleContentDiv.innerHTML = `
@@ -154,7 +158,7 @@ document.addEventListener("DOMContentLoaded", function () {
           `;
         }
 
-        // Populate "Artículos Similares" (latest 3 articles, excluding the current one)
+        // Poblar "Artículos Similares" (excluyendo el artículo actual)
         const articlesArr = Object.entries(data)
           .map(([artId, art]) => ({ id: artId, ...art }))
           .sort((a, b) => new Date(b.fecha) - new Date(a.fecha));
@@ -163,9 +167,8 @@ document.addEventListener("DOMContentLoaded", function () {
           "section:last-of-type .articles-grid"
         );
         if (similarArticlesGrid) {
-          // Filter out the current article and take the first 3
           const recommendedArticles = articlesArr
-            .filter((art) => art.id !== id)
+            .filter((art) => art.slug !== articleSlug)
             .slice(0, 3);
 
           similarArticlesGrid.innerHTML = recommendedArticles
@@ -175,7 +178,7 @@ document.addEventListener("DOMContentLoaded", function () {
               <img src="${art.image}" alt="${art.imageAlt}" />
               <div class="article-texts">
                 <h3>${art.title}</h3>
-                <a href="articleview.html?id=${art.id}">Leer más</a>
+                <a href="articleview.html?articulo=${art.slug}">Leer más</a>
               </div>
             </article>
           `
@@ -184,7 +187,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
       })
       .catch((error) =>
-        console.error("Error fetching article details:", error)
+        console.error("Error al cargar los detalles del artículo:", error)
       );
   }
 });
